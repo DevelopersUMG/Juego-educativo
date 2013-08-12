@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Juego_Educativo", "Juego_Educativo\Juego_Educativo.vbproj", "{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}.Debug|x86.ActiveCfg = Debug|x86
+		{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}.Debug|x86.Build.0 = Debug|x86
+		{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}.Release|x86.ActiveCfg = Release|x86
+		{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

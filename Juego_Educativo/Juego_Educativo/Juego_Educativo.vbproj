@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACB55729-C466-4F58-B7AF-48E1CD3D0EED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Juego_Educativo.My.MyApplication</StartupObject>
+    <RootNamespace>Juego_Educativo</RootNamespace>
+    <AssemblyName>Juego_Educativo</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Juego_Educativo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Juego_Educativo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu de Opciones.Designer.vb">
+      <DependentUpon>Menu de Opciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu de Opciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Nivel Avanzado.Designer.vb">
+      <DependentUpon>Menu Nivel Avanzado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Nivel Avanzado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Nivel Facil.Designer.vb">
+      <DependentUpon>Menu Nivel Facil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Nivel Facil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Nivel Intermedio.Designer.vb">
+      <DependentUpon>Menu Nivel Intermedio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Nivel Intermedio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 1.Designer.vb">
+      <DependentUpon>Nivel 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 2.Designer.vb">
+      <DependentUpon>Nivel 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 3.Designer.vb">
+      <DependentUpon>Nivel 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 4.Designer.vb">
+      <DependentUpon>Nivel 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 5.Designer.vb">
+      <DependentUpon>Nivel 5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registro.Designer.vb">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salir.Designer.vb">
+      <DependentUpon>Salir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Menu de Opciones.resx">
+      <DependentUpon>Menu de Opciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Nivel Avanzado.resx">
+      <DependentUpon>Menu Nivel Avanzado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Nivel Facil.resx">
+      <DependentUpon>Menu Nivel Facil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Nivel Intermedio.resx">
+      <DependentUpon>Menu Nivel Intermedio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 1.resx">
+      <DependentUpon>Nivel 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 2.resx">
+      <DependentUpon>Nivel 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 3.resx">
+      <DependentUpon>Nivel 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 4.resx">
+      <DependentUpon>Nivel 4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 5.resx">
+      <DependentUpon>Nivel 5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salir.resx">
+      <DependentUpon>Salir.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
