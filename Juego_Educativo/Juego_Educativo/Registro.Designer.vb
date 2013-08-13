@@ -38,9 +38,9 @@ Partial Class Registro
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(55, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(391, 31)
@@ -50,10 +50,10 @@ Partial Class Registro
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
-        Me.Label2.Location = New System.Drawing.Point(23, 90)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(22, 164)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 20)
         Me.Label2.TabIndex = 1
@@ -62,10 +62,10 @@ Partial Class Registro
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Image = CType(resources.GetObject("Label3.Image"), System.Drawing.Image)
-        Me.Label3.Location = New System.Drawing.Point(23, 127)
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.Location = New System.Drawing.Point(23, 235)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(69, 20)
         Me.Label3.TabIndex = 2
@@ -74,10 +74,10 @@ Partial Class Registro
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Image = CType(resources.GetObject("Label4.Image"), System.Drawing.Image)
-        Me.Label4.Location = New System.Drawing.Point(23, 166)
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.Location = New System.Drawing.Point(23, 305)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(68, 20)
         Me.Label4.TabIndex = 3
@@ -86,10 +86,10 @@ Partial Class Registro
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Image = CType(resources.GetObject("Label5.Image"), System.Drawing.Image)
-        Me.Label5.Location = New System.Drawing.Point(23, 205)
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.Location = New System.Drawing.Point(23, 371)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(96, 20)
         Me.Label5.TabIndex = 4
@@ -97,28 +97,28 @@ Partial Class Registro
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(140, 90)
+        Me.TextBox1.Location = New System.Drawing.Point(164, 164)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(228, 20)
         Me.TextBox1.TabIndex = 5
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(140, 127)
+        Me.TextBox2.Location = New System.Drawing.Point(164, 235)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(228, 20)
         Me.TextBox2.TabIndex = 6
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(140, 166)
+        Me.TextBox3.Location = New System.Drawing.Point(164, 307)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(228, 20)
         Me.TextBox3.TabIndex = 7
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(140, 205)
+        Me.TextBox4.Location = New System.Drawing.Point(164, 371)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(228, 20)
         Me.TextBox4.TabIndex = 8
@@ -126,7 +126,7 @@ Partial Class Registro
         'Btn_RegisCompleto
         '
         Me.Btn_RegisCompleto.Image = CType(resources.GetObject("Btn_RegisCompleto.Image"), System.Drawing.Image)
-        Me.Btn_RegisCompleto.Location = New System.Drawing.Point(185, 268)
+        Me.Btn_RegisCompleto.Location = New System.Drawing.Point(232, 537)
         Me.Btn_RegisCompleto.Name = "Btn_RegisCompleto"
         Me.Btn_RegisCompleto.Size = New System.Drawing.Size(125, 33)
         Me.Btn_RegisCompleto.TabIndex = 9
@@ -138,7 +138,8 @@ Partial Class Registro
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(477, 313)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(812, 582)
         Me.Controls.Add(Me.Btn_RegisCompleto)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
