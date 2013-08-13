@@ -102,6 +102,42 @@
     <Compile Include="Nivel 1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Nivel 10.Designer.vb">
+      <DependentUpon>Nivel 10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 11.Designer.vb">
+      <DependentUpon>Nivel 11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 12.Designer.vb">
+      <DependentUpon>Nivel 12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 13.Designer.vb">
+      <DependentUpon>Nivel 13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 14.Designer.vb">
+      <DependentUpon>Nivel 14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 15.Designer.vb">
+      <DependentUpon>Nivel 15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 15.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Nivel 2.Designer.vb">
       <DependentUpon>Nivel 2.vb</DependentUpon>
     </Compile>
@@ -124,6 +160,30 @@
       <DependentUpon>Nivel 5.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 6.Designer.vb">
+      <DependentUpon>Nivel 6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 7.Designer.vb">
+      <DependentUpon>Nivel 7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 8.Designer.vb">
+      <DependentUpon>Nivel 8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 9.Designer.vb">
+      <DependentUpon>Nivel 9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 9.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Principal.vb">
@@ -177,6 +237,24 @@
     <EmbeddedResource Include="Nivel 1.resx">
       <DependentUpon>Nivel 1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 10.resx">
+      <DependentUpon>Nivel 10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 11.resx">
+      <DependentUpon>Nivel 11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 12.resx">
+      <DependentUpon>Nivel 12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 13.resx">
+      <DependentUpon>Nivel 13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 14.resx">
+      <DependentUpon>Nivel 14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 15.resx">
+      <DependentUpon>Nivel 15.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 2.resx">
       <DependentUpon>Nivel 2.vb</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +266,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 5.resx">
       <DependentUpon>Nivel 5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 6.resx">
+      <DependentUpon>Nivel 6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 7.resx">
+      <DependentUpon>Nivel 7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 8.resx">
+      <DependentUpon>Nivel 8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 9.resx">
+      <DependentUpon>Nivel 9.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>

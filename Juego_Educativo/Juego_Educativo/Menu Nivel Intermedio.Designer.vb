@@ -24,11 +24,11 @@ Partial Class Menu_Nivel_Intermedio
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menu_Nivel_Intermedio))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Btn_Nivel10 = New System.Windows.Forms.Button()
+        Me.Btn_Nivel9 = New System.Windows.Forms.Button()
+        Me.Btn_Nivel8 = New System.Windows.Forms.Button()
+        Me.Btn_Nivel7 = New System.Windows.Forms.Button()
+        Me.Btn_Nivel6 = New System.Windows.Forms.Button()
         Me.Btn_RegreInicio = New System.Windows.Forms.Button()
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -45,50 +45,45 @@ Partial Class Menu_Nivel_Intermedio
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Escoja entre los Siguientes Niveles"
         '
-        'Button5
+        'Btn_Nivel10
         '
-        Me.Button5.Location = New System.Drawing.Point(476, 189)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 10
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Btn_Nivel10.Location = New System.Drawing.Point(476, 189)
+        Me.Btn_Nivel10.Name = "Btn_Nivel10"
+        Me.Btn_Nivel10.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Nivel10.TabIndex = 10
+        Me.Btn_Nivel10.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Btn_Nivel9
         '
-        Me.Button4.Location = New System.Drawing.Point(354, 189)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 9
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Btn_Nivel9.Location = New System.Drawing.Point(354, 189)
+        Me.Btn_Nivel9.Name = "Btn_Nivel9"
+        Me.Btn_Nivel9.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Nivel9.TabIndex = 9
+        Me.Btn_Nivel9.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Btn_Nivel8
         '
-        Me.Button3.Location = New System.Drawing.Point(249, 189)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Btn_Nivel8.Location = New System.Drawing.Point(249, 189)
+        Me.Btn_Nivel8.Name = "Btn_Nivel8"
+        Me.Btn_Nivel8.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Nivel8.TabIndex = 8
+        Me.Btn_Nivel8.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Btn_Nivel7
         '
-        Me.Button2.Location = New System.Drawing.Point(144, 189)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Btn_Nivel7.Location = New System.Drawing.Point(144, 189)
+        Me.Btn_Nivel7.Name = "Btn_Nivel7"
+        Me.Btn_Nivel7.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Nivel7.TabIndex = 7
+        Me.Btn_Nivel7.UseVisualStyleBackColor = True
         '
-        'Button1
+        'Btn_Nivel6
         '
-        Me.Button1.Location = New System.Drawing.Point(34, 189)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Btn_Nivel6.Location = New System.Drawing.Point(34, 189)
+        Me.Btn_Nivel6.Name = "Btn_Nivel6"
+        Me.Btn_Nivel6.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Nivel6.TabIndex = 6
+        Me.Btn_Nivel6.UseVisualStyleBackColor = True
         '
         'Btn_RegreInicio
         '
@@ -117,11 +112,11 @@ Partial Class Menu_Nivel_Intermedio
         Me.ClientSize = New System.Drawing.Size(587, 417)
         Me.Controls.Add(Me.Btn_RegreInicio)
         Me.Controls.Add(Me.Btn_RegresaMenu)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Btn_Nivel10)
+        Me.Controls.Add(Me.Btn_Nivel9)
+        Me.Controls.Add(Me.Btn_Nivel8)
+        Me.Controls.Add(Me.Btn_Nivel7)
+        Me.Controls.Add(Me.Btn_Nivel6)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Menu_Nivel_Intermedio"
@@ -131,11 +126,11 @@ Partial Class Menu_Nivel_Intermedio
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Btn_Nivel10 As System.Windows.Forms.Button
+    Friend WithEvents Btn_Nivel9 As System.Windows.Forms.Button
+    Friend WithEvents Btn_Nivel8 As System.Windows.Forms.Button
+    Friend WithEvents Btn_Nivel7 As System.Windows.Forms.Button
+    Friend WithEvents Btn_Nivel6 As System.Windows.Forms.Button
     Friend WithEvents Btn_RegreInicio As System.Windows.Forms.Button
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
 End Class

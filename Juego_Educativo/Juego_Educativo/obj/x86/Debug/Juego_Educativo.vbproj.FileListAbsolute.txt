@@ -18,3 +18,13 @@ C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educ
 C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3.resources
 C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_4.resources
 C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_5.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_6.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_7.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_8.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14.resources
+C:\Users\C@rL0$\documents\visual studio 2010\Projects\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15.resources
