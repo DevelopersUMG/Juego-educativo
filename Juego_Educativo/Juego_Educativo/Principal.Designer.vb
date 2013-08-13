@@ -38,7 +38,7 @@ Partial Class Principal
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
-        Me.Label1.Location = New System.Drawing.Point(22, 150)
+        Me.Label1.Location = New System.Drawing.Point(62, 244)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(68, 20)
         Me.Label1.TabIndex = 0
@@ -50,7 +50,7 @@ Partial Class Principal
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
-        Me.Label2.Location = New System.Drawing.Point(22, 194)
+        Me.Label2.Location = New System.Drawing.Point(62, 288)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(96, 20)
         Me.Label2.TabIndex = 1
@@ -58,14 +58,14 @@ Partial Class Principal
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(140, 152)
+        Me.TextBox1.Location = New System.Drawing.Point(180, 246)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(202, 20)
         Me.TextBox1.TabIndex = 3
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(140, 196)
+        Me.TextBox2.Location = New System.Drawing.Point(180, 290)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(202, 20)
         Me.TextBox2.TabIndex = 4
@@ -73,7 +73,7 @@ Partial Class Principal
         'Btn_Ingresar
         '
         Me.Btn_Ingresar.BackgroundImage = CType(resources.GetObject("Btn_Ingresar.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_Ingresar.Location = New System.Drawing.Point(26, 381)
+        Me.Btn_Ingresar.Location = New System.Drawing.Point(102, 486)
         Me.Btn_Ingresar.Name = "Btn_Ingresar"
         Me.Btn_Ingresar.Size = New System.Drawing.Size(129, 35)
         Me.Btn_Ingresar.TabIndex = 7
@@ -82,7 +82,7 @@ Partial Class Principal
         'Btn_Registrarse
         '
         Me.Btn_Registrarse.BackgroundImage = CType(resources.GetObject("Btn_Registrarse.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_Registrarse.Location = New System.Drawing.Point(230, 381)
+        Me.Btn_Registrarse.Location = New System.Drawing.Point(306, 486)
         Me.Btn_Registrarse.Name = "Btn_Registrarse"
         Me.Btn_Registrarse.Size = New System.Drawing.Size(126, 35)
         Me.Btn_Registrarse.TabIndex = 8
@@ -91,7 +91,7 @@ Partial Class Principal
         'Btn_Salir
         '
         Me.Btn_Salir.BackgroundImage = CType(resources.GetObject("Btn_Salir.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_Salir.Location = New System.Drawing.Point(443, 381)
+        Me.Btn_Salir.Location = New System.Drawing.Point(519, 486)
         Me.Btn_Salir.Name = "Btn_Salir"
         Me.Btn_Salir.Size = New System.Drawing.Size(126, 36)
         Me.Btn_Salir.TabIndex = 9
@@ -103,7 +103,8 @@ Partial Class Principal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(623, 428)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(812, 582)
         Me.Controls.Add(Me.Btn_Salir)
         Me.Controls.Add(Me.Btn_Registrarse)
         Me.Controls.Add(Me.Btn_Ingresar)
@@ -113,6 +114,7 @@ Partial Class Principal
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Principal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Inicio"
         Me.ResumeLayout(False)
         Me.PerformLayout()

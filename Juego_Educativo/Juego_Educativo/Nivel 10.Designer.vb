@@ -29,7 +29,7 @@ Partial Class Nivel_10
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(228, 352)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(320, 516)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 9
@@ -41,10 +41,12 @@ Partial Class Nivel_10
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(573, 401)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(812, 582)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_10"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_10"
         Me.ResumeLayout(False)
 
