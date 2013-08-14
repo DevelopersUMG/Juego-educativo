@@ -24,23 +24,22 @@ Partial Class Nivel_8
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_8))
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta2 = New System.Windows.Forms.TextBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta3 = New System.Windows.Forms.TextBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta4 = New System.Windows.Forms.TextBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta5 = New System.Windows.Forms.TextBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
@@ -59,31 +58,19 @@ Partial Class Nivel_8
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(518, 547)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(41, 533)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
-        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label1.Location = New System.Drawing.Point(428, 24)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(67, 24)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Nivel 8"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Label2.Location = New System.Drawing.Point(324, 83)
+        Me.Label2.Location = New System.Drawing.Point(324, 23)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(242, 25)
         Me.Label2.TabIndex = 11
@@ -110,21 +97,21 @@ Partial Class Nivel_8
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Image = CType(resources.GetObject("Label4.Image"), System.Drawing.Image)
+        Me.Label4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label4.Location = New System.Drawing.Point(1, 555)
+        Me.Label4.Location = New System.Drawing.Point(65, 82)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(458, 18)
+        Me.Label4.Size = New System.Drawing.Size(494, 20)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "Instrucciones: indique  el color de la  figura que aparece en la imagen"
         '
-        'TextBox1
+        'TxtPregunta1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(102, 283)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 15
+        Me.TxtPregunta1.Location = New System.Drawing.Point(102, 283)
+        Me.TxtPregunta1.Name = "TxtPregunta1"
+        Me.TxtPregunta1.Size = New System.Drawing.Size(100, 20)
+        Me.TxtPregunta1.TabIndex = 15
         '
         'PictureBox2
         '
@@ -136,12 +123,12 @@ Partial Class Nivel_8
         Me.PictureBox2.TabIndex = 16
         Me.PictureBox2.TabStop = False
         '
-        'TextBox2
+        'TxtPregunta2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(281, 283)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 17
+        Me.TxtPregunta2.Location = New System.Drawing.Point(281, 283)
+        Me.TxtPregunta2.Name = "TxtPregunta2"
+        Me.TxtPregunta2.Size = New System.Drawing.Size(100, 20)
+        Me.TxtPregunta2.TabIndex = 17
         '
         'PictureBox3
         '
@@ -153,12 +140,12 @@ Partial Class Nivel_8
         Me.PictureBox3.TabIndex = 18
         Me.PictureBox3.TabStop = False
         '
-        'TextBox3
+        'TxtPregunta3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(444, 283)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 19
+        Me.TxtPregunta3.Location = New System.Drawing.Point(444, 283)
+        Me.TxtPregunta3.Name = "TxtPregunta3"
+        Me.TxtPregunta3.Size = New System.Drawing.Size(100, 20)
+        Me.TxtPregunta3.TabIndex = 19
         '
         'PictureBox4
         '
@@ -170,12 +157,12 @@ Partial Class Nivel_8
         Me.PictureBox4.TabIndex = 20
         Me.PictureBox4.TabStop = False
         '
-        'TextBox4
+        'TxtPregunta4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(603, 283)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 21
+        Me.TxtPregunta4.Location = New System.Drawing.Point(603, 283)
+        Me.TxtPregunta4.Name = "TxtPregunta4"
+        Me.TxtPregunta4.Size = New System.Drawing.Size(100, 20)
+        Me.TxtPregunta4.TabIndex = 21
         '
         'PictureBox5
         '
@@ -220,12 +207,12 @@ Partial Class Nivel_8
         Me.CheckBox3.Text = "Browns"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
-        'TextBox5
+        'TxtPregunta5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(588, 470)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(115, 20)
-        Me.TextBox5.TabIndex = 28
+        Me.TxtPregunta5.Location = New System.Drawing.Point(588, 470)
+        Me.TxtPregunta5.Name = "TxtPregunta5"
+        Me.TxtPregunta5.Size = New System.Drawing.Size(115, 20)
+        Me.TxtPregunta5.TabIndex = 28
         '
         'PictureBox7
         '
@@ -282,7 +269,7 @@ Partial Class Nivel_8
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(665, 547)
+        Me.Button1.Location = New System.Drawing.Point(542, 542)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 33
@@ -302,24 +289,23 @@ Partial Class Nivel_8
         Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.TxtPregunta5)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TxtPregunta4)
         Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TxtPregunta3)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TxtPregunta2)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TxtPregunta1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -339,23 +325,22 @@ Partial Class Nivel_8
 
     End Sub
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta2 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta3 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta4 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta5 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
     Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox

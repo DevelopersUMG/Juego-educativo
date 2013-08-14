@@ -24,15 +24,14 @@ Partial Class Nivel_10
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_10))
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
@@ -60,31 +59,19 @@ Partial Class Nivel_10
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(320, 516)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(118, 522)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
-        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label1.Location = New System.Drawing.Point(388, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 24)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "NIvel 10"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label2.Location = New System.Drawing.Point(352, 65)
+        Me.Label2.Location = New System.Drawing.Point(345, 19)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(141, 24)
         Me.Label2.TabIndex = 11
@@ -93,8 +80,8 @@ Partial Class Nivel_10
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Image = CType(resources.GetObject("Label3.Image"), System.Drawing.Image)
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label3.Location = New System.Drawing.Point(25, 95)
         Me.Label3.Name = "Label3"
@@ -105,9 +92,11 @@ Partial Class Nivel_10
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(29, 165)
+        Me.Label4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(25, 159)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(131, 13)
+        Me.Label4.Size = New System.Drawing.Size(192, 20)
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "indique cual es lo correcto"
         '
@@ -134,27 +123,29 @@ Partial Class Nivel_10
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(252, 164)
+        Me.Label5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(228, 159)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(141, 13)
+        Me.Label5.Size = New System.Drawing.Size(209, 20)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "Escribe en ingles: Soy inglés"
         '
-        'TextBox1
+        'TxtPregunta1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(255, 197)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(138, 20)
-        Me.TextBox1.TabIndex = 17
+        Me.TxtPregunta1.Location = New System.Drawing.Point(255, 197)
+        Me.TxtPregunta1.Name = "TxtPregunta1"
+        Me.TxtPregunta1.Size = New System.Drawing.Size(138, 20)
+        Me.TxtPregunta1.TabIndex = 17
         '
-        'Button1
+        'Btn_Calificar
         '
-        Me.Button1.Location = New System.Drawing.Point(375, 487)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Calificar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Btn_Calificar.Location = New System.Drawing.Point(467, 529)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Calificar.TabIndex = 18
+        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -169,9 +160,11 @@ Partial Class Nivel_10
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(464, 148)
+        Me.Label6.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(450, 129)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(95, 13)
+        Me.Label6.Size = New System.Drawing.Size(140, 20)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Cual es lo correcto"
         '
@@ -208,9 +201,11 @@ Partial Class Nivel_10
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(46, 329)
+        Me.Label7.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(12, 329)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(187, 13)
+        Me.Label7.Size = New System.Drawing.Size(274, 20)
         Me.Label7.TabIndex = 24
         Me.Label7.Text = "indique cual es el   que no es correcto"
         '
@@ -371,15 +366,14 @@ Partial Class Nivel_10
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Btn_Calificar)
+        Me.Controls.Add(Me.TxtPregunta1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -394,15 +388,14 @@ Partial Class Nivel_10
 
     End Sub
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox

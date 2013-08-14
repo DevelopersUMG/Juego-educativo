@@ -49,7 +49,7 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel15
         '
-        Me.Btn_Nivel15.Location = New System.Drawing.Point(611, 179)
+        Me.Btn_Nivel15.Location = New System.Drawing.Point(611, 276)
         Me.Btn_Nivel15.Name = "Btn_Nivel15"
         Me.Btn_Nivel15.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel15.TabIndex = 10
@@ -58,7 +58,7 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel14
         '
-        Me.Btn_Nivel14.Location = New System.Drawing.Point(497, 179)
+        Me.Btn_Nivel14.Location = New System.Drawing.Point(497, 276)
         Me.Btn_Nivel14.Name = "Btn_Nivel14"
         Me.Btn_Nivel14.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel14.TabIndex = 9
@@ -67,7 +67,7 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel13
         '
-        Me.Btn_Nivel13.Location = New System.Drawing.Point(372, 179)
+        Me.Btn_Nivel13.Location = New System.Drawing.Point(372, 276)
         Me.Btn_Nivel13.Name = "Btn_Nivel13"
         Me.Btn_Nivel13.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel13.TabIndex = 8
@@ -76,7 +76,7 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel12
         '
-        Me.Btn_Nivel12.Location = New System.Drawing.Point(262, 179)
+        Me.Btn_Nivel12.Location = New System.Drawing.Point(262, 276)
         Me.Btn_Nivel12.Name = "Btn_Nivel12"
         Me.Btn_Nivel12.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel12.TabIndex = 7
@@ -85,7 +85,7 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel11
         '
-        Me.Btn_Nivel11.Location = New System.Drawing.Point(145, 179)
+        Me.Btn_Nivel11.Location = New System.Drawing.Point(145, 276)
         Me.Btn_Nivel11.Name = "Btn_Nivel11"
         Me.Btn_Nivel11.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel11.TabIndex = 6
@@ -95,7 +95,7 @@ Partial Class Menu_Nivel_Avanzado
         'Btn_RegreInicio
         '
         Me.Btn_RegreInicio.BackgroundImage = CType(resources.GetObject("Btn_RegreInicio.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegreInicio.Location = New System.Drawing.Point(407, 353)
+        Me.Btn_RegreInicio.Location = New System.Drawing.Point(486, 534)
         Me.Btn_RegreInicio.Name = "Btn_RegreInicio"
         Me.Btn_RegreInicio.Size = New System.Drawing.Size(126, 36)
         Me.Btn_RegreInicio.TabIndex = 12
@@ -104,7 +104,7 @@ Partial Class Menu_Nivel_Avanzado
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(90, 352)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(72, 533)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 11

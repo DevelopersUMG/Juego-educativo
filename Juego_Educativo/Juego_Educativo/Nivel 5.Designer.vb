@@ -29,18 +29,19 @@ Partial Class Nivel_5
         Me.pregunta3Nivel5 = New System.Windows.Forms.Label()
         Me.pregunta4Nivel5 = New System.Windows.Forms.Label()
         Me.pregunta5Nivel5 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta2 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta3 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta4 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta5 = New System.Windows.Forms.TextBox()
         Me.instruccinN5 = New System.Windows.Forms.Label()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(300, 494)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(49, 533)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 7
@@ -49,6 +50,7 @@ Partial Class Nivel_5
         'pregunta1Nivel5
         '
         Me.pregunta1Nivel5.AutoSize = True
+        Me.pregunta1Nivel5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta1Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta1Nivel5.Location = New System.Drawing.Point(37, 160)
         Me.pregunta1Nivel5.Name = "pregunta1Nivel5"
@@ -59,6 +61,7 @@ Partial Class Nivel_5
         'pregunta2Nivel5
         '
         Me.pregunta2Nivel5.AutoSize = True
+        Me.pregunta2Nivel5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta2Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta2Nivel5.Location = New System.Drawing.Point(37, 209)
         Me.pregunta2Nivel5.Name = "pregunta2Nivel5"
@@ -69,6 +72,7 @@ Partial Class Nivel_5
         'pregunta3Nivel5
         '
         Me.pregunta3Nivel5.AutoSize = True
+        Me.pregunta3Nivel5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta3Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta3Nivel5.Location = New System.Drawing.Point(37, 254)
         Me.pregunta3Nivel5.Name = "pregunta3Nivel5"
@@ -79,6 +83,7 @@ Partial Class Nivel_5
         'pregunta4Nivel5
         '
         Me.pregunta4Nivel5.AutoSize = True
+        Me.pregunta4Nivel5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta4Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta4Nivel5.Location = New System.Drawing.Point(37, 302)
         Me.pregunta4Nivel5.Name = "pregunta4Nivel5"
@@ -89,6 +94,7 @@ Partial Class Nivel_5
         'pregunta5Nivel5
         '
         Me.pregunta5Nivel5.AutoSize = True
+        Me.pregunta5Nivel5.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta5Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta5Nivel5.Location = New System.Drawing.Point(37, 344)
         Me.pregunta5Nivel5.Name = "pregunta5Nivel5"
@@ -96,51 +102,61 @@ Partial Class Nivel_5
         Me.pregunta5Nivel5.TabIndex = 12
         Me.pregunta5Nivel5.Text = "5. Los niños estan llorando porque estan cansados"
         '
-        'TextBox1
+        'TxtPregunta1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(403, 158)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(341, 20)
-        Me.TextBox1.TabIndex = 13
+        Me.TxtPregunta1.Location = New System.Drawing.Point(403, 158)
+        Me.TxtPregunta1.Name = "TxtPregunta1"
+        Me.TxtPregunta1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta1.TabIndex = 13
         '
-        'TextBox2
+        'TxtPregunta2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(403, 208)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(341, 20)
-        Me.TextBox2.TabIndex = 14
+        Me.TxtPregunta2.Location = New System.Drawing.Point(403, 208)
+        Me.TxtPregunta2.Name = "TxtPregunta2"
+        Me.TxtPregunta2.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta2.TabIndex = 14
         '
-        'TextBox3
+        'TxtPregunta3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(403, 253)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(341, 20)
-        Me.TextBox3.TabIndex = 15
+        Me.TxtPregunta3.Location = New System.Drawing.Point(403, 253)
+        Me.TxtPregunta3.Name = "TxtPregunta3"
+        Me.TxtPregunta3.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta3.TabIndex = 15
         '
-        'TextBox4
+        'TxtPregunta4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(403, 301)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(341, 20)
-        Me.TextBox4.TabIndex = 16
+        Me.TxtPregunta4.Location = New System.Drawing.Point(403, 301)
+        Me.TxtPregunta4.Name = "TxtPregunta4"
+        Me.TxtPregunta4.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta4.TabIndex = 16
         '
-        'TextBox5
+        'TxtPregunta5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(403, 343)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(341, 20)
-        Me.TextBox5.TabIndex = 17
+        Me.TxtPregunta5.Location = New System.Drawing.Point(403, 343)
+        Me.TxtPregunta5.Name = "TxtPregunta5"
+        Me.TxtPregunta5.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta5.TabIndex = 17
         '
         'instruccinN5
         '
         Me.instruccinN5.AutoSize = True
-        Me.instruccinN5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.instruccinN5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.instruccinN5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.instruccinN5.Location = New System.Drawing.Point(22, 21)
         Me.instruccinN5.Name = "instruccinN5"
-        Me.instruccinN5.Size = New System.Drawing.Size(462, 32)
+        Me.instruccinN5.Size = New System.Drawing.Size(538, 40)
         Me.instruccinN5.TabIndex = 22
         Me.instruccinN5.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, la traduccion de las oracione" & _
             "s en ingles" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Btn_Calificar
+        '
+        Me.Btn_Calificar.Location = New System.Drawing.Point(526, 547)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Calificar.TabIndex = 23
+        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
         'Nivel_5
         '
@@ -150,12 +166,13 @@ Partial Class Nivel_5
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.instruccinN5)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TxtPregunta5)
+        Me.Controls.Add(Me.TxtPregunta4)
+        Me.Controls.Add(Me.TxtPregunta3)
+        Me.Controls.Add(Me.TxtPregunta2)
+        Me.Controls.Add(Me.TxtPregunta1)
         Me.Controls.Add(Me.pregunta5Nivel5)
         Me.Controls.Add(Me.pregunta4Nivel5)
         Me.Controls.Add(Me.pregunta3Nivel5)
@@ -176,10 +193,11 @@ Partial Class Nivel_5
     Friend WithEvents pregunta3Nivel5 As System.Windows.Forms.Label
     Friend WithEvents pregunta4Nivel5 As System.Windows.Forms.Label
     Friend WithEvents pregunta5Nivel5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta2 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta3 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta4 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta5 As System.Windows.Forms.TextBox
     Friend WithEvents instruccinN5 As System.Windows.Forms.Label
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
 End Class

@@ -150,3 +150,9 @@ C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Registro.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Salir.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.vbproj.GenerateResource.Cache
+C:\Users\juancarlos\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.exe
+C:\Users\juancarlos\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.xml
+C:\Users\juancarlos\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.pdb
+C:\Users\C@rL0$\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.exe
+C:\Users\C@rL0$\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.xml
+C:\Users\C@rL0$\Desktop\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.pdb

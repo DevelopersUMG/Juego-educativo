@@ -35,6 +35,7 @@ Partial Class Nivel_2
         Me.txtImagen4 = New System.Windows.Forms.TextBox()
         Me.txtImagen5 = New System.Windows.Forms.TextBox()
         Me.instruccinN2 = New System.Windows.Forms.Label()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
         CType(Me.imagen1Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen3Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen2Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -45,7 +46,7 @@ Partial Class Nivel_2
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(308, 492)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(56, 521)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 7
@@ -134,13 +135,23 @@ Partial Class Nivel_2
         'instruccinN2
         '
         Me.instruccinN2.AutoSize = True
-        Me.instruccinN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.instruccinN2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.instruccinN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.instruccinN2.Location = New System.Drawing.Point(18, 22)
         Me.instruccinN2.Name = "instruccinN2"
-        Me.instruccinN2.Size = New System.Drawing.Size(412, 32)
+        Me.instruccinN2.Size = New System.Drawing.Size(481, 40)
         Me.instruccinN2.TabIndex = 20
         Me.instruccinN2.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, el nombre de la figura en ing" & _
             "les"
+        '
+        'Btn_Calificar
+        '
+        Me.Btn_Calificar.Location = New System.Drawing.Point(508, 535)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Calificar.TabIndex = 21
+        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
         'Nivel_2
         '
@@ -150,6 +161,7 @@ Partial Class Nivel_2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.instruccinN2)
         Me.Controls.Add(Me.txtImagen5)
         Me.Controls.Add(Me.txtImagen4)
@@ -187,4 +199,5 @@ Partial Class Nivel_2
     Friend WithEvents txtImagen4 As System.Windows.Forms.TextBox
     Friend WithEvents txtImagen5 As System.Windows.Forms.TextBox
     Friend WithEvents instruccinN2 As System.Windows.Forms.Label
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
 End Class

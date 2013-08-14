@@ -24,16 +24,88 @@ Partial Class Nivel_14
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_14))
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
+        Me.img3 = New System.Windows.Forms.PictureBox()
+        Me.img2 = New System.Windows.Forms.PictureBox()
+        Me.img1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblap = New System.Windows.Forms.Label()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
+        CType(Me.img3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.img2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.img1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(229, 347)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(52, 514)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
+        '
+        'img3
+        '
+        Me.img3.Image = Global.Juego_Educativo.My.Resources.Resources.images__5_
+        Me.img3.Location = New System.Drawing.Point(393, 188)
+        Me.img3.Name = "img3"
+        Me.img3.Size = New System.Drawing.Size(140, 95)
+        Me.img3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.img3.TabIndex = 33
+        Me.img3.TabStop = False
+        '
+        'img2
+        '
+        Me.img2.Image = Global.Juego_Educativo.My.Resources.Resources.descarga__2_
+        Me.img2.Location = New System.Drawing.Point(226, 188)
+        Me.img2.Name = "img2"
+        Me.img2.Size = New System.Drawing.Size(126, 95)
+        Me.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.img2.TabIndex = 32
+        Me.img2.TabStop = False
+        '
+        'img1
+        '
+        Me.img1.Image = Global.Juego_Educativo.My.Resources.Resources.descarga__1_
+        Me.img1.Location = New System.Drawing.Point(46, 188)
+        Me.img1.Name = "img1"
+        Me.img1.Size = New System.Drawing.Size(126, 95)
+        Me.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.img1.TabIndex = 31
+        Me.img1.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(47, 110)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(486, 25)
+        Me.Label1.TabIndex = 30
+        Me.Label1.Text = "is a rabbit and is loaded with a carrot in his hands"
+        '
+        'lblap
+        '
+        Me.lblap.AutoSize = True
+        Me.lblap.BackColor = System.Drawing.Color.Transparent
+        Me.lblap.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblap.ForeColor = System.Drawing.Color.Black
+        Me.lblap.Location = New System.Drawing.Point(149, 44)
+        Me.lblap.Name = "lblap"
+        Me.lblap.Size = New System.Drawing.Size(280, 25)
+        Me.lblap.TabIndex = 29
+        Me.lblap.Text = "selecciona lo que se te pide"
+        '
+        'Btn_Calificar
+        '
+        Me.Btn_Calificar.Location = New System.Drawing.Point(492, 528)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Calificar.TabIndex = 34
+        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
         'Nivel_14
         '
@@ -43,12 +115,28 @@ Partial Class Nivel_14
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Btn_Calificar)
+        Me.Controls.Add(Me.img3)
+        Me.Controls.Add(Me.img2)
+        Me.Controls.Add(Me.img1)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblap)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_14"
         Me.Text = "Nivel_14"
+        CType(Me.img3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.img2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.img1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
+    Friend WithEvents img3 As System.Windows.Forms.PictureBox
+    Friend WithEvents img2 As System.Windows.Forms.PictureBox
+    Friend WithEvents img1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblap As System.Windows.Forms.Label
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
 End Class

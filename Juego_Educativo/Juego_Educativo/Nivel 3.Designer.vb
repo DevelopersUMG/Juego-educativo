@@ -35,12 +35,13 @@ Partial Class Nivel_3
         Me.txtpregunta4 = New System.Windows.Forms.TextBox()
         Me.txtpregunta5 = New System.Windows.Forms.TextBox()
         Me.instruccinN3 = New System.Windows.Forms.Label()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(306, 485)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(51, 533)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 7
@@ -49,6 +50,7 @@ Partial Class Nivel_3
         'pregunta1Nivel3
         '
         Me.pregunta1Nivel3.AutoSize = True
+        Me.pregunta1Nivel3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta1Nivel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta1Nivel3.Location = New System.Drawing.Point(48, 125)
         Me.pregunta1Nivel3.Name = "pregunta1Nivel3"
@@ -66,6 +68,7 @@ Partial Class Nivel_3
         'pregunta2Nivel3
         '
         Me.pregunta2Nivel3.AutoSize = True
+        Me.pregunta2Nivel3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta2Nivel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta2Nivel3.Location = New System.Drawing.Point(48, 173)
         Me.pregunta2Nivel3.Name = "pregunta2Nivel3"
@@ -76,6 +79,7 @@ Partial Class Nivel_3
         'pregunta3Nivel3
         '
         Me.pregunta3Nivel3.AutoSize = True
+        Me.pregunta3Nivel3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta3Nivel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta3Nivel3.Location = New System.Drawing.Point(48, 217)
         Me.pregunta3Nivel3.Name = "pregunta3Nivel3"
@@ -86,6 +90,7 @@ Partial Class Nivel_3
         'pregunta4Nivel3
         '
         Me.pregunta4Nivel3.AutoSize = True
+        Me.pregunta4Nivel3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta4Nivel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta4Nivel3.Location = New System.Drawing.Point(48, 270)
         Me.pregunta4Nivel3.Name = "pregunta4Nivel3"
@@ -96,6 +101,7 @@ Partial Class Nivel_3
         'pregunta5Nivel3
         '
         Me.pregunta5Nivel3.AutoSize = True
+        Me.pregunta5Nivel3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.pregunta5Nivel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta5Nivel3.Location = New System.Drawing.Point(48, 320)
         Me.pregunta5Nivel3.Name = "pregunta5Nivel3"
@@ -134,13 +140,23 @@ Partial Class Nivel_3
         'instruccinN3
         '
         Me.instruccinN3.AutoSize = True
-        Me.instruccinN3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.instruccinN3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.instruccinN3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.instruccinN3.Location = New System.Drawing.Point(26, 9)
         Me.instruccinN3.Name = "instruccinN3"
-        Me.instruccinN3.Size = New System.Drawing.Size(462, 32)
+        Me.instruccinN3.Size = New System.Drawing.Size(538, 40)
         Me.instruccinN3.TabIndex = 21
         Me.instruccinN3.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, la traduccion de las oracione" & _
             "s en ingles" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Btn_Calificar
+        '
+        Me.Btn_Calificar.Location = New System.Drawing.Point(443, 547)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_Calificar.TabIndex = 22
+        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
         'Nivel_3
         '
@@ -150,6 +166,7 @@ Partial Class Nivel_3
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.instruccinN3)
         Me.Controls.Add(Me.txtpregunta5)
         Me.Controls.Add(Me.txtpregunta4)
@@ -182,4 +199,5 @@ Partial Class Nivel_3
     Friend WithEvents txtpregunta4 As System.Windows.Forms.TextBox
     Friend WithEvents txtpregunta5 As System.Windows.Forms.TextBox
     Friend WithEvents instruccinN3 As System.Windows.Forms.Label
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
 End Class
