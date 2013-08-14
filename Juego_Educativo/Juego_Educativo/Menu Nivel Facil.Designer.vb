@@ -47,48 +47,53 @@ Partial Class Menu_Nivel_Facil
         '
         'Btn_Nivel1
         '
-        Me.Btn_Nivel1.Location = New System.Drawing.Point(36, 206)
+        Me.Btn_Nivel1.Location = New System.Drawing.Point(148, 208)
         Me.Btn_Nivel1.Name = "Btn_Nivel1"
         Me.Btn_Nivel1.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel1.TabIndex = 1
+        Me.Btn_Nivel1.Text = "1"
         Me.Btn_Nivel1.UseVisualStyleBackColor = True
         '
         'Btn_Nivel2
         '
-        Me.Btn_Nivel2.Location = New System.Drawing.Point(146, 206)
+        Me.Btn_Nivel2.Location = New System.Drawing.Point(258, 208)
         Me.Btn_Nivel2.Name = "Btn_Nivel2"
         Me.Btn_Nivel2.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel2.TabIndex = 2
+        Me.Btn_Nivel2.Text = "2"
         Me.Btn_Nivel2.UseVisualStyleBackColor = True
         '
         'Btn_Nivel3
         '
-        Me.Btn_Nivel3.Location = New System.Drawing.Point(251, 206)
+        Me.Btn_Nivel3.Location = New System.Drawing.Point(363, 208)
         Me.Btn_Nivel3.Name = "Btn_Nivel3"
         Me.Btn_Nivel3.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel3.TabIndex = 3
+        Me.Btn_Nivel3.Text = "3"
         Me.Btn_Nivel3.UseVisualStyleBackColor = True
         '
         'Btn_Nivel4
         '
-        Me.Btn_Nivel4.Location = New System.Drawing.Point(356, 206)
+        Me.Btn_Nivel4.Location = New System.Drawing.Point(468, 208)
         Me.Btn_Nivel4.Name = "Btn_Nivel4"
         Me.Btn_Nivel4.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel4.TabIndex = 4
+        Me.Btn_Nivel4.Text = "4"
         Me.Btn_Nivel4.UseVisualStyleBackColor = True
         '
         'Btn_Nivel5
         '
-        Me.Btn_Nivel5.Location = New System.Drawing.Point(478, 206)
+        Me.Btn_Nivel5.Location = New System.Drawing.Point(590, 208)
         Me.Btn_Nivel5.Name = "Btn_Nivel5"
         Me.Btn_Nivel5.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel5.TabIndex = 5
+        Me.Btn_Nivel5.Text = "5"
         Me.Btn_Nivel5.UseVisualStyleBackColor = True
         '
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(81, 356)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(180, 449)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 6
@@ -97,7 +102,7 @@ Partial Class Menu_Nivel_Facil
         'Btn_RegreInicio
         '
         Me.Btn_RegreInicio.BackgroundImage = CType(resources.GetObject("Btn_RegreInicio.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegreInicio.Location = New System.Drawing.Point(398, 357)
+        Me.Btn_RegreInicio.Location = New System.Drawing.Point(417, 450)
         Me.Btn_RegreInicio.Name = "Btn_RegreInicio"
         Me.Btn_RegreInicio.Size = New System.Drawing.Size(126, 36)
         Me.Btn_RegreInicio.TabIndex = 7
@@ -121,6 +126,7 @@ Partial Class Menu_Nivel_Facil
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Menu_Nivel_Facil"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu_Nivel_Facil"
         Me.ResumeLayout(False)
         Me.PerformLayout()

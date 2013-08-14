@@ -13,4 +13,8 @@
     Private Sub Btn_Salir_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Salir.Click
         Salir.Show()
     End Sub
+
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class

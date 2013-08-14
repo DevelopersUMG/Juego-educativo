@@ -65,7 +65,7 @@ Partial Class Menu_de_Opciones
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(29, 42)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(550, 73)
+        Me.Label1.Size = New System.Drawing.Size(543, 73)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Niveles De Juego"
         '
@@ -93,6 +93,7 @@ Partial Class Menu_de_Opciones
         Me.Controls.Add(Me.Btn_Facil)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Menu_de_Opciones"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu_de_Opciones"
         Me.ResumeLayout(False)
         Me.PerformLayout()

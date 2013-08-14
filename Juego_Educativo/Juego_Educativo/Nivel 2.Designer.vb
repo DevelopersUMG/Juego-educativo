@@ -24,16 +24,123 @@ Partial Class Nivel_2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_2))
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
+        Me.imagen1Nivel2 = New System.Windows.Forms.PictureBox()
+        Me.imagen3Nivel2 = New System.Windows.Forms.PictureBox()
+        Me.imagen2Nivel2 = New System.Windows.Forms.PictureBox()
+        Me.imagen4Nivel2 = New System.Windows.Forms.PictureBox()
+        Me.imagen5Nivel2 = New System.Windows.Forms.PictureBox()
+        Me.txtImagen1 = New System.Windows.Forms.TextBox()
+        Me.txtImagen2 = New System.Windows.Forms.TextBox()
+        Me.txtImagen3 = New System.Windows.Forms.TextBox()
+        Me.txtImagen4 = New System.Windows.Forms.TextBox()
+        Me.txtImagen5 = New System.Windows.Forms.TextBox()
+        Me.instruccinN2 = New System.Windows.Forms.Label()
+        CType(Me.imagen1Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imagen3Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imagen2Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imagen4Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imagen5Nivel2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(309, 436)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(308, 492)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
         Me.Btn_RegresaMenu.TabIndex = 7
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
+        '
+        'imagen1Nivel2
+        '
+        Me.imagen1Nivel2.Image = CType(resources.GetObject("imagen1Nivel2.Image"), System.Drawing.Image)
+        Me.imagen1Nivel2.Location = New System.Drawing.Point(12, 151)
+        Me.imagen1Nivel2.Name = "imagen1Nivel2"
+        Me.imagen1Nivel2.Size = New System.Drawing.Size(109, 101)
+        Me.imagen1Nivel2.TabIndex = 8
+        Me.imagen1Nivel2.TabStop = False
+        '
+        'imagen3Nivel2
+        '
+        Me.imagen3Nivel2.Image = CType(resources.GetObject("imagen3Nivel2.Image"), System.Drawing.Image)
+        Me.imagen3Nivel2.Location = New System.Drawing.Point(308, 151)
+        Me.imagen3Nivel2.Name = "imagen3Nivel2"
+        Me.imagen3Nivel2.Size = New System.Drawing.Size(130, 101)
+        Me.imagen3Nivel2.TabIndex = 9
+        Me.imagen3Nivel2.TabStop = False
+        '
+        'imagen2Nivel2
+        '
+        Me.imagen2Nivel2.Image = CType(resources.GetObject("imagen2Nivel2.Image"), System.Drawing.Image)
+        Me.imagen2Nivel2.Location = New System.Drawing.Point(155, 151)
+        Me.imagen2Nivel2.Name = "imagen2Nivel2"
+        Me.imagen2Nivel2.Size = New System.Drawing.Size(115, 101)
+        Me.imagen2Nivel2.TabIndex = 10
+        Me.imagen2Nivel2.TabStop = False
+        '
+        'imagen4Nivel2
+        '
+        Me.imagen4Nivel2.Image = CType(resources.GetObject("imagen4Nivel2.Image"), System.Drawing.Image)
+        Me.imagen4Nivel2.Location = New System.Drawing.Point(475, 151)
+        Me.imagen4Nivel2.Name = "imagen4Nivel2"
+        Me.imagen4Nivel2.Size = New System.Drawing.Size(120, 101)
+        Me.imagen4Nivel2.TabIndex = 11
+        Me.imagen4Nivel2.TabStop = False
+        '
+        'imagen5Nivel2
+        '
+        Me.imagen5Nivel2.Image = CType(resources.GetObject("imagen5Nivel2.Image"), System.Drawing.Image)
+        Me.imagen5Nivel2.Location = New System.Drawing.Point(629, 151)
+        Me.imagen5Nivel2.Name = "imagen5Nivel2"
+        Me.imagen5Nivel2.Size = New System.Drawing.Size(162, 101)
+        Me.imagen5Nivel2.TabIndex = 12
+        Me.imagen5Nivel2.TabStop = False
+        '
+        'txtImagen1
+        '
+        Me.txtImagen1.Location = New System.Drawing.Point(12, 283)
+        Me.txtImagen1.Name = "txtImagen1"
+        Me.txtImagen1.Size = New System.Drawing.Size(109, 20)
+        Me.txtImagen1.TabIndex = 13
+        '
+        'txtImagen2
+        '
+        Me.txtImagen2.Location = New System.Drawing.Point(155, 283)
+        Me.txtImagen2.Name = "txtImagen2"
+        Me.txtImagen2.Size = New System.Drawing.Size(115, 20)
+        Me.txtImagen2.TabIndex = 14
+        '
+        'txtImagen3
+        '
+        Me.txtImagen3.Location = New System.Drawing.Point(308, 283)
+        Me.txtImagen3.Name = "txtImagen3"
+        Me.txtImagen3.Size = New System.Drawing.Size(130, 20)
+        Me.txtImagen3.TabIndex = 15
+        '
+        'txtImagen4
+        '
+        Me.txtImagen4.Location = New System.Drawing.Point(475, 283)
+        Me.txtImagen4.Name = "txtImagen4"
+        Me.txtImagen4.Size = New System.Drawing.Size(120, 20)
+        Me.txtImagen4.TabIndex = 16
+        '
+        'txtImagen5
+        '
+        Me.txtImagen5.Location = New System.Drawing.Point(629, 283)
+        Me.txtImagen5.Name = "txtImagen5"
+        Me.txtImagen5.Size = New System.Drawing.Size(162, 20)
+        Me.txtImagen5.TabIndex = 17
+        '
+        'instruccinN2
+        '
+        Me.instruccinN2.AutoSize = True
+        Me.instruccinN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.instruccinN2.Location = New System.Drawing.Point(18, 22)
+        Me.instruccinN2.Name = "instruccinN2"
+        Me.instruccinN2.Size = New System.Drawing.Size(412, 32)
+        Me.instruccinN2.TabIndex = 20
+        Me.instruccinN2.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, el nombre de la figura en ing" & _
+            "les"
         '
         'Nivel_2
         '
@@ -43,13 +150,41 @@ Partial Class Nivel_2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.instruccinN2)
+        Me.Controls.Add(Me.txtImagen5)
+        Me.Controls.Add(Me.txtImagen4)
+        Me.Controls.Add(Me.txtImagen3)
+        Me.Controls.Add(Me.txtImagen2)
+        Me.Controls.Add(Me.txtImagen1)
+        Me.Controls.Add(Me.imagen5Nivel2)
+        Me.Controls.Add(Me.imagen4Nivel2)
+        Me.Controls.Add(Me.imagen2Nivel2)
+        Me.Controls.Add(Me.imagen3Nivel2)
+        Me.Controls.Add(Me.imagen1Nivel2)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_2"
+        CType(Me.imagen1Nivel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imagen3Nivel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imagen2Nivel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imagen4Nivel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imagen5Nivel2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
+    Friend WithEvents imagen1Nivel2 As System.Windows.Forms.PictureBox
+    Friend WithEvents imagen3Nivel2 As System.Windows.Forms.PictureBox
+    Friend WithEvents imagen2Nivel2 As System.Windows.Forms.PictureBox
+    Friend WithEvents imagen4Nivel2 As System.Windows.Forms.PictureBox
+    Friend WithEvents imagen5Nivel2 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtImagen1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen5 As System.Windows.Forms.TextBox
+    Friend WithEvents instruccinN2 As System.Windows.Forms.Label
 End Class
