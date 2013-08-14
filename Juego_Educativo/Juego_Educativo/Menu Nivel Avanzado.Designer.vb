@@ -39,7 +39,9 @@ Partial Class Menu_Nivel_Avanzado
         Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(28, 31)
+        Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
+        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.Label1.Location = New System.Drawing.Point(138, 56)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(548, 37)
         Me.Label1.TabIndex = 1
@@ -47,42 +49,47 @@ Partial Class Menu_Nivel_Avanzado
         '
         'Btn_Nivel15
         '
-        Me.Btn_Nivel15.Location = New System.Drawing.Point(477, 192)
+        Me.Btn_Nivel15.Location = New System.Drawing.Point(611, 179)
         Me.Btn_Nivel15.Name = "Btn_Nivel15"
         Me.Btn_Nivel15.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel15.TabIndex = 10
+        Me.Btn_Nivel15.Text = "15"
         Me.Btn_Nivel15.UseVisualStyleBackColor = True
         '
         'Btn_Nivel14
         '
-        Me.Btn_Nivel14.Location = New System.Drawing.Point(355, 192)
+        Me.Btn_Nivel14.Location = New System.Drawing.Point(497, 179)
         Me.Btn_Nivel14.Name = "Btn_Nivel14"
         Me.Btn_Nivel14.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel14.TabIndex = 9
+        Me.Btn_Nivel14.Text = "14"
         Me.Btn_Nivel14.UseVisualStyleBackColor = True
         '
         'Btn_Nivel13
         '
-        Me.Btn_Nivel13.Location = New System.Drawing.Point(250, 192)
+        Me.Btn_Nivel13.Location = New System.Drawing.Point(372, 179)
         Me.Btn_Nivel13.Name = "Btn_Nivel13"
         Me.Btn_Nivel13.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel13.TabIndex = 8
+        Me.Btn_Nivel13.Text = "13"
         Me.Btn_Nivel13.UseVisualStyleBackColor = True
         '
         'Btn_Nivel12
         '
-        Me.Btn_Nivel12.Location = New System.Drawing.Point(145, 192)
+        Me.Btn_Nivel12.Location = New System.Drawing.Point(262, 179)
         Me.Btn_Nivel12.Name = "Btn_Nivel12"
         Me.Btn_Nivel12.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel12.TabIndex = 7
+        Me.Btn_Nivel12.Text = "12"
         Me.Btn_Nivel12.UseVisualStyleBackColor = True
         '
         'Btn_Nivel11
         '
-        Me.Btn_Nivel11.Location = New System.Drawing.Point(35, 192)
+        Me.Btn_Nivel11.Location = New System.Drawing.Point(145, 179)
         Me.Btn_Nivel11.Name = "Btn_Nivel11"
         Me.Btn_Nivel11.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Nivel11.TabIndex = 6
+        Me.Btn_Nivel11.Text = "11"
         Me.Btn_Nivel11.UseVisualStyleBackColor = True
         '
         'Btn_RegreInicio
@@ -121,6 +128,7 @@ Partial Class Menu_Nivel_Avanzado
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Menu_Nivel_Avanzado"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu_Nivel_Avanzado"
         Me.ResumeLayout(False)
         Me.PerformLayout()

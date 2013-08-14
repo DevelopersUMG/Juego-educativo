@@ -39,7 +39,9 @@ Partial Class Menu_Nivel_Facil
         Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(12, 32)
+        Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
+        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.Label1.Location = New System.Drawing.Point(141, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(548, 37)
         Me.Label1.TabIndex = 0
@@ -114,7 +116,7 @@ Partial Class Menu_Nivel_Facil
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(812, 582)
         Me.Controls.Add(Me.Btn_RegreInicio)
         Me.Controls.Add(Me.Btn_RegresaMenu)
@@ -125,6 +127,7 @@ Partial Class Menu_Nivel_Facil
         Me.Controls.Add(Me.Btn_Nivel1)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Menu_Nivel_Facil"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu_Nivel_Facil"
