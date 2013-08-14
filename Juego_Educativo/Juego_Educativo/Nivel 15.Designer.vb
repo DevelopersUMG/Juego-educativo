@@ -30,7 +30,9 @@ Partial Class Nivel_15
         Me.img1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblap = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Btn_Calificar = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.img3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.img2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.img1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -39,9 +41,10 @@ Partial Class Nivel_15
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(70, 521)
+        Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(64, 498)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
-        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
@@ -49,7 +52,7 @@ Partial Class Nivel_15
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Desktop
         Me.Label2.Location = New System.Drawing.Point(85, 118)
         Me.Label2.Name = "Label2"
@@ -91,7 +94,7 @@ Partial Class Nivel_15
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Desktop
         Me.Label1.Location = New System.Drawing.Point(86, 93)
         Me.Label1.Name = "Label1"
@@ -103,7 +106,7 @@ Partial Class Nivel_15
         '
         Me.lblap.AutoSize = True
         Me.lblap.BackColor = System.Drawing.Color.Transparent
-        Me.lblap.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblap.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblap.ForeColor = System.Drawing.Color.Black
         Me.lblap.Location = New System.Drawing.Point(138, 43)
         Me.lblap.Name = "lblap"
@@ -111,14 +114,38 @@ Partial Class Nivel_15
         Me.lblap.TabIndex = 35
         Me.lblap.Text = "selecciona lo que se te pide"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(528, 552)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(65, 20)
+        Me.Label3.TabIndex = 44
+        Me.Label3.Text = "Calificar"
+        '
         'Btn_Calificar
         '
-        Me.Btn_Calificar.Location = New System.Drawing.Point(481, 535)
+        Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
+        Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Btn_Calificar.Location = New System.Drawing.Point(532, 498)
         Me.Btn_Calificar.Name = "Btn_Calificar"
-        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
-        Me.Btn_Calificar.TabIndex = 42
-        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_Calificar.TabIndex = 43
         Me.Btn_Calificar.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(31, 553)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(113, 20)
+        Me.Label6.TabIndex = 45
+        Me.Label6.Text = "Volver al Menu"
         '
         'Nivel_15
         '
@@ -128,6 +155,8 @@ Partial Class Nivel_15
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.img3)
@@ -153,5 +182,7 @@ Partial Class Nivel_15
     Friend WithEvents img1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lblap As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
 End Class

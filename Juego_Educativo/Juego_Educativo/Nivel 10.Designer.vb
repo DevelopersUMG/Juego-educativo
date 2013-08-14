@@ -31,7 +31,6 @@ Partial Class Nivel_10
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
-        Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
@@ -51,6 +50,9 @@ Partial Class Nivel_10
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Btn_Calificar = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,16 +61,17 @@ Partial Class Nivel_10
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(118, 522)
+        Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(108, 501)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
-        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Label2.Location = New System.Drawing.Point(345, 19)
@@ -80,7 +83,7 @@ Partial Class Nivel_10
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label3.Location = New System.Drawing.Point(25, 95)
@@ -92,7 +95,7 @@ Partial Class Nivel_10
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(25, 159)
         Me.Label4.Name = "Label4"
@@ -103,27 +106,29 @@ Partial Class Nivel_10
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox1.Location = New System.Drawing.Point(29, 197)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(99, 17)
         Me.CheckBox1.TabIndex = 14
         Me.CheckBox1.Text = "I am in England"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox2.Location = New System.Drawing.Point(29, 233)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(109, 17)
         Me.CheckBox2.TabIndex = 15
         Me.CheckBox2.Text = "I am is in England"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CheckBox2.UseVisualStyleBackColor = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(228, 159)
         Me.Label5.Name = "Label5"
@@ -138,15 +143,6 @@ Partial Class Nivel_10
         Me.TxtPregunta1.Size = New System.Drawing.Size(138, 20)
         Me.TxtPregunta1.TabIndex = 17
         '
-        'Btn_Calificar
-        '
-        Me.Btn_Calificar.Location = New System.Drawing.Point(467, 529)
-        Me.Btn_Calificar.Name = "Btn_Calificar"
-        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
-        Me.Btn_Calificar.TabIndex = 18
-        Me.Btn_Calificar.Text = "Calificar"
-        Me.Btn_Calificar.UseVisualStyleBackColor = True
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
@@ -160,48 +156,51 @@ Partial Class Nivel_10
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(450, 129)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(140, 20)
+        Me.Label6.Size = New System.Drawing.Size(138, 20)
         Me.Label6.TabIndex = 20
-        Me.Label6.Text = "Cual es lo correcto"
+        Me.Label6.Text = "Qué es lo correcto"
         '
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox3.Location = New System.Drawing.Point(579, 165)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(49, 17)
         Me.CheckBox3.TabIndex = 21
         Me.CheckBox3.Text = "push"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox4.Location = New System.Drawing.Point(579, 199)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(50, 17)
         Me.CheckBox4.TabIndex = 22
         Me.CheckBox4.Text = "puch"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CheckBox4.UseVisualStyleBackColor = False
         '
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox5.Location = New System.Drawing.Point(579, 233)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(55, 17)
         Me.CheckBox5.TabIndex = 23
         Me.CheckBox5.Text = "pusch"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.CheckBox5.UseVisualStyleBackColor = False
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(12, 329)
         Me.Label7.Name = "Label7"
@@ -212,52 +211,57 @@ Partial Class Nivel_10
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox6.Location = New System.Drawing.Point(77, 362)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(66, 17)
         Me.CheckBox6.TabIndex = 25
         Me.CheckBox6.Text = "will push"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.CheckBox6.UseVisualStyleBackColor = False
         '
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox7.Location = New System.Drawing.Point(79, 385)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(67, 17)
         Me.CheckBox7.TabIndex = 26
         Me.CheckBox7.Text = "will puch"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CheckBox7.UseVisualStyleBackColor = False
         '
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox8.Location = New System.Drawing.Point(79, 409)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(61, 17)
         Me.CheckBox8.TabIndex = 27
         Me.CheckBox8.Text = "pushed"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.CheckBox8.UseVisualStyleBackColor = False
         '
         'CheckBox9
         '
         Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox9.Location = New System.Drawing.Point(79, 433)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(63, 17)
         Me.CheckBox9.TabIndex = 28
         Me.CheckBox9.Text = "pushing"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.CheckBox9.UseVisualStyleBackColor = False
         '
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
+        Me.CheckBox10.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox10.Location = New System.Drawing.Point(79, 457)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(49, 17)
         Me.CheckBox10.TabIndex = 29
         Me.CheckBox10.Text = "push"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.CheckBox10.UseVisualStyleBackColor = False
         '
         'PictureBox2
         '
@@ -272,32 +276,35 @@ Partial Class Nivel_10
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox11.Location = New System.Drawing.Point(443, 338)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(50, 17)
         Me.CheckBox11.TabIndex = 31
         Me.CheckBox11.Text = "listen"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.CheckBox11.UseVisualStyleBackColor = False
         '
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox12.Location = New System.Drawing.Point(443, 385)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(43, 17)
         Me.CheckBox12.TabIndex = 32
         Me.CheckBox12.Text = "lists"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.CheckBox12.UseVisualStyleBackColor = False
         '
         'CheckBox13
         '
         Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox13.Location = New System.Drawing.Point(443, 439)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(61, 17)
         Me.CheckBox13.TabIndex = 33
         Me.CheckBox13.Text = "listensn"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.CheckBox13.UseVisualStyleBackColor = False
         '
         'PictureBox3
         '
@@ -312,32 +319,68 @@ Partial Class Nivel_10
         'CheckBox14
         '
         Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox14.Location = New System.Drawing.Point(671, 329)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(37, 17)
         Me.CheckBox14.TabIndex = 35
         Me.CheckBox14.Text = "rin"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.CheckBox14.UseVisualStyleBackColor = False
         '
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox15.Location = New System.Drawing.Point(671, 385)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(41, 17)
         Me.CheckBox15.TabIndex = 36
         Me.CheckBox15.Text = "run"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.CheckBox15.UseVisualStyleBackColor = False
         '
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox16.Location = New System.Drawing.Point(671, 433)
         Me.CheckBox16.Name = "CheckBox16"
         Me.CheckBox16.Size = New System.Drawing.Size(41, 17)
         Me.CheckBox16.TabIndex = 37
         Me.CheckBox16.Text = "ron"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.CheckBox16.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(535, 555)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
+        Me.Label1.TabIndex = 41
+        Me.Label1.Text = "Calificar"
+        '
+        'Btn_Calificar
+        '
+        Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
+        Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Btn_Calificar.Location = New System.Drawing.Point(539, 501)
+        Me.Btn_Calificar.Name = "Btn_Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_Calificar.TabIndex = 40
+        Me.Btn_Calificar.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(75, 555)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(113, 20)
+        Me.Label8.TabIndex = 42
+        Me.Label8.Text = "Volver al Menu"
         '
         'Nivel_10
         '
@@ -347,6 +390,9 @@ Partial Class Nivel_10
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.CheckBox16)
         Me.Controls.Add(Me.CheckBox15)
         Me.Controls.Add(Me.CheckBox14)
@@ -366,7 +412,6 @@ Partial Class Nivel_10
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.TxtPregunta1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox2)
@@ -395,7 +440,6 @@ Partial Class Nivel_10
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
-    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
@@ -415,4 +459,7 @@ Partial Class Nivel_10
     Friend WithEvents CheckBox14 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox15 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox16 As System.Windows.Forms.CheckBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
+    Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class

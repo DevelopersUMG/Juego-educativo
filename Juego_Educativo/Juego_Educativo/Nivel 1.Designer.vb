@@ -35,7 +35,9 @@ Partial Class Nivel_1
         Me.txtImagen4 = New System.Windows.Forms.TextBox()
         Me.txtImagen5 = New System.Windows.Forms.TextBox()
         Me.instruccinN1 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Btn_Calificar = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.imagen1Nivel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen2Nivel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen3Nivel1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,9 +48,10 @@ Partial Class Nivel_1
         'Btn_RegresaMenu
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(74, 517)
+        Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(74, 503)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
-        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(130, 37)
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
         Me.Btn_RegresaMenu.TabIndex = 7
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
@@ -135,7 +138,7 @@ Partial Class Nivel_1
         'instruccinN1
         '
         Me.instruccinN1.AutoSize = True
-        Me.instruccinN1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.instruccinN1.BackColor = System.Drawing.Color.Transparent
         Me.instruccinN1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.instruccinN1.Location = New System.Drawing.Point(12, 19)
         Me.instruccinN1.Name = "instruccinN1"
@@ -144,14 +147,38 @@ Partial Class Nivel_1
         Me.instruccinN1.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, el nombre de la figura en ing" & _
             "les"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(532, 557)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
+        Me.Label1.TabIndex = 41
+        Me.Label1.Text = "Calificar"
+        '
         'Btn_Calificar
         '
-        Me.Btn_Calificar.Location = New System.Drawing.Point(494, 531)
+        Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
+        Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Btn_Calificar.Location = New System.Drawing.Point(536, 503)
         Me.Btn_Calificar.Name = "Btn_Calificar"
-        Me.Btn_Calificar.Size = New System.Drawing.Size(75, 23)
-        Me.Btn_Calificar.TabIndex = 20
-        Me.Btn_Calificar.Text = "Calificar"
+        Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_Calificar.TabIndex = 40
         Me.Btn_Calificar.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(47, 557)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(113, 20)
+        Me.Label6.TabIndex = 42
+        Me.Label6.Text = "Volver al Menu"
         '
         'Nivel_1
         '
@@ -161,6 +188,8 @@ Partial Class Nivel_1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.instruccinN1)
         Me.Controls.Add(Me.txtImagen5)
@@ -199,5 +228,7 @@ Partial Class Nivel_1
     Friend WithEvents txtImagen4 As System.Windows.Forms.TextBox
     Friend WithEvents txtImagen5 As System.Windows.Forms.TextBox
     Friend WithEvents instruccinN1 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
 End Class
