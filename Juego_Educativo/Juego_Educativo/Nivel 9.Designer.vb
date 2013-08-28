@@ -24,40 +24,40 @@ Partial Class Nivel_9
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_9))
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.txtImagen1 = New System.Windows.Forms.PictureBox()
+        Me.CheckImg11 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg12 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg13 = New System.Windows.Forms.CheckBox()
+        Me.txtImagen2 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.CheckImg21 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg22 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg23 = New System.Windows.Forms.CheckBox()
+        Me.txtImagen3 = New System.Windows.Forms.PictureBox()
         Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.txtImagen4 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg31 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg32 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg33 = New System.Windows.Forms.CheckBox()
+        Me.txtImagen5 = New System.Windows.Forms.PictureBox()
+        Me.CheckImg41 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg42 = New System.Windows.Forms.CheckBox()
         Me.Btn_Calificar = New System.Windows.Forms.Button()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
+        Me.txtImagen6 = New System.Windows.Forms.PictureBox()
+        Me.CheckImg51 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg52 = New System.Windows.Forms.CheckBox()
+        Me.CheckImg53 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagen6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Btn_RegresaMenu
@@ -70,58 +70,58 @@ Partial Class Nivel_9
         Me.Btn_RegresaMenu.TabIndex = 9
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'txtImagen1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 93)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(127, 126)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 11
-        Me.PictureBox1.TabStop = False
+        Me.txtImagen1.Image = CType(resources.GetObject("txtImagen1.Image"), System.Drawing.Image)
+        Me.txtImagen1.Location = New System.Drawing.Point(47, 93)
+        Me.txtImagen1.Name = "txtImagen1"
+        Me.txtImagen1.Size = New System.Drawing.Size(127, 126)
+        Me.txtImagen1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen1.TabIndex = 11
+        Me.txtImagen1.TabStop = False
         '
-        'CheckBox1
+        'CheckImg11
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.Location = New System.Drawing.Point(181, 93)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(47, 17)
-        Me.CheckBox1.TabIndex = 12
-        Me.CheckBox1.Text = "2:25"
-        Me.CheckBox1.UseVisualStyleBackColor = False
+        Me.CheckImg11.AutoSize = True
+        Me.CheckImg11.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg11.Location = New System.Drawing.Point(181, 93)
+        Me.CheckImg11.Name = "CheckImg11"
+        Me.CheckImg11.Size = New System.Drawing.Size(47, 17)
+        Me.CheckImg11.TabIndex = 12
+        Me.CheckImg11.Text = "2:25"
+        Me.CheckImg11.UseVisualStyleBackColor = False
         '
-        'CheckBox2
+        'CheckImg12
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox2.Location = New System.Drawing.Point(181, 144)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(47, 17)
-        Me.CheckBox2.TabIndex = 13
-        Me.CheckBox2.Text = "1:25"
-        Me.CheckBox2.UseVisualStyleBackColor = False
+        Me.CheckImg12.AutoSize = True
+        Me.CheckImg12.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg12.Location = New System.Drawing.Point(181, 144)
+        Me.CheckImg12.Name = "CheckImg12"
+        Me.CheckImg12.Size = New System.Drawing.Size(47, 17)
+        Me.CheckImg12.TabIndex = 13
+        Me.CheckImg12.Text = "1:25"
+        Me.CheckImg12.UseVisualStyleBackColor = False
         '
-        'CheckBox3
+        'CheckImg13
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox3.Location = New System.Drawing.Point(180, 202)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(47, 17)
-        Me.CheckBox3.TabIndex = 14
-        Me.CheckBox3.Text = "2:30"
-        Me.CheckBox3.UseVisualStyleBackColor = False
+        Me.CheckImg13.AutoSize = True
+        Me.CheckImg13.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg13.Location = New System.Drawing.Point(180, 202)
+        Me.CheckImg13.Name = "CheckImg13"
+        Me.CheckImg13.Size = New System.Drawing.Size(47, 17)
+        Me.CheckImg13.TabIndex = 14
+        Me.CheckImg13.Text = "2:30"
+        Me.CheckImg13.UseVisualStyleBackColor = False
         '
-        'PictureBox2
+        'txtImagen2
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(289, 93)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(119, 126)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 15
-        Me.PictureBox2.TabStop = False
+        Me.txtImagen2.Image = CType(resources.GetObject("txtImagen2.Image"), System.Drawing.Image)
+        Me.txtImagen2.Location = New System.Drawing.Point(289, 93)
+        Me.txtImagen2.Name = "txtImagen2"
+        Me.txtImagen2.Size = New System.Drawing.Size(119, 126)
+        Me.txtImagen2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen2.TabIndex = 15
+        Me.txtImagen2.TabStop = False
         '
         'Label2
         '
@@ -132,48 +132,48 @@ Partial Class Nivel_9
         Me.Label2.TabIndex = 16
         Me.Label2.Text = " Where is the cat? "
         '
-        'CheckBox4
+        'CheckImg21
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox4.Location = New System.Drawing.Point(415, 93)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(64, 17)
-        Me.CheckBox4.TabIndex = 17
-        Me.CheckBox4.Text = "at home"
-        Me.CheckBox4.UseVisualStyleBackColor = False
+        Me.CheckImg21.AutoSize = True
+        Me.CheckImg21.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg21.Location = New System.Drawing.Point(415, 93)
+        Me.CheckImg21.Name = "CheckImg21"
+        Me.CheckImg21.Size = New System.Drawing.Size(64, 17)
+        Me.CheckImg21.TabIndex = 17
+        Me.CheckImg21.Text = "at home"
+        Me.CheckImg21.UseVisualStyleBackColor = False
         '
-        'CheckBox5
+        'CheckImg22
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox5.Location = New System.Drawing.Point(415, 144)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(45, 17)
-        Me.CheckBox5.TabIndex = 18
-        Me.CheckBox5.Text = "field"
-        Me.CheckBox5.UseVisualStyleBackColor = False
+        Me.CheckImg22.AutoSize = True
+        Me.CheckImg22.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg22.Location = New System.Drawing.Point(415, 144)
+        Me.CheckImg22.Name = "CheckImg22"
+        Me.CheckImg22.Size = New System.Drawing.Size(45, 17)
+        Me.CheckImg22.TabIndex = 18
+        Me.CheckImg22.Text = "field"
+        Me.CheckImg22.UseVisualStyleBackColor = False
         '
-        'CheckBox6
+        'CheckImg23
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox6.Location = New System.Drawing.Point(415, 201)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(89, 17)
-        Me.CheckBox6.TabIndex = 19
-        Me.CheckBox6.Text = "on the beach"
-        Me.CheckBox6.UseVisualStyleBackColor = False
+        Me.CheckImg23.AutoSize = True
+        Me.CheckImg23.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg23.Location = New System.Drawing.Point(415, 201)
+        Me.CheckImg23.Name = "CheckImg23"
+        Me.CheckImg23.Size = New System.Drawing.Size(89, 17)
+        Me.CheckImg23.TabIndex = 19
+        Me.CheckImg23.Text = "on the beach"
+        Me.CheckImg23.UseVisualStyleBackColor = False
         '
-        'PictureBox3
+        'txtImagen3
         '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(551, 94)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(137, 125)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 20
-        Me.PictureBox3.TabStop = False
+        Me.txtImagen3.Image = CType(resources.GetObject("txtImagen3.Image"), System.Drawing.Image)
+        Me.txtImagen3.Location = New System.Drawing.Point(551, 94)
+        Me.txtImagen3.Name = "txtImagen3"
+        Me.txtImagen3.Size = New System.Drawing.Size(137, 125)
+        Me.txtImagen3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen3.TabIndex = 20
+        Me.txtImagen3.TabStop = False
         '
         'TxtPregunta1
         '
@@ -193,15 +193,15 @@ Partial Class Nivel_9
         Me.Label3.TabIndex = 22
         Me.Label3.Text = "Instrucciones: responde lo que se le pregunta"
         '
-        'PictureBox4
+        'txtImagen4
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(47, 295)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(127, 143)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 23
-        Me.PictureBox4.TabStop = False
+        Me.txtImagen4.Image = CType(resources.GetObject("txtImagen4.Image"), System.Drawing.Image)
+        Me.txtImagen4.Location = New System.Drawing.Point(47, 295)
+        Me.txtImagen4.Name = "txtImagen4"
+        Me.txtImagen4.Size = New System.Drawing.Size(127, 143)
+        Me.txtImagen4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen4.TabIndex = 23
+        Me.txtImagen4.TabStop = False
         '
         'Label4
         '
@@ -213,70 +213,70 @@ Partial Class Nivel_9
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "who is she?"
         '
-        'CheckBox7
+        'CheckImg31
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox7.Location = New System.Drawing.Point(181, 309)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox7.TabIndex = 25
-        Me.CheckBox7.Text = "jessica alba"
-        Me.CheckBox7.UseVisualStyleBackColor = False
+        Me.CheckImg31.AutoSize = True
+        Me.CheckImg31.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg31.Location = New System.Drawing.Point(181, 309)
+        Me.CheckImg31.Name = "CheckImg31"
+        Me.CheckImg31.Size = New System.Drawing.Size(81, 17)
+        Me.CheckImg31.TabIndex = 25
+        Me.CheckImg31.Text = "jessica alba"
+        Me.CheckImg31.UseVisualStyleBackColor = False
         '
-        'CheckBox8
+        'CheckImg32
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox8.Location = New System.Drawing.Point(180, 363)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(97, 17)
-        Me.CheckBox8.TabIndex = 26
-        Me.CheckBox8.Text = "jennifer aniston"
-        Me.CheckBox8.UseVisualStyleBackColor = False
+        Me.CheckImg32.AutoSize = True
+        Me.CheckImg32.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg32.Location = New System.Drawing.Point(180, 363)
+        Me.CheckImg32.Name = "CheckImg32"
+        Me.CheckImg32.Size = New System.Drawing.Size(97, 17)
+        Me.CheckImg32.TabIndex = 26
+        Me.CheckImg32.Text = "jennifer aniston"
+        Me.CheckImg32.UseVisualStyleBackColor = False
         '
-        'CheckBox9
+        'CheckImg33
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox9.Location = New System.Drawing.Point(181, 420)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(88, 17)
-        Me.CheckBox9.TabIndex = 27
-        Me.CheckBox9.Text = "jennifer lopez"
-        Me.CheckBox9.UseVisualStyleBackColor = False
+        Me.CheckImg33.AutoSize = True
+        Me.CheckImg33.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg33.Location = New System.Drawing.Point(181, 420)
+        Me.CheckImg33.Name = "CheckImg33"
+        Me.CheckImg33.Size = New System.Drawing.Size(88, 17)
+        Me.CheckImg33.TabIndex = 27
+        Me.CheckImg33.Text = "jennifer lopez"
+        Me.CheckImg33.UseVisualStyleBackColor = False
         '
-        'PictureBox5
+        'txtImagen5
         '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(308, 309)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(130, 128)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 28
-        Me.PictureBox5.TabStop = False
+        Me.txtImagen5.Image = CType(resources.GetObject("txtImagen5.Image"), System.Drawing.Image)
+        Me.txtImagen5.Location = New System.Drawing.Point(308, 309)
+        Me.txtImagen5.Name = "txtImagen5"
+        Me.txtImagen5.Size = New System.Drawing.Size(130, 128)
+        Me.txtImagen5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen5.TabIndex = 28
+        Me.txtImagen5.TabStop = False
         '
-        'CheckBox10
+        'CheckImg41
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox10.Location = New System.Drawing.Point(444, 345)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(31, 17)
-        Me.CheckBox10.TabIndex = 29
-        Me.CheckBox10.Text = "if"
-        Me.CheckBox10.UseVisualStyleBackColor = False
+        Me.CheckImg41.AutoSize = True
+        Me.CheckImg41.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg41.Location = New System.Drawing.Point(444, 345)
+        Me.CheckImg41.Name = "CheckImg41"
+        Me.CheckImg41.Size = New System.Drawing.Size(31, 17)
+        Me.CheckImg41.TabIndex = 29
+        Me.CheckImg41.Text = "if"
+        Me.CheckImg41.UseVisualStyleBackColor = False
         '
-        'CheckBox11
+        'CheckImg42
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox11.Location = New System.Drawing.Point(444, 390)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(41, 17)
-        Me.CheckBox11.TabIndex = 30
-        Me.CheckBox11.Text = "not"
-        Me.CheckBox11.UseVisualStyleBackColor = False
+        Me.CheckImg42.AutoSize = True
+        Me.CheckImg42.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg42.Location = New System.Drawing.Point(444, 390)
+        Me.CheckImg42.Name = "CheckImg42"
+        Me.CheckImg42.Size = New System.Drawing.Size(41, 17)
+        Me.CheckImg42.TabIndex = 30
+        Me.CheckImg42.Text = "not"
+        Me.CheckImg42.UseVisualStyleBackColor = False
         '
         'Btn_Calificar
         '
@@ -289,48 +289,48 @@ Partial Class Nivel_9
         Me.Btn_Calificar.TabIndex = 31
         Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
-        'PictureBox6
+        'txtImagen6
         '
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(523, 309)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(108, 128)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 32
-        Me.PictureBox6.TabStop = False
+        Me.txtImagen6.Image = CType(resources.GetObject("txtImagen6.Image"), System.Drawing.Image)
+        Me.txtImagen6.Location = New System.Drawing.Point(523, 309)
+        Me.txtImagen6.Name = "txtImagen6"
+        Me.txtImagen6.Size = New System.Drawing.Size(108, 128)
+        Me.txtImagen6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.txtImagen6.TabIndex = 32
+        Me.txtImagen6.TabStop = False
         '
-        'CheckBox12
+        'CheckImg51
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox12.Location = New System.Drawing.Point(638, 309)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(89, 17)
-        Me.CheckBox12.TabIndex = 33
-        Me.CheckBox12.Text = "on the beach"
-        Me.CheckBox12.UseVisualStyleBackColor = False
+        Me.CheckImg51.AutoSize = True
+        Me.CheckImg51.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg51.Location = New System.Drawing.Point(638, 309)
+        Me.CheckImg51.Name = "CheckImg51"
+        Me.CheckImg51.Size = New System.Drawing.Size(89, 17)
+        Me.CheckImg51.TabIndex = 33
+        Me.CheckImg51.Text = "on the beach"
+        Me.CheckImg51.UseVisualStyleBackColor = False
         '
-        'CheckBox13
+        'CheckImg52
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox13.Location = New System.Drawing.Point(638, 345)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(69, 17)
-        Me.CheckBox13.TabIndex = 34
-        Me.CheckBox13.Text = "mountain"
-        Me.CheckBox13.UseVisualStyleBackColor = False
+        Me.CheckImg52.AutoSize = True
+        Me.CheckImg52.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg52.Location = New System.Drawing.Point(638, 345)
+        Me.CheckImg52.Name = "CheckImg52"
+        Me.CheckImg52.Size = New System.Drawing.Size(69, 17)
+        Me.CheckImg52.TabIndex = 34
+        Me.CheckImg52.Text = "mountain"
+        Me.CheckImg52.UseVisualStyleBackColor = False
         '
-        'CheckBox14
+        'CheckImg53
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox14.Location = New System.Drawing.Point(638, 400)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(69, 17)
-        Me.CheckBox14.TabIndex = 35
-        Me.CheckBox14.Text = "mountain"
-        Me.CheckBox14.UseVisualStyleBackColor = False
+        Me.CheckImg53.AutoSize = True
+        Me.CheckImg53.BackColor = System.Drawing.Color.Transparent
+        Me.CheckImg53.Location = New System.Drawing.Point(638, 400)
+        Me.CheckImg53.Name = "CheckImg53"
+        Me.CheckImg53.Size = New System.Drawing.Size(69, 17)
+        Me.CheckImg53.TabIndex = 35
+        Me.CheckImg53.Text = "mountain"
+        Me.CheckImg53.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -375,73 +375,73 @@ Partial Class Nivel_9
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.CheckBox14)
-        Me.Controls.Add(Me.CheckBox13)
-        Me.Controls.Add(Me.CheckBox12)
-        Me.Controls.Add(Me.PictureBox6)
+        Me.Controls.Add(Me.CheckImg53)
+        Me.Controls.Add(Me.CheckImg52)
+        Me.Controls.Add(Me.CheckImg51)
+        Me.Controls.Add(Me.txtImagen6)
         Me.Controls.Add(Me.Btn_Calificar)
-        Me.Controls.Add(Me.CheckBox11)
-        Me.Controls.Add(Me.CheckBox10)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.CheckBox9)
-        Me.Controls.Add(Me.CheckBox8)
-        Me.Controls.Add(Me.CheckBox7)
+        Me.Controls.Add(Me.CheckImg42)
+        Me.Controls.Add(Me.CheckImg41)
+        Me.Controls.Add(Me.txtImagen5)
+        Me.Controls.Add(Me.CheckImg33)
+        Me.Controls.Add(Me.CheckImg32)
+        Me.Controls.Add(Me.CheckImg31)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.txtImagen4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TxtPregunta1)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox4)
+        Me.Controls.Add(Me.txtImagen3)
+        Me.Controls.Add(Me.CheckImg23)
+        Me.Controls.Add(Me.CheckImg22)
+        Me.Controls.Add(Me.CheckImg21)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtImagen2)
+        Me.Controls.Add(Me.CheckImg13)
+        Me.Controls.Add(Me.CheckImg12)
+        Me.Controls.Add(Me.CheckImg11)
+        Me.Controls.Add(Me.txtImagen1)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Nivel_9"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_9"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagen6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtImagen1 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckImg11 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg12 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg13 As System.Windows.Forms.CheckBox
+    Friend WithEvents txtImagen2 As System.Windows.Forms.PictureBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox6 As System.Windows.Forms.CheckBox
-    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckImg21 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg22 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg23 As System.Windows.Forms.CheckBox
+    Friend WithEvents txtImagen3 As System.Windows.Forms.PictureBox
     Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtImagen4 As System.Windows.Forms.PictureBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents CheckBox7 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox8 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox9 As System.Windows.Forms.CheckBox
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents CheckBox10 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox11 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg31 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg32 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg33 As System.Windows.Forms.CheckBox
+    Friend WithEvents txtImagen5 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckImg41 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg42 As System.Windows.Forms.CheckBox
     Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents CheckBox12 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox13 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox14 As System.Windows.Forms.CheckBox
+    Friend WithEvents txtImagen6 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckImg51 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg52 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckImg53 As System.Windows.Forms.CheckBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label

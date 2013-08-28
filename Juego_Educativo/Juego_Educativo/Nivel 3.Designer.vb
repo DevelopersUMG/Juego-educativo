@@ -128,7 +128,7 @@ Partial Class Nivel_3
         '
         'txtpregunta4
         '
-        Me.txtpregunta4.Location = New System.Drawing.Point(338, 257)
+        Me.txtpregunta4.Location = New System.Drawing.Point(338, 268)
         Me.txtpregunta4.Name = "txtpregunta4"
         Me.txtpregunta4.Size = New System.Drawing.Size(256, 20)
         Me.txtpregunta4.TabIndex = 16

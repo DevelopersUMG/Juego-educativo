@@ -14,7 +14,8 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -51,6 +52,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -72,6 +74,43 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases.vb" />
+    <Compile Include="Nivel 11y.designer.vb">
+      <DependentUpon>Nivel 11y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 11y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 12y.designer.vb">
+      <DependentUpon>Nivel 12y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 12y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 13y.designer.vb">
+      <DependentUpon>Nivel 13y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 13y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 14y.designer.vb">
+      <DependentUpon>Nivel 14y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 14y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 15y.designer.vb">
+      <DependentUpon>Nivel 15y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 15y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 1_1.designer.vb">
+      <DependentUpon>Nivel 1_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 1_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu de Opciones.Designer.vb">
       <DependentUpon>Menu de Opciones.vb</DependentUpon>
     </Compile>
@@ -106,6 +145,12 @@
       <DependentUpon>Nivel 10.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 10_1.designer.vb">
+      <DependentUpon>Nivel 10_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 10_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 11.Designer.vb">
@@ -144,10 +189,22 @@
     <Compile Include="Nivel 2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Nivel 2_1.designer.vb">
+      <DependentUpon>Nivel 2_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 2_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Nivel 3.Designer.vb">
       <DependentUpon>Nivel 3.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 3_1a.designer.vb">
+      <DependentUpon>Nivel 3_1a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 3_1a.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 4.Designer.vb">
@@ -156,10 +213,22 @@
     <Compile Include="Nivel 4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Nivel 4_1.designer.vb">
+      <DependentUpon>Nivel 4_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 4_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Nivel 5.Designer.vb">
       <DependentUpon>Nivel 5.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 5_1.designer.vb">
+      <DependentUpon>Nivel 5_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 5_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 6.Designer.vb">
@@ -168,10 +237,22 @@
     <Compile Include="Nivel 6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Nivel 6_1.designer.vb">
+      <DependentUpon>Nivel 6_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 6_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Nivel 7.Designer.vb">
       <DependentUpon>Nivel 7.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 7_1.designer.vb">
+      <DependentUpon>Nivel 7_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 7_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 8.Designer.vb">
@@ -180,10 +261,22 @@
     <Compile Include="Nivel 8.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Nivel 8_1.designer.vb">
+      <DependentUpon>Nivel 8_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 8_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Nivel 9.Designer.vb">
       <DependentUpon>Nivel 9.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 9_1.designer.vb">
+      <DependentUpon>Nivel 9_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 9_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Principal.vb">
@@ -240,44 +333,89 @@
     <EmbeddedResource Include="Nivel 10.resx">
       <DependentUpon>Nivel 10.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 10_1.resx">
+      <DependentUpon>Nivel 10_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 11.resx">
       <DependentUpon>Nivel 11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 11y.resx">
+      <DependentUpon>Nivel 11y.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 12.resx">
       <DependentUpon>Nivel 12.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 12y.resx">
+      <DependentUpon>Nivel 12y.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 13.resx">
       <DependentUpon>Nivel 13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 13y.resx">
+      <DependentUpon>Nivel 13y.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 14.resx">
       <DependentUpon>Nivel 14.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 14y.resx">
+      <DependentUpon>Nivel 14y.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 15.resx">
       <DependentUpon>Nivel 15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 15y.resx">
+      <DependentUpon>Nivel 15y.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 1_1.resx">
+      <DependentUpon>Nivel 1_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 2.resx">
       <DependentUpon>Nivel 2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 2_1.resx">
+      <DependentUpon>Nivel 2_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 3.resx">
       <DependentUpon>Nivel 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 3_1a.resx">
+      <DependentUpon>Nivel 3_1a.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 4.resx">
       <DependentUpon>Nivel 4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 4_1.resx">
+      <DependentUpon>Nivel 4_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 5.resx">
       <DependentUpon>Nivel 5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 5_1.resx">
+      <DependentUpon>Nivel 5_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 6.resx">
       <DependentUpon>Nivel 6.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 6_1.resx">
+      <DependentUpon>Nivel 6_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 7.resx">
       <DependentUpon>Nivel 7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 7_1.resx">
+      <DependentUpon>Nivel 7_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 8.resx">
       <DependentUpon>Nivel 8.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 8_1.resx">
+      <DependentUpon>Nivel 8_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nivel 9.resx">
       <DependentUpon>Nivel 9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel 9_1.resx">
+      <DependentUpon>Nivel 9_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
@@ -296,6 +434,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

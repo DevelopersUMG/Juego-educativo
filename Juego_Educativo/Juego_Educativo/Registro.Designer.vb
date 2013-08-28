@@ -33,13 +33,17 @@ Partial Class Registro
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Btn_RegisCompleto = New System.Windows.Forms.Button()
+        Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(237, 19)
         Me.Label1.Name = "Label1"
@@ -120,17 +124,50 @@ Partial Class Registro
         '
         Me.TextBox4.Location = New System.Drawing.Point(164, 371)
         Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox4.Size = New System.Drawing.Size(228, 20)
         Me.TextBox4.TabIndex = 8
         '
         'Btn_RegisCompleto
         '
         Me.Btn_RegisCompleto.Image = CType(resources.GetObject("Btn_RegisCompleto.Image"), System.Drawing.Image)
-        Me.Btn_RegisCompleto.Location = New System.Drawing.Point(232, 537)
+        Me.Btn_RegisCompleto.Location = New System.Drawing.Point(206, 412)
         Me.Btn_RegisCompleto.Name = "Btn_RegisCompleto"
         Me.Btn_RegisCompleto.Size = New System.Drawing.Size(125, 33)
         Me.Btn_RegisCompleto.TabIndex = 9
         Me.Btn_RegisCompleto.UseVisualStyleBackColor = True
+        '
+        'Btn_RegresaMenu
+        '
+        Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
+        Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(86, 489)
+        Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_RegresaMenu.TabIndex = 10
+        Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(52, 557)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(113, 20)
+        Me.Label7.TabIndex = 43
+        Me.Label7.Text = "Volver al Menu"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.ErrorImage = CType(resources.GetObject("PictureBox1.ErrorImage"), System.Drawing.Image)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(496, 164)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(245, 227)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 44
+        Me.PictureBox1.TabStop = False
         '
         'Registro
         '
@@ -140,6 +177,9 @@ Partial Class Registro
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Controls.Add(Me.Btn_RegisCompleto)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
@@ -154,6 +194,7 @@ Partial Class Registro
         Me.Name = "Registro"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Registro"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -168,4 +209,7 @@ Partial Class Registro
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
     Friend WithEvents Btn_RegisCompleto As System.Windows.Forms.Button
+    Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

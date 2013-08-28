@@ -60,7 +60,8 @@ Partial Class Nivel_2
         Me.imagen1Nivel2.Image = CType(resources.GetObject("imagen1Nivel2.Image"), System.Drawing.Image)
         Me.imagen1Nivel2.Location = New System.Drawing.Point(12, 151)
         Me.imagen1Nivel2.Name = "imagen1Nivel2"
-        Me.imagen1Nivel2.Size = New System.Drawing.Size(109, 101)
+        Me.imagen1Nivel2.Size = New System.Drawing.Size(116, 101)
+        Me.imagen1Nivel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen1Nivel2.TabIndex = 8
         Me.imagen1Nivel2.TabStop = False
         '
@@ -69,7 +70,8 @@ Partial Class Nivel_2
         Me.imagen3Nivel2.Image = CType(resources.GetObject("imagen3Nivel2.Image"), System.Drawing.Image)
         Me.imagen3Nivel2.Location = New System.Drawing.Point(308, 151)
         Me.imagen3Nivel2.Name = "imagen3Nivel2"
-        Me.imagen3Nivel2.Size = New System.Drawing.Size(130, 101)
+        Me.imagen3Nivel2.Size = New System.Drawing.Size(116, 101)
+        Me.imagen3Nivel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen3Nivel2.TabIndex = 9
         Me.imagen3Nivel2.TabStop = False
         '
@@ -78,7 +80,8 @@ Partial Class Nivel_2
         Me.imagen2Nivel2.Image = CType(resources.GetObject("imagen2Nivel2.Image"), System.Drawing.Image)
         Me.imagen2Nivel2.Location = New System.Drawing.Point(155, 151)
         Me.imagen2Nivel2.Name = "imagen2Nivel2"
-        Me.imagen2Nivel2.Size = New System.Drawing.Size(115, 101)
+        Me.imagen2Nivel2.Size = New System.Drawing.Size(116, 101)
+        Me.imagen2Nivel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen2Nivel2.TabIndex = 10
         Me.imagen2Nivel2.TabStop = False
         '
@@ -87,7 +90,8 @@ Partial Class Nivel_2
         Me.imagen4Nivel2.Image = CType(resources.GetObject("imagen4Nivel2.Image"), System.Drawing.Image)
         Me.imagen4Nivel2.Location = New System.Drawing.Point(475, 151)
         Me.imagen4Nivel2.Name = "imagen4Nivel2"
-        Me.imagen4Nivel2.Size = New System.Drawing.Size(120, 101)
+        Me.imagen4Nivel2.Size = New System.Drawing.Size(116, 101)
+        Me.imagen4Nivel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen4Nivel2.TabIndex = 11
         Me.imagen4Nivel2.TabStop = False
         '
@@ -96,7 +100,8 @@ Partial Class Nivel_2
         Me.imagen5Nivel2.Image = CType(resources.GetObject("imagen5Nivel2.Image"), System.Drawing.Image)
         Me.imagen5Nivel2.Location = New System.Drawing.Point(629, 151)
         Me.imagen5Nivel2.Name = "imagen5Nivel2"
-        Me.imagen5Nivel2.Size = New System.Drawing.Size(162, 101)
+        Me.imagen5Nivel2.Size = New System.Drawing.Size(116, 101)
+        Me.imagen5Nivel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen5Nivel2.TabIndex = 12
         Me.imagen5Nivel2.TabStop = False
         '
@@ -104,35 +109,35 @@ Partial Class Nivel_2
         '
         Me.txtImagen1.Location = New System.Drawing.Point(12, 283)
         Me.txtImagen1.Name = "txtImagen1"
-        Me.txtImagen1.Size = New System.Drawing.Size(109, 20)
+        Me.txtImagen1.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen1.TabIndex = 13
         '
         'txtImagen2
         '
         Me.txtImagen2.Location = New System.Drawing.Point(155, 283)
         Me.txtImagen2.Name = "txtImagen2"
-        Me.txtImagen2.Size = New System.Drawing.Size(115, 20)
+        Me.txtImagen2.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen2.TabIndex = 14
         '
         'txtImagen3
         '
         Me.txtImagen3.Location = New System.Drawing.Point(308, 283)
         Me.txtImagen3.Name = "txtImagen3"
-        Me.txtImagen3.Size = New System.Drawing.Size(130, 20)
+        Me.txtImagen3.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen3.TabIndex = 15
         '
         'txtImagen4
         '
         Me.txtImagen4.Location = New System.Drawing.Point(475, 283)
         Me.txtImagen4.Name = "txtImagen4"
-        Me.txtImagen4.Size = New System.Drawing.Size(120, 20)
+        Me.txtImagen4.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen4.TabIndex = 16
         '
         'txtImagen5
         '
         Me.txtImagen5.Location = New System.Drawing.Point(629, 283)
         Me.txtImagen5.Name = "txtImagen5"
-        Me.txtImagen5.Size = New System.Drawing.Size(162, 20)
+        Me.txtImagen5.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen5.TabIndex = 17
         '
         'instruccinN2
