@@ -36,7 +36,7 @@
     End Sub
 
     Private Sub TxtPregunta5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtPregunta5.TextChanged
-        txtresp5_nivel6 = TxtPregunta5.Text()
+        txtresp5_nivel6 = TxtPregunta5.Text
 
     End Sub
 
@@ -50,7 +50,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp1_nivel6 + "--- Es incorrecto" + " " + CheckImg11.Text + " " + "numero de intentos " + conver)
+            MessageBox.Show(txtresp1_nivel6 + "--- Es incorrecto" + " " + " " + "numero de intentos " + conver)
             If conta_errores >= 2 Then
                 Me.Close()
                 Nivel_6_1.Show()
@@ -65,7 +65,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp2_nivel6 + "--- Es incorrecto" + " " + CheckImg22.Text + " " + "numero de intentos " + conver)
+            MessageBox.Show(txtresp2_nivel6 + "--- Es incorrecto" + " " + " " + "numero de intentos " + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_6_1.Show()
@@ -80,7 +80,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp3_nivel6 + "--- Es incorrecto" + " " + CheckImg33.Text + " " + "numero de intentos " + conver)
+            MessageBox.Show(txtresp3_nivel6 + "--- Es incorrecto" + " " + " " + "numero de intentos " + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_6_1.Show()
@@ -94,7 +94,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp4_nivel6 + "--- Es incorrecto" + " " + CheckImg41.Text + " " + "numero de intentos " + conver)
+            MessageBox.Show(txtresp4_nivel6 + "--- Es incorrecto" + " " + "numero de intentos " + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_6_1.Show()
@@ -112,7 +112,8 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp5_nivel6 + " Es incorrecto" + " " + "numero de intentos " + conver)
+            MessageBox.Show(txtresp1_nivel6 + "--- Es incorrecto" + " " + TxtPregunta5.Text + " " + "numero de intentos " + conver)
+
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_6_1.Show()

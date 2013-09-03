@@ -100,7 +100,7 @@ Partial Class Nivel_6
         Me.txtImagen1_.Image = CType(resources.GetObject("txtImagen1_.Image"), System.Drawing.Image)
         Me.txtImagen1_.Location = New System.Drawing.Point(77, 117)
         Me.txtImagen1_.Name = "txtImagen1_"
-        Me.txtImagen1_.Size = New System.Drawing.Size(100, 67)
+        Me.txtImagen1_.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen1_.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen1_.TabIndex = 13
         Me.txtImagen1_.TabStop = False
@@ -136,7 +136,7 @@ Partial Class Nivel_6
         Me.CheckImg12.AutoSize = True
         Me.CheckImg12.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg12.Location = New System.Drawing.Point(223, 140)
+        Me.CheckImg12.Location = New System.Drawing.Point(223, 154)
         Me.CheckImg12.Name = "CheckImg12"
         Me.CheckImg12.Size = New System.Drawing.Size(115, 20)
         Me.CheckImg12.TabIndex = 16
@@ -148,7 +148,7 @@ Partial Class Nivel_6
         Me.CheckImg13.AutoSize = True
         Me.CheckImg13.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg13.Location = New System.Drawing.Point(223, 166)
+        Me.CheckImg13.Location = New System.Drawing.Point(223, 195)
         Me.CheckImg13.Name = "CheckImg13"
         Me.CheckImg13.Size = New System.Drawing.Size(116, 20)
         Me.CheckImg13.TabIndex = 17
@@ -158,9 +158,9 @@ Partial Class Nivel_6
         'txtImagen2
         '
         Me.txtImagen2.Image = CType(resources.GetObject("txtImagen2.Image"), System.Drawing.Image)
-        Me.txtImagen2.Location = New System.Drawing.Point(502, 114)
+        Me.txtImagen2.Location = New System.Drawing.Point(484, 114)
         Me.txtImagen2.Name = "txtImagen2"
-        Me.txtImagen2.Size = New System.Drawing.Size(100, 70)
+        Me.txtImagen2.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen2.TabIndex = 18
         Me.txtImagen2.TabStop = False
@@ -170,7 +170,7 @@ Partial Class Nivel_6
         Me.CheckImg21.AutoSize = True
         Me.CheckImg21.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg21.Location = New System.Drawing.Point(642, 117)
+        Me.CheckImg21.Location = New System.Drawing.Point(624, 117)
         Me.CheckImg21.Name = "CheckImg21"
         Me.CheckImg21.Size = New System.Drawing.Size(125, 20)
         Me.CheckImg21.TabIndex = 19
@@ -182,7 +182,7 @@ Partial Class Nivel_6
         Me.CheckImg22.AutoSize = True
         Me.CheckImg22.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg22.Location = New System.Drawing.Point(642, 140)
+        Me.CheckImg22.Location = New System.Drawing.Point(624, 154)
         Me.CheckImg22.Name = "CheckImg22"
         Me.CheckImg22.Size = New System.Drawing.Size(118, 20)
         Me.CheckImg22.TabIndex = 20
@@ -194,7 +194,7 @@ Partial Class Nivel_6
         Me.CheckImg23.AutoSize = True
         Me.CheckImg23.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg23.Location = New System.Drawing.Point(642, 164)
+        Me.CheckImg23.Location = New System.Drawing.Point(624, 195)
         Me.CheckImg23.Name = "CheckImg23"
         Me.CheckImg23.Size = New System.Drawing.Size(122, 20)
         Me.CheckImg23.TabIndex = 21
@@ -204,9 +204,9 @@ Partial Class Nivel_6
         'txtImagen3
         '
         Me.txtImagen3.Image = CType(resources.GetObject("txtImagen3.Image"), System.Drawing.Image)
-        Me.txtImagen3.Location = New System.Drawing.Point(77, 281)
+        Me.txtImagen3.Location = New System.Drawing.Point(77, 266)
         Me.txtImagen3.Name = "txtImagen3"
-        Me.txtImagen3.Size = New System.Drawing.Size(100, 67)
+        Me.txtImagen3.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen3.TabIndex = 22
         Me.txtImagen3.TabStop = False
@@ -216,7 +216,7 @@ Partial Class Nivel_6
         Me.CheckImg31.AutoSize = True
         Me.CheckImg31.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg31.Location = New System.Drawing.Point(223, 281)
+        Me.CheckImg31.Location = New System.Drawing.Point(223, 266)
         Me.CheckImg31.Name = "CheckImg31"
         Me.CheckImg31.Size = New System.Drawing.Size(135, 20)
         Me.CheckImg31.TabIndex = 23
@@ -240,7 +240,7 @@ Partial Class Nivel_6
         Me.CheckImg33.AutoSize = True
         Me.CheckImg33.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg33.Location = New System.Drawing.Point(223, 330)
+        Me.CheckImg33.Location = New System.Drawing.Point(223, 347)
         Me.CheckImg33.Name = "CheckImg33"
         Me.CheckImg33.Size = New System.Drawing.Size(133, 20)
         Me.CheckImg33.TabIndex = 25
@@ -250,9 +250,9 @@ Partial Class Nivel_6
         'txtImagen4
         '
         Me.txtImagen4.Image = CType(resources.GetObject("txtImagen4.Image"), System.Drawing.Image)
-        Me.txtImagen4.Location = New System.Drawing.Point(502, 281)
+        Me.txtImagen4.Location = New System.Drawing.Point(484, 281)
         Me.txtImagen4.Name = "txtImagen4"
-        Me.txtImagen4.Size = New System.Drawing.Size(100, 66)
+        Me.txtImagen4.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen4.TabIndex = 26
         Me.txtImagen4.TabStop = False
@@ -262,7 +262,7 @@ Partial Class Nivel_6
         Me.CheckImg41.AutoSize = True
         Me.CheckImg41.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg41.Location = New System.Drawing.Point(642, 281)
+        Me.CheckImg41.Location = New System.Drawing.Point(624, 281)
         Me.CheckImg41.Name = "CheckImg41"
         Me.CheckImg41.Size = New System.Drawing.Size(147, 20)
         Me.CheckImg41.TabIndex = 27
@@ -274,7 +274,7 @@ Partial Class Nivel_6
         Me.CheckImg42.AutoSize = True
         Me.CheckImg42.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg42.Location = New System.Drawing.Point(642, 305)
+        Me.CheckImg42.Location = New System.Drawing.Point(624, 324)
         Me.CheckImg42.Name = "CheckImg42"
         Me.CheckImg42.Size = New System.Drawing.Size(143, 20)
         Me.CheckImg42.TabIndex = 28
@@ -286,7 +286,7 @@ Partial Class Nivel_6
         Me.CheckImg43.AutoSize = True
         Me.CheckImg43.BackColor = System.Drawing.Color.Transparent
         Me.CheckImg43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckImg43.Location = New System.Drawing.Point(642, 328)
+        Me.CheckImg43.Location = New System.Drawing.Point(624, 362)
         Me.CheckImg43.Name = "CheckImg43"
         Me.CheckImg43.Size = New System.Drawing.Size(133, 20)
         Me.CheckImg43.TabIndex = 29
@@ -298,7 +298,7 @@ Partial Class Nivel_6
         Me.txtImagen5.Image = CType(resources.GetObject("txtImagen5.Image"), System.Drawing.Image)
         Me.txtImagen5.Location = New System.Drawing.Point(77, 390)
         Me.txtImagen5.Name = "txtImagen5"
-        Me.txtImagen5.Size = New System.Drawing.Size(133, 91)
+        Me.txtImagen5.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen5.TabIndex = 30
         Me.txtImagen5.TabStop = False
@@ -308,7 +308,7 @@ Partial Class Nivel_6
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(232, 390)
+        Me.Label6.Location = New System.Drawing.Point(219, 407)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(221, 40)
         Me.Label6.TabIndex = 31
@@ -318,7 +318,7 @@ Partial Class Nivel_6
         '
         Me.TxtPregunta5.Location = New System.Drawing.Point(236, 461)
         Me.TxtPregunta5.Name = "TxtPregunta5"
-        Me.TxtPregunta5.Size = New System.Drawing.Size(151, 20)
+        Me.TxtPregunta5.Size = New System.Drawing.Size(116, 20)
         Me.TxtPregunta5.TabIndex = 32
         '
         'Label3

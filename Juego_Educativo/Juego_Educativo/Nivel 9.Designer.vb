@@ -33,8 +33,6 @@ Partial Class Nivel_9
         Me.CheckImg21 = New System.Windows.Forms.CheckBox()
         Me.CheckImg22 = New System.Windows.Forms.CheckBox()
         Me.CheckImg23 = New System.Windows.Forms.CheckBox()
-        Me.txtImagen3 = New System.Windows.Forms.PictureBox()
-        Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtImagen4 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -52,9 +50,9 @@ Partial Class Nivel_9
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.txtImagen1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagen2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtImagen3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagen4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagen5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagen6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -73,9 +71,9 @@ Partial Class Nivel_9
         'txtImagen1
         '
         Me.txtImagen1.Image = CType(resources.GetObject("txtImagen1.Image"), System.Drawing.Image)
-        Me.txtImagen1.Location = New System.Drawing.Point(47, 93)
+        Me.txtImagen1.Location = New System.Drawing.Point(51, 130)
         Me.txtImagen1.Name = "txtImagen1"
-        Me.txtImagen1.Size = New System.Drawing.Size(127, 126)
+        Me.txtImagen1.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen1.TabIndex = 11
         Me.txtImagen1.TabStop = False
@@ -84,7 +82,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg11.AutoSize = True
         Me.CheckImg11.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg11.Location = New System.Drawing.Point(181, 93)
+        Me.CheckImg11.Location = New System.Drawing.Point(185, 130)
         Me.CheckImg11.Name = "CheckImg11"
         Me.CheckImg11.Size = New System.Drawing.Size(47, 17)
         Me.CheckImg11.TabIndex = 12
@@ -95,7 +93,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg12.AutoSize = True
         Me.CheckImg12.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg12.Location = New System.Drawing.Point(181, 144)
+        Me.CheckImg12.Location = New System.Drawing.Point(184, 166)
         Me.CheckImg12.Name = "CheckImg12"
         Me.CheckImg12.Size = New System.Drawing.Size(47, 17)
         Me.CheckImg12.TabIndex = 13
@@ -106,7 +104,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg13.AutoSize = True
         Me.CheckImg13.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg13.Location = New System.Drawing.Point(180, 202)
+        Me.CheckImg13.Location = New System.Drawing.Point(184, 214)
         Me.CheckImg13.Name = "CheckImg13"
         Me.CheckImg13.Size = New System.Drawing.Size(47, 17)
         Me.CheckImg13.TabIndex = 14
@@ -116,9 +114,9 @@ Partial Class Nivel_9
         'txtImagen2
         '
         Me.txtImagen2.Image = CType(resources.GetObject("txtImagen2.Image"), System.Drawing.Image)
-        Me.txtImagen2.Location = New System.Drawing.Point(289, 93)
+        Me.txtImagen2.Location = New System.Drawing.Point(293, 130)
         Me.txtImagen2.Name = "txtImagen2"
-        Me.txtImagen2.Size = New System.Drawing.Size(119, 126)
+        Me.txtImagen2.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen2.TabIndex = 15
         Me.txtImagen2.TabStop = False
@@ -126,7 +124,7 @@ Partial Class Nivel_9
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(305, 222)
+        Me.Label2.Location = New System.Drawing.Point(309, 100)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(97, 13)
         Me.Label2.TabIndex = 16
@@ -136,7 +134,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg21.AutoSize = True
         Me.CheckImg21.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg21.Location = New System.Drawing.Point(415, 93)
+        Me.CheckImg21.Location = New System.Drawing.Point(419, 130)
         Me.CheckImg21.Name = "CheckImg21"
         Me.CheckImg21.Size = New System.Drawing.Size(64, 17)
         Me.CheckImg21.TabIndex = 17
@@ -147,7 +145,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg22.AutoSize = True
         Me.CheckImg22.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg22.Location = New System.Drawing.Point(415, 144)
+        Me.CheckImg22.Location = New System.Drawing.Point(419, 166)
         Me.CheckImg22.Name = "CheckImg22"
         Me.CheckImg22.Size = New System.Drawing.Size(45, 17)
         Me.CheckImg22.TabIndex = 18
@@ -158,29 +156,12 @@ Partial Class Nivel_9
         '
         Me.CheckImg23.AutoSize = True
         Me.CheckImg23.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg23.Location = New System.Drawing.Point(415, 201)
+        Me.CheckImg23.Location = New System.Drawing.Point(419, 214)
         Me.CheckImg23.Name = "CheckImg23"
         Me.CheckImg23.Size = New System.Drawing.Size(89, 17)
         Me.CheckImg23.TabIndex = 19
         Me.CheckImg23.Text = "on the beach"
         Me.CheckImg23.UseVisualStyleBackColor = False
-        '
-        'txtImagen3
-        '
-        Me.txtImagen3.Image = CType(resources.GetObject("txtImagen3.Image"), System.Drawing.Image)
-        Me.txtImagen3.Location = New System.Drawing.Point(551, 94)
-        Me.txtImagen3.Name = "txtImagen3"
-        Me.txtImagen3.Size = New System.Drawing.Size(137, 125)
-        Me.txtImagen3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.txtImagen3.TabIndex = 20
-        Me.txtImagen3.TabStop = False
-        '
-        'TxtPregunta1
-        '
-        Me.TxtPregunta1.Location = New System.Drawing.Point(551, 222)
-        Me.TxtPregunta1.Name = "TxtPregunta1"
-        Me.TxtPregunta1.Size = New System.Drawing.Size(137, 20)
-        Me.TxtPregunta1.TabIndex = 21
         '
         'Label3
         '
@@ -196,9 +177,9 @@ Partial Class Nivel_9
         'txtImagen4
         '
         Me.txtImagen4.Image = CType(resources.GetObject("txtImagen4.Image"), System.Drawing.Image)
-        Me.txtImagen4.Location = New System.Drawing.Point(47, 295)
+        Me.txtImagen4.Location = New System.Drawing.Point(530, 130)
         Me.txtImagen4.Name = "txtImagen4"
-        Me.txtImagen4.Size = New System.Drawing.Size(127, 143)
+        Me.txtImagen4.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen4.TabIndex = 23
         Me.txtImagen4.TabStop = False
@@ -207,7 +188,7 @@ Partial Class Nivel_9
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(69, 276)
+        Me.Label4.Location = New System.Drawing.Point(558, 100)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(63, 13)
         Me.Label4.TabIndex = 24
@@ -217,7 +198,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg31.AutoSize = True
         Me.CheckImg31.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg31.Location = New System.Drawing.Point(181, 309)
+        Me.CheckImg31.Location = New System.Drawing.Point(650, 140)
         Me.CheckImg31.Name = "CheckImg31"
         Me.CheckImg31.Size = New System.Drawing.Size(81, 17)
         Me.CheckImg31.TabIndex = 25
@@ -228,7 +209,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg32.AutoSize = True
         Me.CheckImg32.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg32.Location = New System.Drawing.Point(180, 363)
+        Me.CheckImg32.Location = New System.Drawing.Point(650, 181)
         Me.CheckImg32.Name = "CheckImg32"
         Me.CheckImg32.Size = New System.Drawing.Size(97, 17)
         Me.CheckImg32.TabIndex = 26
@@ -239,7 +220,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg33.AutoSize = True
         Me.CheckImg33.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg33.Location = New System.Drawing.Point(181, 420)
+        Me.CheckImg33.Location = New System.Drawing.Point(652, 214)
         Me.CheckImg33.Name = "CheckImg33"
         Me.CheckImg33.Size = New System.Drawing.Size(88, 17)
         Me.CheckImg33.TabIndex = 27
@@ -249,9 +230,9 @@ Partial Class Nivel_9
         'txtImagen5
         '
         Me.txtImagen5.Image = CType(resources.GetObject("txtImagen5.Image"), System.Drawing.Image)
-        Me.txtImagen5.Location = New System.Drawing.Point(308, 309)
+        Me.txtImagen5.Location = New System.Drawing.Point(258, 333)
         Me.txtImagen5.Name = "txtImagen5"
-        Me.txtImagen5.Size = New System.Drawing.Size(130, 128)
+        Me.txtImagen5.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen5.TabIndex = 28
         Me.txtImagen5.TabStop = False
@@ -260,7 +241,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg41.AutoSize = True
         Me.CheckImg41.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg41.Location = New System.Drawing.Point(444, 345)
+        Me.CheckImg41.Location = New System.Drawing.Point(394, 347)
         Me.CheckImg41.Name = "CheckImg41"
         Me.CheckImg41.Size = New System.Drawing.Size(31, 17)
         Me.CheckImg41.TabIndex = 29
@@ -271,11 +252,11 @@ Partial Class Nivel_9
         '
         Me.CheckImg42.AutoSize = True
         Me.CheckImg42.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg42.Location = New System.Drawing.Point(444, 390)
+        Me.CheckImg42.Location = New System.Drawing.Point(394, 395)
         Me.CheckImg42.Name = "CheckImg42"
-        Me.CheckImg42.Size = New System.Drawing.Size(41, 17)
+        Me.CheckImg42.Size = New System.Drawing.Size(46, 17)
         Me.CheckImg42.TabIndex = 30
-        Me.CheckImg42.Text = "not"
+        Me.CheckImg42.Text = "nots"
         Me.CheckImg42.UseVisualStyleBackColor = False
         '
         'Btn_Calificar
@@ -292,9 +273,9 @@ Partial Class Nivel_9
         'txtImagen6
         '
         Me.txtImagen6.Image = CType(resources.GetObject("txtImagen6.Image"), System.Drawing.Image)
-        Me.txtImagen6.Location = New System.Drawing.Point(523, 309)
+        Me.txtImagen6.Location = New System.Drawing.Point(459, 330)
         Me.txtImagen6.Name = "txtImagen6"
-        Me.txtImagen6.Size = New System.Drawing.Size(108, 128)
+        Me.txtImagen6.Size = New System.Drawing.Size(116, 101)
         Me.txtImagen6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.txtImagen6.TabIndex = 32
         Me.txtImagen6.TabStop = False
@@ -303,7 +284,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg51.AutoSize = True
         Me.CheckImg51.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg51.Location = New System.Drawing.Point(638, 309)
+        Me.CheckImg51.Location = New System.Drawing.Point(588, 333)
         Me.CheckImg51.Name = "CheckImg51"
         Me.CheckImg51.Size = New System.Drawing.Size(89, 17)
         Me.CheckImg51.TabIndex = 33
@@ -314,7 +295,7 @@ Partial Class Nivel_9
         '
         Me.CheckImg52.AutoSize = True
         Me.CheckImg52.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg52.Location = New System.Drawing.Point(638, 345)
+        Me.CheckImg52.Location = New System.Drawing.Point(588, 377)
         Me.CheckImg52.Name = "CheckImg52"
         Me.CheckImg52.Size = New System.Drawing.Size(69, 17)
         Me.CheckImg52.TabIndex = 34
@@ -325,18 +306,18 @@ Partial Class Nivel_9
         '
         Me.CheckImg53.AutoSize = True
         Me.CheckImg53.BackColor = System.Drawing.Color.Transparent
-        Me.CheckImg53.Location = New System.Drawing.Point(638, 400)
+        Me.CheckImg53.Location = New System.Drawing.Point(588, 414)
         Me.CheckImg53.Name = "CheckImg53"
-        Me.CheckImg53.Size = New System.Drawing.Size(69, 17)
+        Me.CheckImg53.Size = New System.Drawing.Size(71, 17)
         Me.CheckImg53.TabIndex = 35
-        Me.CheckImg53.Text = "mountain"
+        Me.CheckImg53.Text = "mountainl"
         Me.CheckImg53.UseVisualStyleBackColor = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Location = New System.Drawing.Point(523, 290)
+        Me.Label5.Location = New System.Drawing.Point(473, 314)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(82, 13)
         Me.Label5.TabIndex = 36
@@ -364,6 +345,16 @@ Partial Class Nivel_9
         Me.Label6.TabIndex = 38
         Me.Label6.Text = "Volver al Menu"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(51, 100)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(119, 20)
+        Me.Label7.TabIndex = 39
+        Me.Label7.Text = "what is the time"
+        '
         'Nivel_9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -372,6 +363,7 @@ Partial Class Nivel_9
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label5)
@@ -389,8 +381,6 @@ Partial Class Nivel_9
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtImagen4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TxtPregunta1)
-        Me.Controls.Add(Me.txtImagen3)
         Me.Controls.Add(Me.CheckImg23)
         Me.Controls.Add(Me.CheckImg22)
         Me.Controls.Add(Me.CheckImg21)
@@ -408,7 +398,6 @@ Partial Class Nivel_9
         Me.Text = "Nivel_9"
         CType(Me.txtImagen1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtImagen2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtImagen3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtImagen4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtImagen5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtImagen6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -426,8 +415,6 @@ Partial Class Nivel_9
     Friend WithEvents CheckImg21 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckImg22 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckImg23 As System.Windows.Forms.CheckBox
-    Friend WithEvents txtImagen3 As System.Windows.Forms.PictureBox
-    Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents txtImagen4 As System.Windows.Forms.PictureBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -445,4 +432,5 @@ Partial Class Nivel_9
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
 End Class

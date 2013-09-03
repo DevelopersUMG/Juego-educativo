@@ -29,18 +29,21 @@ Partial Class Nivel_8_1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta2 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta3 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta4 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.TxtPregunta5 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label4
@@ -109,40 +112,40 @@ Partial Class Nivel_8_1
         Me.PictureBox4.TabIndex = 20
         Me.PictureBox4.TabStop = False
         '
-        'TextBox1
+        'TxtPregunta1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(95, 303)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox1.TabIndex = 21
+        Me.TxtPregunta1.Location = New System.Drawing.Point(95, 303)
+        Me.TxtPregunta1.Name = "TxtPregunta1"
+        Me.TxtPregunta1.Size = New System.Drawing.Size(116, 20)
+        Me.TxtPregunta1.TabIndex = 21
         '
-        'TextBox2
+        'TxtPregunta2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(299, 302)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox2.TabIndex = 22
+        Me.TxtPregunta2.Location = New System.Drawing.Point(299, 302)
+        Me.TxtPregunta2.Name = "TxtPregunta2"
+        Me.TxtPregunta2.Size = New System.Drawing.Size(116, 20)
+        Me.TxtPregunta2.TabIndex = 22
         '
-        'TextBox3
+        'TxtPregunta3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(478, 303)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox3.TabIndex = 23
+        Me.TxtPregunta3.Location = New System.Drawing.Point(478, 303)
+        Me.TxtPregunta3.Name = "TxtPregunta3"
+        Me.TxtPregunta3.Size = New System.Drawing.Size(116, 20)
+        Me.TxtPregunta3.TabIndex = 23
         '
-        'TextBox4
+        'TxtPregunta4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(663, 302)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox4.TabIndex = 24
+        Me.TxtPregunta4.Location = New System.Drawing.Point(663, 302)
+        Me.TxtPregunta4.Name = "TxtPregunta4"
+        Me.TxtPregunta4.Size = New System.Drawing.Size(116, 20)
+        Me.TxtPregunta4.TabIndex = 24
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(62, 485)
+        Me.Label6.Location = New System.Drawing.Point(61, 553)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(113, 20)
         Me.Label6.TabIndex = 44
@@ -153,7 +156,7 @@ Partial Class Nivel_8_1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(505, 485)
+        Me.Label1.Location = New System.Drawing.Point(520, 540)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(65, 20)
         Me.Label1.TabIndex = 43
@@ -164,7 +167,7 @@ Partial Class Nivel_8_1
         Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Btn_Calificar.Location = New System.Drawing.Point(509, 416)
+        Me.Btn_Calificar.Location = New System.Drawing.Point(524, 471)
         Me.Btn_Calificar.Name = "Btn_Calificar"
         Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
         Me.Btn_Calificar.TabIndex = 42
@@ -174,11 +177,28 @@ Partial Class Nivel_8_1
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
         Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(85, 416)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(85, 499)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
         Me.Btn_RegresaMenu.TabIndex = 41
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(407, 380)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(116, 101)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 45
+        Me.PictureBox5.TabStop = False
+        '
+        'TxtPregunta5
+        '
+        Me.TxtPregunta5.Location = New System.Drawing.Point(407, 488)
+        Me.TxtPregunta5.Name = "TxtPregunta5"
+        Me.TxtPregunta5.Size = New System.Drawing.Size(116, 20)
+        Me.TxtPregunta5.TabIndex = 46
         '
         'Nivel_8_1
         '
@@ -187,14 +207,16 @@ Partial Class Nivel_8_1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.TxtPregunta5)
+        Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.Btn_RegresaMenu)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TxtPregunta4)
+        Me.Controls.Add(Me.TxtPregunta3)
+        Me.Controls.Add(Me.TxtPregunta2)
+        Me.Controls.Add(Me.TxtPregunta1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
@@ -202,11 +224,13 @@ Partial Class Nivel_8_1
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Name = "Nivel_8_1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_8"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -217,12 +241,14 @@ Partial Class Nivel_8_1
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta2 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta3 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta4 As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
+    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents TxtPregunta5 As System.Windows.Forms.TextBox
 End Class

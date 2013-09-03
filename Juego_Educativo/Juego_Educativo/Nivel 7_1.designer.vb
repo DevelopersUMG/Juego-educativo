@@ -33,14 +33,17 @@ Partial Class Nivel_7_1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtImagen1 = New System.Windows.Forms.TextBox()
+        Me.txtImagen2 = New System.Windows.Forms.TextBox()
+        Me.txtImagen3 = New System.Windows.Forms.TextBox()
+        Me.txtImagen4 = New System.Windows.Forms.TextBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.txtImagen5 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label6
@@ -150,33 +153,50 @@ Partial Class Nivel_7_1
         Me.PictureBox5.TabIndex = 50
         Me.PictureBox5.TabStop = False
         '
-        'TextBox1
+        'txtImagen1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(104, 271)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox1.TabIndex = 51
+        Me.txtImagen1.Location = New System.Drawing.Point(104, 271)
+        Me.txtImagen1.Name = "txtImagen1"
+        Me.txtImagen1.Size = New System.Drawing.Size(116, 20)
+        Me.txtImagen1.TabIndex = 51
         '
-        'TextBox2
+        'txtImagen2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(301, 271)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox2.TabIndex = 52
+        Me.txtImagen2.Location = New System.Drawing.Point(301, 271)
+        Me.txtImagen2.Name = "txtImagen2"
+        Me.txtImagen2.Size = New System.Drawing.Size(116, 20)
+        Me.txtImagen2.TabIndex = 52
         '
-        'TextBox3
+        'txtImagen3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(470, 272)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox3.TabIndex = 53
+        Me.txtImagen3.Location = New System.Drawing.Point(470, 272)
+        Me.txtImagen3.Name = "txtImagen3"
+        Me.txtImagen3.Size = New System.Drawing.Size(116, 20)
+        Me.txtImagen3.TabIndex = 53
         '
-        'TextBox4
+        'txtImagen4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(648, 272)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox4.TabIndex = 54
+        Me.txtImagen4.Location = New System.Drawing.Point(648, 272)
+        Me.txtImagen4.Name = "txtImagen4"
+        Me.txtImagen4.Size = New System.Drawing.Size(116, 20)
+        Me.txtImagen4.TabIndex = 54
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(402, 334)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(116, 101)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 55
+        Me.PictureBox3.TabStop = False
+        '
+        'txtImagen5
+        '
+        Me.txtImagen5.Location = New System.Drawing.Point(402, 441)
+        Me.txtImagen5.Name = "txtImagen5"
+        Me.txtImagen5.Size = New System.Drawing.Size(116, 20)
+        Me.txtImagen5.TabIndex = 56
         '
         'Nivel_7_1
         '
@@ -185,10 +205,12 @@ Partial Class Nivel_7_1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtImagen5)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.txtImagen4)
+        Me.Controls.Add(Me.txtImagen3)
+        Me.Controls.Add(Me.txtImagen2)
+        Me.Controls.Add(Me.txtImagen1)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox2)
@@ -199,12 +221,14 @@ Partial Class Nivel_7_1
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Controls.Add(Me.Label6)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_7_1"
         Me.Text = "Nivel_7"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -219,8 +243,10 @@ Partial Class Nivel_7_1
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtImagen4 As System.Windows.Forms.TextBox
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtImagen5 As System.Windows.Forms.TextBox
 End Class
