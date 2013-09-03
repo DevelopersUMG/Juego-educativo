@@ -64,7 +64,11 @@
 
         '------------------------------------------  Tercer textbox    ---------------------------------------------
 
-        If txtresp3_nivel1 = "chiken" Then
+
+
+
+        If txtresp3_nivel1 = "chicken" Then
+
             'MessageBox.Show("correcto : " + txtresp3_nivel1)
             punteo = punteo + 4
         Else

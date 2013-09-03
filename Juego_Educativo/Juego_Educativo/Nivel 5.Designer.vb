@@ -57,9 +57,9 @@ Partial Class Nivel_5
         Me.pregunta1Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta1Nivel5.Location = New System.Drawing.Point(37, 160)
         Me.pregunta1Nivel5.Name = "pregunta1Nivel5"
-        Me.pregunta1Nivel5.Size = New System.Drawing.Size(312, 18)
+        Me.pregunta1Nivel5.Size = New System.Drawing.Size(313, 18)
         Me.pregunta1Nivel5.TabIndex = 8
-        Me.pregunta1Nivel5.Text = "1. Mi papá tomo dos vasos de jugo de naranja"
+        Me.pregunta1Nivel5.Text = "1. Mi papá bebio dos vasos de jugo de naranja"
         '
         'pregunta2Nivel5
         '

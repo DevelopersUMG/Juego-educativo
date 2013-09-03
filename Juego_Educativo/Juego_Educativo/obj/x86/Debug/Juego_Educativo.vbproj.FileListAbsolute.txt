@@ -235,3 +235,19 @@ G:\izquierdoo}\JUEGO EDUCATIVO 26 AGOSTO ÚLTIMA VERSIÓN\Juego-educativo-master
 G:\izquierdoo}\JUEGO EDUCATIVO 26 AGOSTO ÚLTIMA VERSIÓN\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3_1a.resources
 G:\izquierdoo}\JUEGO EDUCATIVO 26 AGOSTO ÚLTIMA VERSIÓN\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_4_1.resources
 G:\izquierdoo}\JUEGO EDUCATIVO 26 AGOSTO ÚLTIMA VERSIÓN\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_5_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe.config
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11y.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12y.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13y.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14y.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15y.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_2_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3_1a.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_4_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_5_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_6_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_7_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_8_1.resources
+C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9_1.resources

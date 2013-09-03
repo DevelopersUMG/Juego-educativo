@@ -386,6 +386,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 4_1.resx">
       <DependentUpon>Nivel 4_1.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 5.resx">
       <DependentUpon>Nivel 5.vb</DependentUpon>

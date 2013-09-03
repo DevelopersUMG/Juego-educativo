@@ -101,9 +101,9 @@ Partial Class Nivel_3_1a
         Me.pregunta1Nivel3_1a.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta1Nivel3_1a.Location = New System.Drawing.Point(63, 135)
         Me.pregunta1Nivel3_1a.Name = "pregunta1Nivel3_1a"
-        Me.pregunta1Nivel3_1a.Size = New System.Drawing.Size(314, 18)
+        Me.pregunta1Nivel3_1a.Size = New System.Drawing.Size(331, 18)
         Me.pregunta1Nivel3_1a.TabIndex = 22
-        Me.pregunta1Nivel3_1a.Text = "1.  Mis hermanos estan jugando con el juguete"
+        Me.pregunta1Nivel3_1a.Text = "1.  Mis hermanos estan jugando con los juguetes"
         '
         'Btn_Calificar
         '
@@ -128,7 +128,7 @@ Partial Class Nivel_3_1a
         '
         'txtpregunta1_3_1a
         '
-        Me.txtpregunta1_3_1a.Location = New System.Drawing.Point(410, 129)
+        Me.txtpregunta1_3_1a.Location = New System.Drawing.Point(410, 136)
         Me.txtpregunta1_3_1a.Name = "txtpregunta1_3_1a"
         Me.txtpregunta1_3_1a.Size = New System.Drawing.Size(256, 20)
         Me.txtpregunta1_3_1a.TabIndex = 43

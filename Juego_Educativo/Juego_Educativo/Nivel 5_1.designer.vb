@@ -23,11 +23,11 @@ Partial Class Nivel_5_1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Nivel_5_1))
-        Me.TxtPregunta5_5 = New System.Windows.Forms.TextBox()
-        Me.TxtPregunta4_5 = New System.Windows.Forms.TextBox()
-        Me.TxtPregunta3_5 = New System.Windows.Forms.TextBox()
-        Me.TxtPregunta2_5 = New System.Windows.Forms.TextBox()
-        Me.TxtPregunta1_5 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta5_5_1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta4_5_1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta3_5_1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta2_5_1 = New System.Windows.Forms.TextBox()
+        Me.TxtPregunta1_5_1 = New System.Windows.Forms.TextBox()
         Me.pregunta5Nivel5 = New System.Windows.Forms.Label()
         Me.pregunta4Nivel5 = New System.Windows.Forms.Label()
         Me.pregunta3Nivel5 = New System.Windows.Forms.Label()
@@ -38,40 +38,40 @@ Partial Class Nivel_5_1
         Me.instruccinN3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TxtPregunta5_5
+        'TxtPregunta5_5_1
         '
-        Me.TxtPregunta5_5.Location = New System.Drawing.Point(419, 374)
-        Me.TxtPregunta5_5.Name = "TxtPregunta5_5"
-        Me.TxtPregunta5_5.Size = New System.Drawing.Size(341, 20)
-        Me.TxtPregunta5_5.TabIndex = 27
+        Me.TxtPregunta5_5_1.Location = New System.Drawing.Point(440, 373)
+        Me.TxtPregunta5_5_1.Name = "TxtPregunta5_5_1"
+        Me.TxtPregunta5_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta5_5_1.TabIndex = 27
         '
-        'TxtPregunta4_5
+        'TxtPregunta4_5_1
         '
-        Me.TxtPregunta4_5.Location = New System.Drawing.Point(419, 332)
-        Me.TxtPregunta4_5.Name = "TxtPregunta4_5"
-        Me.TxtPregunta4_5.Size = New System.Drawing.Size(341, 20)
-        Me.TxtPregunta4_5.TabIndex = 26
+        Me.TxtPregunta4_5_1.Location = New System.Drawing.Point(440, 331)
+        Me.TxtPregunta4_5_1.Name = "TxtPregunta4_5_1"
+        Me.TxtPregunta4_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta4_5_1.TabIndex = 26
         '
-        'TxtPregunta3_5
+        'TxtPregunta3_5_1
         '
-        Me.TxtPregunta3_5.Location = New System.Drawing.Point(419, 284)
-        Me.TxtPregunta3_5.Name = "TxtPregunta3_5"
-        Me.TxtPregunta3_5.Size = New System.Drawing.Size(341, 20)
-        Me.TxtPregunta3_5.TabIndex = 25
+        Me.TxtPregunta3_5_1.Location = New System.Drawing.Point(440, 283)
+        Me.TxtPregunta3_5_1.Name = "TxtPregunta3_5_1"
+        Me.TxtPregunta3_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta3_5_1.TabIndex = 25
         '
-        'TxtPregunta2_5
+        'TxtPregunta2_5_1
         '
-        Me.TxtPregunta2_5.Location = New System.Drawing.Point(419, 239)
-        Me.TxtPregunta2_5.Name = "TxtPregunta2_5"
-        Me.TxtPregunta2_5.Size = New System.Drawing.Size(341, 20)
-        Me.TxtPregunta2_5.TabIndex = 24
+        Me.TxtPregunta2_5_1.Location = New System.Drawing.Point(440, 240)
+        Me.TxtPregunta2_5_1.Name = "TxtPregunta2_5_1"
+        Me.TxtPregunta2_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta2_5_1.TabIndex = 24
         '
-        'TxtPregunta1_5
+        'TxtPregunta1_5_1
         '
-        Me.TxtPregunta1_5.Location = New System.Drawing.Point(419, 189)
-        Me.TxtPregunta1_5.Name = "TxtPregunta1_5"
-        Me.TxtPregunta1_5.Size = New System.Drawing.Size(341, 20)
-        Me.TxtPregunta1_5.TabIndex = 23
+        Me.TxtPregunta1_5_1.Location = New System.Drawing.Point(440, 189)
+        Me.TxtPregunta1_5_1.Name = "TxtPregunta1_5_1"
+        Me.TxtPregunta1_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta1_5_1.TabIndex = 23
         '
         'pregunta5Nivel5
         '
@@ -80,9 +80,9 @@ Partial Class Nivel_5_1
         Me.pregunta5Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta5Nivel5.Location = New System.Drawing.Point(53, 375)
         Me.pregunta5Nivel5.Name = "pregunta5Nivel5"
-        Me.pregunta5Nivel5.Size = New System.Drawing.Size(345, 18)
+        Me.pregunta5Nivel5.Size = New System.Drawing.Size(377, 18)
         Me.pregunta5Nivel5.TabIndex = 22
-        Me.pregunta5Nivel5.Text = "5. Los niños estan llorando porque estan cansados"
+        Me.pregunta5Nivel5.Text = "5. Las manzanas y las naranjas son mis frutas favoritas."
         '
         'pregunta4Nivel5
         '
@@ -91,9 +91,9 @@ Partial Class Nivel_5_1
         Me.pregunta4Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta4Nivel5.Location = New System.Drawing.Point(53, 333)
         Me.pregunta4Nivel5.Name = "pregunta4Nivel5"
-        Me.pregunta4Nivel5.Size = New System.Drawing.Size(301, 18)
+        Me.pregunta4Nivel5.Size = New System.Drawing.Size(320, 18)
         Me.pregunta4Nivel5.TabIndex = 21
-        Me.pregunta4Nivel5.Text = "4. Todos estamos comiendo hamburguesas"
+        Me.pregunta4Nivel5.Text = "4. Había un montón de gente en el cine anoche."
         '
         'pregunta3Nivel5
         '
@@ -113,9 +113,9 @@ Partial Class Nivel_5_1
         Me.pregunta2Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta2Nivel5.Location = New System.Drawing.Point(53, 240)
         Me.pregunta2Nivel5.Name = "pregunta2Nivel5"
-        Me.pregunta2Nivel5.Size = New System.Drawing.Size(258, 18)
+        Me.pregunta2Nivel5.Size = New System.Drawing.Size(381, 18)
         Me.pregunta2Nivel5.TabIndex = 19
-        Me.pregunta2Nivel5.Text = "2. Luisa comio tres pedazos de pastel"
+        Me.pregunta2Nivel5.Text = "2. Roma y París son las ciudades más bellas del mundo."
         '
         'pregunta1Nivel5
         '
@@ -124,9 +124,9 @@ Partial Class Nivel_5_1
         Me.pregunta1Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pregunta1Nivel5.Location = New System.Drawing.Point(53, 191)
         Me.pregunta1Nivel5.Name = "pregunta1Nivel5"
-        Me.pregunta1Nivel5.Size = New System.Drawing.Size(312, 18)
+        Me.pregunta1Nivel5.Size = New System.Drawing.Size(293, 18)
         Me.pregunta1Nivel5.TabIndex = 18
-        Me.pregunta1Nivel5.Text = "1. Mi papá tomo dos vasos de jugo de naranja"
+        Me.pregunta1Nivel5.Text = "1. Todos mis hermanos estan en el colegio"
         '
         'Btn_Calificar
         '
@@ -171,11 +171,11 @@ Partial Class Nivel_5_1
         Me.Controls.Add(Me.instruccinN3)
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.Btn_RegresaMenu)
-        Me.Controls.Add(Me.TxtPregunta5_5)
-        Me.Controls.Add(Me.TxtPregunta4_5)
-        Me.Controls.Add(Me.TxtPregunta3_5)
-        Me.Controls.Add(Me.TxtPregunta2_5)
-        Me.Controls.Add(Me.TxtPregunta1_5)
+        Me.Controls.Add(Me.TxtPregunta5_5_1)
+        Me.Controls.Add(Me.TxtPregunta4_5_1)
+        Me.Controls.Add(Me.TxtPregunta3_5_1)
+        Me.Controls.Add(Me.TxtPregunta2_5_1)
+        Me.Controls.Add(Me.TxtPregunta1_5_1)
         Me.Controls.Add(Me.pregunta5Nivel5)
         Me.Controls.Add(Me.pregunta4Nivel5)
         Me.Controls.Add(Me.pregunta3Nivel5)
@@ -189,11 +189,11 @@ Partial Class Nivel_5_1
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TxtPregunta5_5 As System.Windows.Forms.TextBox
-    Friend WithEvents TxtPregunta4_5 As System.Windows.Forms.TextBox
-    Friend WithEvents TxtPregunta3_5 As System.Windows.Forms.TextBox
-    Friend WithEvents TxtPregunta2_5 As System.Windows.Forms.TextBox
-    Friend WithEvents TxtPregunta1_5 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta5_5_1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta4_5_1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta3_5_1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta2_5_1 As System.Windows.Forms.TextBox
+    Friend WithEvents TxtPregunta1_5_1 As System.Windows.Forms.TextBox
     Friend WithEvents pregunta5Nivel5 As System.Windows.Forms.Label
     Friend WithEvents pregunta4Nivel5 As System.Windows.Forms.Label
     Friend WithEvents pregunta3Nivel5 As System.Windows.Forms.Label
