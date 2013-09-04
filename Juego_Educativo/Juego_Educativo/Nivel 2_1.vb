@@ -41,7 +41,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta 1 (" + txtresp1_nivel2 + ")" + " *** Es incorrecta *** Error No." + conver)
+            MessageBox.Show("La respuesta No. 1 ( " + txtresp1_nivel2 + " )" + " *** Es incorrecta ***  Error No." + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_2.Show()
@@ -56,7 +56,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp2_nivel2 + "--- Es incorrecto" + conver)
+            MessageBox.Show("La respuesta No. 2 ( " + txtresp2_nivel2 + " )" + " *** Es incorrecta ***  Error No." + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_2.Show()
@@ -71,7 +71,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp3_nivel2 + "--- Es incorrecto" + conver)
+            MessageBox.Show("La respuesta No. 3 ( " + txtresp3_nivel2 + " )" + " *** Es incorrecta ***  Error No." + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_2.Show()
@@ -85,7 +85,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp4_nivel2 + "--- Es incorrecto" + conver)
+            MessageBox.Show("La respuesta No. 4 ( " + txtresp4_nivel2 + " )" + " *** Es incorrecta ***  Error No." + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_2.Show()
@@ -103,7 +103,7 @@
         Else
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp5_nivel2 + "--- Es incorrecto" + conver)
+            MessageBox.Show("La respuesta No. 5 ( " + txtresp5_nivel2 + " )" + " *** Es incorrecta ***  Error No." + conver)
             If conta_errores > 2 Then
                 Me.Close()
                 Nivel_2.Show()
@@ -113,7 +113,7 @@
 
         If punteo >= 12 Then
             puntos = Convert.ToString(punteo)
-            MessageBox.Show("Tu punteo fue " + puntos)
+            MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
             Me.Close()
             Nivel_3.Show()
         Else

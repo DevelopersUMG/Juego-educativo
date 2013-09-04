@@ -267,3 +267,7 @@ C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_7_1.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_8_1.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9_1.resources
+C:\Users\JuanCarlos\Desktop\Juego-educativo\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe.config
+C:\Users\JuanCarlos\Desktop\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.exe
+C:\Users\JuanCarlos\Desktop\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.xml
+C:\Users\JuanCarlos\Desktop\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.pdb

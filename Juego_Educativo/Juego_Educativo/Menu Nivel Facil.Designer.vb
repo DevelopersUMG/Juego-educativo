@@ -33,6 +33,11 @@ Partial Class Menu_Nivel_Facil
         Me.Btn_RegreInicio = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label1_nivel1 = New System.Windows.Forms.Label()
+        Me.Label2_nivel1 = New System.Windows.Forms.Label()
+        Me.Label3_nivel1 = New System.Windows.Forms.Label()
+        Me.Label4_nivel1 = New System.Windows.Forms.Label()
+        Me.Label5_nivel1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -140,6 +145,61 @@ Partial Class Menu_Nivel_Facil
         Me.Label6.TabIndex = 43
         Me.Label6.Text = "Volver al Menu"
         '
+        'Label1_nivel1
+        '
+        Me.Label1_nivel1.AutoSize = True
+        Me.Label1_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1_nivel1.Location = New System.Drawing.Point(26, 289)
+        Me.Label1_nivel1.Name = "Label1_nivel1"
+        Me.Label1_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label1_nivel1.TabIndex = 44
+        Me.Label1_nivel1.Text = "Completado"
+        Me.Label1_nivel1.Visible = False
+        '
+        'Label2_nivel1
+        '
+        Me.Label2_nivel1.AutoSize = True
+        Me.Label2_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2_nivel1.Location = New System.Drawing.Point(178, 289)
+        Me.Label2_nivel1.Name = "Label2_nivel1"
+        Me.Label2_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label2_nivel1.TabIndex = 45
+        Me.Label2_nivel1.Text = "Completado"
+        Me.Label2_nivel1.Visible = False
+        '
+        'Label3_nivel1
+        '
+        Me.Label3_nivel1.AutoSize = True
+        Me.Label3_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3_nivel1.Location = New System.Drawing.Point(313, 289)
+        Me.Label3_nivel1.Name = "Label3_nivel1"
+        Me.Label3_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label3_nivel1.TabIndex = 46
+        Me.Label3_nivel1.Text = "Completado"
+        Me.Label3_nivel1.Visible = False
+        '
+        'Label4_nivel1
+        '
+        Me.Label4_nivel1.AutoSize = True
+        Me.Label4_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4_nivel1.Location = New System.Drawing.Point(456, 289)
+        Me.Label4_nivel1.Name = "Label4_nivel1"
+        Me.Label4_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label4_nivel1.TabIndex = 47
+        Me.Label4_nivel1.Text = "Completado"
+        Me.Label4_nivel1.Visible = False
+        '
+        'Label5_nivel1
+        '
+        Me.Label5_nivel1.AutoSize = True
+        Me.Label5_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5_nivel1.Location = New System.Drawing.Point(606, 289)
+        Me.Label5_nivel1.Name = "Label5_nivel1"
+        Me.Label5_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label5_nivel1.TabIndex = 48
+        Me.Label5_nivel1.Text = "Completado"
+        Me.Label5_nivel1.Visible = False
+        '
         'Menu_Nivel_Facil
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -148,6 +208,11 @@ Partial Class Menu_Nivel_Facil
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.Controls.Add(Me.Label5_nivel1)
+        Me.Controls.Add(Me.Label4_nivel1)
+        Me.Controls.Add(Me.Label3_nivel1)
+        Me.Controls.Add(Me.Label2_nivel1)
+        Me.Controls.Add(Me.Label1_nivel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Btn_RegreInicio)
@@ -177,4 +242,9 @@ Partial Class Menu_Nivel_Facil
     Friend WithEvents Btn_RegreInicio As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label1_nivel1 As System.Windows.Forms.Label
+    Friend WithEvents Label2_nivel1 As System.Windows.Forms.Label
+    Friend WithEvents Label3_nivel1 As System.Windows.Forms.Label
+    Friend WithEvents Label4_nivel1 As System.Windows.Forms.Label
+    Friend WithEvents Label5_nivel1 As System.Windows.Forms.Label
 End Class
