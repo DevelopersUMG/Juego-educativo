@@ -35,9 +35,10 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_Facil.BackgroundImage = CType(resources.GetObject("Btn_Facil.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Facil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Facil.Location = New System.Drawing.Point(128, 263)
+        Me.Btn_Facil.Location = New System.Drawing.Point(171, 324)
+        Me.Btn_Facil.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Facil.Name = "Btn_Facil"
-        Me.Btn_Facil.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Facil.Size = New System.Drawing.Size(212, 46)
         Me.Btn_Facil.TabIndex = 0
         Me.Btn_Facil.UseVisualStyleBackColor = True
         '
@@ -45,9 +46,10 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_Medio.BackgroundImage = CType(resources.GetObject("Btn_Medio.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Medio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Medio.Location = New System.Drawing.Point(382, 263)
+        Me.Btn_Medio.Location = New System.Drawing.Point(509, 324)
+        Me.Btn_Medio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Medio.Name = "Btn_Medio"
-        Me.Btn_Medio.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Medio.Size = New System.Drawing.Size(212, 46)
         Me.Btn_Medio.TabIndex = 1
         Me.Btn_Medio.UseVisualStyleBackColor = True
         '
@@ -55,9 +57,10 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_Dificil.BackgroundImage = CType(resources.GetObject("Btn_Dificil.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Dificil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Dificil.Location = New System.Drawing.Point(614, 263)
+        Me.Btn_Dificil.Location = New System.Drawing.Point(819, 324)
+        Me.Btn_Dificil.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Dificil.Name = "Btn_Dificil"
-        Me.Btn_Dificil.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Dificil.Size = New System.Drawing.Size(212, 46)
         Me.Btn_Dificil.TabIndex = 2
         Me.Btn_Dificil.UseVisualStyleBackColor = True
         '
@@ -69,18 +72,20 @@ Partial Class Menu_de_Opciones
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label1.Location = New System.Drawing.Point(179, 40)
+        Me.Label1.Location = New System.Drawing.Point(239, 49)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(550, 73)
+        Me.Label1.Size = New System.Drawing.Size(675, 91)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Niveles De Juego"
         '
         'Btn_RegreInicio
         '
         Me.Btn_RegreInicio.BackgroundImage = CType(resources.GetObject("Btn_RegreInicio.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegreInicio.Location = New System.Drawing.Point(400, 498)
+        Me.Btn_RegreInicio.Location = New System.Drawing.Point(541, 627)
+        Me.Btn_RegreInicio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_RegreInicio.Name = "Btn_RegreInicio"
-        Me.Btn_RegreInicio.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_RegreInicio.Size = New System.Drawing.Size(51, 50)
         Me.Btn_RegreInicio.TabIndex = 4
         Me.Btn_RegreInicio.UseVisualStyleBackColor = True
         '
@@ -89,20 +94,21 @@ Partial Class Menu_de_Opciones
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(378, 553)
+        Me.Label2.Location = New System.Drawing.Point(504, 681)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(107, 20)
+        Me.Label2.Size = New System.Drawing.Size(134, 25)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Volver a Inicio"
         '
         'Menu_de_Opciones
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.ClientSize = New System.Drawing.Size(1083, 716)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Btn_RegreInicio)
         Me.Controls.Add(Me.Label1)
@@ -110,6 +116,7 @@ Partial Class Menu_de_Opciones
         Me.Controls.Add(Me.Btn_Medio)
         Me.Controls.Add(Me.Btn_Facil)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "Menu_de_Opciones"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

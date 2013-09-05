@@ -48,9 +48,10 @@ Partial Class Menu_Nivel_Facil
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Image = CType(resources.GetObject("Label1.Image"), System.Drawing.Image)
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label1.Location = New System.Drawing.Point(141, 34)
+        Me.Label1.Location = New System.Drawing.Point(188, 42)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(548, 37)
+        Me.Label1.Size = New System.Drawing.Size(680, 46)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Escoja entre los Siguientes Niveles"
         '
@@ -58,9 +59,10 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_Nivel1.BackgroundImage = CType(resources.GetObject("Btn_Nivel1.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Nivel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Nivel1.Location = New System.Drawing.Point(27, 230)
+        Me.Btn_Nivel1.Location = New System.Drawing.Point(36, 283)
+        Me.Btn_Nivel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Nivel1.Name = "Btn_Nivel1"
-        Me.Btn_Nivel1.Size = New System.Drawing.Size(99, 41)
+        Me.Btn_Nivel1.Size = New System.Drawing.Size(132, 50)
         Me.Btn_Nivel1.TabIndex = 1
         Me.Btn_Nivel1.UseVisualStyleBackColor = True
         '
@@ -68,9 +70,10 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_Nivel2.BackgroundImage = CType(resources.GetObject("Btn_Nivel2.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Nivel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Nivel2.Location = New System.Drawing.Point(174, 230)
+        Me.Btn_Nivel2.Location = New System.Drawing.Point(232, 283)
+        Me.Btn_Nivel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Nivel2.Name = "Btn_Nivel2"
-        Me.Btn_Nivel2.Size = New System.Drawing.Size(99, 41)
+        Me.Btn_Nivel2.Size = New System.Drawing.Size(132, 50)
         Me.Btn_Nivel2.TabIndex = 2
         Me.Btn_Nivel2.UseVisualStyleBackColor = True
         '
@@ -78,9 +81,10 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_Nivel3.BackgroundImage = CType(resources.GetObject("Btn_Nivel3.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Nivel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Nivel3.Location = New System.Drawing.Point(309, 230)
+        Me.Btn_Nivel3.Location = New System.Drawing.Point(412, 283)
+        Me.Btn_Nivel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Nivel3.Name = "Btn_Nivel3"
-        Me.Btn_Nivel3.Size = New System.Drawing.Size(99, 41)
+        Me.Btn_Nivel3.Size = New System.Drawing.Size(132, 50)
         Me.Btn_Nivel3.TabIndex = 3
         Me.Btn_Nivel3.UseVisualStyleBackColor = True
         '
@@ -88,9 +92,10 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_Nivel4.BackgroundImage = CType(resources.GetObject("Btn_Nivel4.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Nivel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Nivel4.Location = New System.Drawing.Point(452, 230)
+        Me.Btn_Nivel4.Location = New System.Drawing.Point(603, 283)
+        Me.Btn_Nivel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Nivel4.Name = "Btn_Nivel4"
-        Me.Btn_Nivel4.Size = New System.Drawing.Size(99, 41)
+        Me.Btn_Nivel4.Size = New System.Drawing.Size(132, 50)
         Me.Btn_Nivel4.TabIndex = 4
         Me.Btn_Nivel4.UseVisualStyleBackColor = True
         '
@@ -98,9 +103,10 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_Nivel5.BackgroundImage = CType(resources.GetObject("Btn_Nivel5.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Nivel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Nivel5.Location = New System.Drawing.Point(602, 230)
+        Me.Btn_Nivel5.Location = New System.Drawing.Point(803, 283)
+        Me.Btn_Nivel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Nivel5.Name = "Btn_Nivel5"
-        Me.Btn_Nivel5.Size = New System.Drawing.Size(99, 41)
+        Me.Btn_Nivel5.Size = New System.Drawing.Size(132, 50)
         Me.Btn_Nivel5.TabIndex = 5
         Me.Btn_Nivel5.UseVisualStyleBackColor = True
         '
@@ -108,18 +114,20 @@ Partial Class Menu_Nivel_Facil
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
         Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(126, 500)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(168, 615)
+        Me.Btn_RegresaMenu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
-        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(68, 63)
         Me.Btn_RegresaMenu.TabIndex = 6
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
         'Btn_RegreInicio
         '
         Me.Btn_RegreInicio.BackgroundImage = CType(resources.GetObject("Btn_RegreInicio.BackgroundImage"), System.Drawing.Image)
-        Me.Btn_RegreInicio.Location = New System.Drawing.Point(525, 500)
+        Me.Btn_RegreInicio.Location = New System.Drawing.Point(700, 615)
+        Me.Btn_RegreInicio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_RegreInicio.Name = "Btn_RegreInicio"
-        Me.Btn_RegreInicio.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_RegreInicio.Size = New System.Drawing.Size(68, 63)
         Me.Btn_RegreInicio.TabIndex = 7
         Me.Btn_RegreInicio.UseVisualStyleBackColor = True
         '
@@ -128,9 +136,10 @@ Partial Class Menu_Nivel_Facil
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(503, 553)
+        Me.Label2.Location = New System.Drawing.Point(671, 681)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(107, 20)
+        Me.Label2.Size = New System.Drawing.Size(134, 25)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Volver a Inicio"
         '
@@ -139,19 +148,22 @@ Partial Class Menu_Nivel_Facil
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(98, 554)
+        Me.Label6.Location = New System.Drawing.Point(131, 682)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(113, 20)
+        Me.Label6.Size = New System.Drawing.Size(143, 25)
         Me.Label6.TabIndex = 43
         Me.Label6.Text = "Volver al Menu"
         '
         'Label1_nivel1
         '
         Me.Label1_nivel1.AutoSize = True
+        Me.Label1_nivel1.BackColor = System.Drawing.Color.Transparent
         Me.Label1_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1_nivel1.Location = New System.Drawing.Point(26, 289)
+        Me.Label1_nivel1.Location = New System.Drawing.Point(35, 356)
+        Me.Label1_nivel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1_nivel1.Name = "Label1_nivel1"
-        Me.Label1_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label1_nivel1.Size = New System.Drawing.Size(118, 25)
         Me.Label1_nivel1.TabIndex = 44
         Me.Label1_nivel1.Text = "Completado"
         Me.Label1_nivel1.Visible = False
@@ -159,10 +171,12 @@ Partial Class Menu_Nivel_Facil
         'Label2_nivel1
         '
         Me.Label2_nivel1.AutoSize = True
+        Me.Label2_nivel1.BackColor = System.Drawing.Color.Transparent
         Me.Label2_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2_nivel1.Location = New System.Drawing.Point(178, 289)
+        Me.Label2_nivel1.Location = New System.Drawing.Point(237, 356)
+        Me.Label2_nivel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2_nivel1.Name = "Label2_nivel1"
-        Me.Label2_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label2_nivel1.Size = New System.Drawing.Size(118, 25)
         Me.Label2_nivel1.TabIndex = 45
         Me.Label2_nivel1.Text = "Completado"
         Me.Label2_nivel1.Visible = False
@@ -170,10 +184,12 @@ Partial Class Menu_Nivel_Facil
         'Label3_nivel1
         '
         Me.Label3_nivel1.AutoSize = True
+        Me.Label3_nivel1.BackColor = System.Drawing.Color.Transparent
         Me.Label3_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3_nivel1.Location = New System.Drawing.Point(313, 289)
+        Me.Label3_nivel1.Location = New System.Drawing.Point(417, 356)
+        Me.Label3_nivel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3_nivel1.Name = "Label3_nivel1"
-        Me.Label3_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label3_nivel1.Size = New System.Drawing.Size(118, 25)
         Me.Label3_nivel1.TabIndex = 46
         Me.Label3_nivel1.Text = "Completado"
         Me.Label3_nivel1.Visible = False
@@ -181,10 +197,12 @@ Partial Class Menu_Nivel_Facil
         'Label4_nivel1
         '
         Me.Label4_nivel1.AutoSize = True
+        Me.Label4_nivel1.BackColor = System.Drawing.Color.Transparent
         Me.Label4_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4_nivel1.Location = New System.Drawing.Point(456, 289)
+        Me.Label4_nivel1.Location = New System.Drawing.Point(608, 356)
+        Me.Label4_nivel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4_nivel1.Name = "Label4_nivel1"
-        Me.Label4_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label4_nivel1.Size = New System.Drawing.Size(118, 25)
         Me.Label4_nivel1.TabIndex = 47
         Me.Label4_nivel1.Text = "Completado"
         Me.Label4_nivel1.Visible = False
@@ -192,22 +210,24 @@ Partial Class Menu_Nivel_Facil
         'Label5_nivel1
         '
         Me.Label5_nivel1.AutoSize = True
+        Me.Label5_nivel1.BackColor = System.Drawing.Color.Transparent
         Me.Label5_nivel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5_nivel1.Location = New System.Drawing.Point(606, 289)
+        Me.Label5_nivel1.Location = New System.Drawing.Point(808, 356)
+        Me.Label5_nivel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5_nivel1.Name = "Label5_nivel1"
-        Me.Label5_nivel1.Size = New System.Drawing.Size(95, 20)
+        Me.Label5_nivel1.Size = New System.Drawing.Size(118, 25)
         Me.Label5_nivel1.TabIndex = 48
         Me.Label5_nivel1.Text = "Completado"
         Me.Label5_nivel1.Visible = False
         '
         'Menu_Nivel_Facil
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.ClientSize = New System.Drawing.Size(1083, 716)
         Me.Controls.Add(Me.Label5_nivel1)
         Me.Controls.Add(Me.Label4_nivel1)
         Me.Controls.Add(Me.Label3_nivel1)
@@ -224,6 +244,7 @@ Partial Class Menu_Nivel_Facil
         Me.Controls.Add(Me.Btn_Nivel1)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "Menu_Nivel_Facil"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
