@@ -80,6 +80,7 @@ Partial Class Nivel_1
         Me.imagen3Nivel1.Location = New System.Drawing.Point(342, 146)
         Me.imagen3Nivel1.Name = "imagen3Nivel1"
         Me.imagen3Nivel1.Size = New System.Drawing.Size(116, 101)
+        Me.imagen3Nivel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen3Nivel1.TabIndex = 10
         Me.imagen3Nivel1.TabStop = False
         '
@@ -89,6 +90,7 @@ Partial Class Nivel_1
         Me.imagen4Nivel1.Location = New System.Drawing.Point(515, 146)
         Me.imagen4Nivel1.Name = "imagen4Nivel1"
         Me.imagen4Nivel1.Size = New System.Drawing.Size(116, 101)
+        Me.imagen4Nivel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen4Nivel1.TabIndex = 11
         Me.imagen4Nivel1.TabStop = False
         '
@@ -98,6 +100,7 @@ Partial Class Nivel_1
         Me.imagen5Nivel1.Location = New System.Drawing.Point(679, 146)
         Me.imagen5Nivel1.Name = "imagen5Nivel1"
         Me.imagen5Nivel1.Size = New System.Drawing.Size(116, 101)
+        Me.imagen5Nivel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen5Nivel1.TabIndex = 12
         Me.imagen5Nivel1.TabStop = False
         '

@@ -55,4 +55,8 @@ Public Class Principal
     Private Sub Text_Usuario_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Text_Usuario.TextChanged
 
     End Sub
+
+    Private Sub Principal_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

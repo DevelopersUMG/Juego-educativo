@@ -8,6 +8,68 @@
     Dim punteo As Integer
     Dim conver As String
     Dim puntos As String
+    Public Function calificandonivelcuatrob()
+        '--------------------------------------   Primer textbox     -----------------------------------------------------
+        If txtresp1_nivel4 = "candys" Then
+            ' MessageBox.Show("correcto : " + txtresp1_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show("La respuesta No. 1 ( " + txtresp1_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
+        End If
+
+        '------------------------------------------  Seundo textbox ---------------------------------------------
+
+        If txtresp2_nivel4 = "hotdog" Then
+            'MessageBox.Show("correcto : " + txtresp2_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show("La respuesta No. 2 ( " + txtresp2_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
+        End If
+
+        '------------------------------------------  Tercer textbox    ---------------------------------------------
+
+        If txtresp3_nivel4 = "french fries" Then
+            'MessageBox.Show("correcto : " + txtresp3_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show("La respuesta No. 3 ( " + txtresp3_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
+        End If
+        '------------------------------------------  Cuarto textbox    ---------------------------------------------
+
+        If txtresp4_nivel4 = "pop corn" Then
+            'MessageBox.Show("correcto : " + txtresp4_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show("La respuesta No. 4 ( " + txtresp4_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
+        End If
+
+
+        '------------------------------------------  Quinto textbox    ---------------------------------------------
+
+        If txtresp5_nivel4 = "ice cream" Then
+            'MessageBox.Show("correcto : " + txtresp5_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show("La respuesta No. 5 ( " + txtresp5_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
+        End If
+        If punteo >= 12 Then
+            puntos = Convert.ToString(punteo)
+            MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
+        Else
+            punteo = 0
+        End If
+        Return punteo
+    End Function
 
     Private Sub txtImagen1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtImagen1_4.TextChanged
         txtresp1_nivel4 = txtImagen1_4.Text
@@ -30,91 +92,99 @@
     End Sub
 
     Private Sub Btn_Calificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Calificar.Click
-        '--------------------------------------   Primer textbox     -----------------------------------------------------
+        Dim objeto As usuario
+        objeto = New usuario()
+        Dim puntos As Integer
+        puntos = objeto.comprobarpunteo()
+        Dim calificar As Integer
+        If (puntos = 60) Then
+            calificar = calificandonivelcuatrob()
 
-        If txtresp1_nivel4 = "candys" Then
-            ' MessageBox.Show("correcto : " + txtresp1_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta No. 1 ( " + txtresp1_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_4.Show()
-            End If
-        End If
+            Select Case calificar
+                Case 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_4.Show()
+                Case 16
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_4.Show()
+                Case 20
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Menu_Nivel_Facil.Show()
 
-        '------------------------------------------  Seundo textbox ---------------------------------------------
-
-        If txtresp2_nivel4 = "hotdog" Then
-            'MessageBox.Show("correcto : " + txtresp2_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta No. 2 ( " + txtresp2_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_4.Show()
-            End If
-        End If
-
-        '------------------------------------------  Tercer textbox    ---------------------------------------------
-
-        If txtresp3_nivel4 = "french fries" Then
-            'MessageBox.Show("correcto : " + txtresp3_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta No. 3 ( " + txtresp3_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_4.Show()
-            End If
-        End If
-        '------------------------------------------  Cuarto textbox    ---------------------------------------------
-
-        If txtresp4_nivel4 = "pop corn" Then
-            'MessageBox.Show("correcto : " + txtresp4_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta No. 4 ( " + txtresp4_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_4.Show()
-            End If
-        End If
-
-
-
-
-        '------------------------------------------  Quinto textbox    ---------------------------------------------
-
-        If txtresp5_nivel4 = "ice cream" Then
-            'MessageBox.Show("correcto : " + txtresp5_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show("La respuesta No. 5 ( " + txtresp5_nivel4 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_4.Show()
-            End If
-        End If
-
-        If punteo >= 12 Then
-            puntos = Convert.ToString(punteo)
-            MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
+                Case Else
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(0, puntos)
+                    Nivel_4.Show()
+            End Select
             Me.Close()
-            Nivel_5.Show()
-        Else
-            punteo = 0
+
+        ElseIf (puntos >= 72 And puntos < 80) Then
+            calificar = calificandonivelcuatrob()
+            Select Case calificar
+
+                Case 4 And puntos = 72 ' si tiene 1 respuesta buena y tiene 12 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 4 And puntos = 76     ' si tiene 1 respuesta buena y tiene 16 de puntos 
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 8 And puntos = 72      ' si tiene 2 respuesta buena y tiene 12 de puntos (da clavo)
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 8 And puntos = 76   ' si tiene 2 respuesta buena y tiene 16 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+                Case 12 And puntos = 72
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 72
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 76
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+                Case 16 And puntos = 72
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 16 And puntos = 76
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+            End Select
+
+
+
+
+            'no califica------------------------------------------------------------------------------------------------------
+            'calificandonivelunob()
         End If
+        Me.Close()
+
+
+
     End Sub
 
     Private Sub Btn_RegresaMenu_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_RegresaMenu.Click

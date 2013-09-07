@@ -27,21 +27,34 @@ Public Class Menu_de_Opciones
         InitializeComponent()
         Dim level As usuario
         level = New usuario()
-        Dim nivelactual As String
+        Dim nivelactual As Integer
         nivelactual = level.comprobarnivel()
-        MsgBox(nivelactual)
+        MsgBox(nivelactual.ToString)
         Select Case nivelactual
             Case 0
                 Btn_Medio.Hide()
                 Btn_Dificil.Hide()
             Case 1
-                Btn_Facil.Hide()
+                label1completado.Show()
+                Btn_Medio.Show()
                 Btn_Dificil.Hide()
             Case 2
-                Btn_Facil.Hide()
-                Btn_Medio.Hide()
+                label1completado.Show()
+                label2completado.Show()
+                label3completado.Show()
+
         End Select
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        cambiopass.Show()
+        Me.Close()
+
+    End Sub
+
+    Private Sub Menu_de_Opciones_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

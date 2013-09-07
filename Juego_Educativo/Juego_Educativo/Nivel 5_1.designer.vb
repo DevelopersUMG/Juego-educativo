@@ -40,37 +40,42 @@ Partial Class Nivel_5_1
         '
         'TxtPregunta5_5_1
         '
-        Me.TxtPregunta5_5_1.Location = New System.Drawing.Point(440, 373)
+        Me.TxtPregunta5_5_1.Location = New System.Drawing.Point(587, 459)
+        Me.TxtPregunta5_5_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtPregunta5_5_1.Name = "TxtPregunta5_5_1"
-        Me.TxtPregunta5_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta5_5_1.Size = New System.Drawing.Size(453, 22)
         Me.TxtPregunta5_5_1.TabIndex = 27
         '
         'TxtPregunta4_5_1
         '
-        Me.TxtPregunta4_5_1.Location = New System.Drawing.Point(440, 331)
+        Me.TxtPregunta4_5_1.Location = New System.Drawing.Point(587, 407)
+        Me.TxtPregunta4_5_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtPregunta4_5_1.Name = "TxtPregunta4_5_1"
-        Me.TxtPregunta4_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta4_5_1.Size = New System.Drawing.Size(453, 22)
         Me.TxtPregunta4_5_1.TabIndex = 26
         '
         'TxtPregunta3_5_1
         '
-        Me.TxtPregunta3_5_1.Location = New System.Drawing.Point(440, 283)
+        Me.TxtPregunta3_5_1.Location = New System.Drawing.Point(587, 348)
+        Me.TxtPregunta3_5_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtPregunta3_5_1.Name = "TxtPregunta3_5_1"
-        Me.TxtPregunta3_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta3_5_1.Size = New System.Drawing.Size(453, 22)
         Me.TxtPregunta3_5_1.TabIndex = 25
         '
         'TxtPregunta2_5_1
         '
-        Me.TxtPregunta2_5_1.Location = New System.Drawing.Point(440, 240)
+        Me.TxtPregunta2_5_1.Location = New System.Drawing.Point(587, 295)
+        Me.TxtPregunta2_5_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtPregunta2_5_1.Name = "TxtPregunta2_5_1"
-        Me.TxtPregunta2_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta2_5_1.Size = New System.Drawing.Size(453, 22)
         Me.TxtPregunta2_5_1.TabIndex = 24
         '
         'TxtPregunta1_5_1
         '
-        Me.TxtPregunta1_5_1.Location = New System.Drawing.Point(440, 189)
+        Me.TxtPregunta1_5_1.Location = New System.Drawing.Point(587, 233)
+        Me.TxtPregunta1_5_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtPregunta1_5_1.Name = "TxtPregunta1_5_1"
-        Me.TxtPregunta1_5_1.Size = New System.Drawing.Size(341, 20)
+        Me.TxtPregunta1_5_1.Size = New System.Drawing.Size(453, 22)
         Me.TxtPregunta1_5_1.TabIndex = 23
         '
         'pregunta5Nivel5
@@ -78,9 +83,10 @@ Partial Class Nivel_5_1
         Me.pregunta5Nivel5.AutoSize = True
         Me.pregunta5Nivel5.BackColor = System.Drawing.Color.Transparent
         Me.pregunta5Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pregunta5Nivel5.Location = New System.Drawing.Point(53, 375)
+        Me.pregunta5Nivel5.Location = New System.Drawing.Point(71, 462)
+        Me.pregunta5Nivel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.pregunta5Nivel5.Name = "pregunta5Nivel5"
-        Me.pregunta5Nivel5.Size = New System.Drawing.Size(377, 18)
+        Me.pregunta5Nivel5.Size = New System.Drawing.Size(464, 24)
         Me.pregunta5Nivel5.TabIndex = 22
         Me.pregunta5Nivel5.Text = "5. Las manzanas y las naranjas son mis frutas favoritas."
         '
@@ -89,9 +95,10 @@ Partial Class Nivel_5_1
         Me.pregunta4Nivel5.AutoSize = True
         Me.pregunta4Nivel5.BackColor = System.Drawing.Color.Transparent
         Me.pregunta4Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pregunta4Nivel5.Location = New System.Drawing.Point(53, 333)
+        Me.pregunta4Nivel5.Location = New System.Drawing.Point(71, 410)
+        Me.pregunta4Nivel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.pregunta4Nivel5.Name = "pregunta4Nivel5"
-        Me.pregunta4Nivel5.Size = New System.Drawing.Size(320, 18)
+        Me.pregunta4Nivel5.Size = New System.Drawing.Size(417, 24)
         Me.pregunta4Nivel5.TabIndex = 21
         Me.pregunta4Nivel5.Text = "4. Había un montón de gente en el cine anoche."
         '
@@ -100,9 +107,10 @@ Partial Class Nivel_5_1
         Me.pregunta3Nivel5.AutoSize = True
         Me.pregunta3Nivel5.BackColor = System.Drawing.Color.Transparent
         Me.pregunta3Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pregunta3Nivel5.Location = New System.Drawing.Point(53, 285)
+        Me.pregunta3Nivel5.Location = New System.Drawing.Point(71, 351)
+        Me.pregunta3Nivel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.pregunta3Nivel5.Name = "pregunta3Nivel5"
-        Me.pregunta3Nivel5.Size = New System.Drawing.Size(277, 18)
+        Me.pregunta3Nivel5.Size = New System.Drawing.Size(353, 24)
         Me.pregunta3Nivel5.TabIndex = 20
         Me.pregunta3Nivel5.Text = "3. Los perros estan corriendo en el jardin"
         '
@@ -111,9 +119,10 @@ Partial Class Nivel_5_1
         Me.pregunta2Nivel5.AutoSize = True
         Me.pregunta2Nivel5.BackColor = System.Drawing.Color.Transparent
         Me.pregunta2Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pregunta2Nivel5.Location = New System.Drawing.Point(53, 240)
+        Me.pregunta2Nivel5.Location = New System.Drawing.Point(71, 295)
+        Me.pregunta2Nivel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.pregunta2Nivel5.Name = "pregunta2Nivel5"
-        Me.pregunta2Nivel5.Size = New System.Drawing.Size(381, 18)
+        Me.pregunta2Nivel5.Size = New System.Drawing.Size(481, 24)
         Me.pregunta2Nivel5.TabIndex = 19
         Me.pregunta2Nivel5.Text = "2. Roma y París son las ciudades más bellas del mundo."
         '
@@ -122,9 +131,10 @@ Partial Class Nivel_5_1
         Me.pregunta1Nivel5.AutoSize = True
         Me.pregunta1Nivel5.BackColor = System.Drawing.Color.Transparent
         Me.pregunta1Nivel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pregunta1Nivel5.Location = New System.Drawing.Point(53, 191)
+        Me.pregunta1Nivel5.Location = New System.Drawing.Point(71, 235)
+        Me.pregunta1Nivel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.pregunta1Nivel5.Name = "pregunta1Nivel5"
-        Me.pregunta1Nivel5.Size = New System.Drawing.Size(293, 18)
+        Me.pregunta1Nivel5.Size = New System.Drawing.Size(372, 24)
         Me.pregunta1Nivel5.TabIndex = 18
         Me.pregunta1Nivel5.Text = "1. Todos mis hermanos estan en el colegio"
         '
@@ -133,9 +143,10 @@ Partial Class Nivel_5_1
         Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Btn_Calificar.Location = New System.Drawing.Point(532, 489)
+        Me.Btn_Calificar.Location = New System.Drawing.Point(709, 602)
+        Me.Btn_Calificar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_Calificar.Name = "Btn_Calificar"
-        Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_Calificar.Size = New System.Drawing.Size(68, 63)
         Me.Btn_Calificar.TabIndex = 44
         Me.Btn_Calificar.UseVisualStyleBackColor = True
         '
@@ -143,9 +154,10 @@ Partial Class Nivel_5_1
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
         Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(70, 489)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(93, 602)
+        Me.Btn_RegresaMenu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
-        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
+        Me.Btn_RegresaMenu.Size = New System.Drawing.Size(68, 63)
         Me.Btn_RegresaMenu.TabIndex = 43
         Me.Btn_RegresaMenu.UseVisualStyleBackColor = True
         '
@@ -154,20 +166,21 @@ Partial Class Nivel_5_1
         Me.instruccinN3.AutoSize = True
         Me.instruccinN3.BackColor = System.Drawing.Color.Transparent
         Me.instruccinN3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.instruccinN3.Location = New System.Drawing.Point(34, 56)
+        Me.instruccinN3.Location = New System.Drawing.Point(45, 69)
+        Me.instruccinN3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.instruccinN3.Name = "instruccinN3"
-        Me.instruccinN3.Size = New System.Drawing.Size(538, 40)
+        Me.instruccinN3.Size = New System.Drawing.Size(664, 50)
         Me.instruccinN3.TabIndex = 45
         Me.instruccinN3.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, la traduccion de las oracione" & _
             "s en ingles" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Nivel_5_1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.ClientSize = New System.Drawing.Size(1083, 716)
         Me.Controls.Add(Me.instruccinN3)
         Me.Controls.Add(Me.Btn_Calificar)
         Me.Controls.Add(Me.Btn_RegresaMenu)
@@ -182,6 +195,7 @@ Partial Class Nivel_5_1
         Me.Controls.Add(Me.pregunta2Nivel5)
         Me.Controls.Add(Me.pregunta1Nivel5)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Nivel_5_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_5_1"

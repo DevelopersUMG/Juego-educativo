@@ -116,66 +116,66 @@
                 MsgBox("calificamos:" + calificar.ToString)
                 Select Case calificar
                     Case 12
-                        puntos = objeto.comprobarpunteo()
-                        objeto.sumarpunteo(calificar, puntos)
+                        objeto.sumarpunteo(12, puntos)
                         MsgBox("sumamos flag" + calificar.ToString)
                         Nivel_1_1.Show()
                     Case 16
-                        puntos = objeto.comprobarpunteo()
-                        objeto.sumarpunteo(calificar, puntos)
+                        objeto.sumarpunteo(16, puntos)
                         Nivel_1_1.Show()
                     Case 20
-                        puntos = objeto.comprobarpunteo()
-                        objeto.sumarpunteo(calificar, puntos)
+                        objeto.sumarpunteo(20, puntos)
                         Menu_Nivel_Facil.Show()
                     Case 4
-                        puntos = objeto.comprobarpunteo()
                         MsgBox("vuelva a intentarlo")
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Facil.Show()
                     Case 8
-                        puntos = objeto.comprobarpunteo()
                         MsgBox("vuelva a intentarlo")
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Facil.Show()
                     Case Else
-                        puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Facil.Show()
                 End Select
                 Me.Close()
-            ElseIf (puntos >= 12) Then
+            ElseIf (puntos >= 12 And puntos < 20) Then
                 calificar = calificandoniveluno()
                 MsgBox("saco" + calificar.ToString)
                 Select Case calificar
-                    Case 4
+                    Case (calificar = 4 And puntos = 12)
                         puntos = objeto.comprobarpunteo()
-                        objeto.sumarpunteo(calificar, puntos)
-                        MsgBox("mandamos" + calificar.ToString)
+                        objeto.sumarpunteo(4, puntos)
                         Nivel_1_1.Show()
-                    Case Is >= 8
+                    Case (calificar = 4 And puntos = 16)
+                        puntos = objeto.comprobarpunteo()
+                        objeto.sumarpunteo(4, puntos)
+                        Menu_Nivel_Facil.Show()
+                    Case (calificar = 8 And puntos = 12)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(8, puntos)
-                        MsgBox("mandamos" + calificar.ToString)
-                        MsgBox("Felicidades , ha completado este nivel")
+                        Menu_Nivel_Facil.Show()
+                    Case (calificar = 8 And puntos = 16)
+                        puntos = objeto.comprobarpunteo()
+                        objeto.sumarpunteo(4, puntos)
+                        Menu_Nivel_Facil.Show()
+                    Case (calificar = 16 And puntos = 16)
+                        puntos = objeto.comprobarpunteo()
+                        objeto.sumarpunteo(4, puntos)
+                        Menu_Nivel_Facil.Show()
+                    Case (calificar = 16 And puntos = 12)
+                        puntos = objeto.comprobarpunteo()
+                        objeto.sumarpunteo(8, puntos)
                         Menu_Nivel_Facil.Show()
                 End Select
-                Me.Close()
             ElseIf (puntos = 20) Then
                 calificandoniveluno()
                 Menu_Nivel_Facil.Show()
-            End If
 
         Else
-
             'no califica------------------------------------------------------------------------------------------------------
             calificandoniveluno()
         End If
-
-
-
-
-
+        End If
     End Sub
 
     Private Sub txtImagen1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtImagen1.TextChanged

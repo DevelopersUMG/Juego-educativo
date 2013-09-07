@@ -8,6 +8,89 @@
     Dim punteo As Integer
     Dim puntos As String
     Dim conver As String
+
+    Public Function calificandonivelochob()
+        '--------------------------------------   Primer CheckBox     -----------------------------------------------------
+
+        If txtresp1_nivel8_1 = "yellow" Then
+
+            ' MessageBox.Show("correcto : " + txtresp1_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show(txtresp1_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta1.Text + " " + "numero de intentos " + conver)
+
+        End If
+
+        '------------------------------------------  Seundo CheckBox  ---------------------------------------------
+
+        If txtresp2_nivel8_1 = "brown" Then
+            'MessageBox.Show("correcto : " + txtresp2_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show(txtresp2_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta2.Text + " " + "numero de intentos " + conver)
+
+        End If
+
+        '------------------------------------------  Tercer CheckBox    ---------------------------------------------
+
+        If txtresp3_nivel8_1 = "green" Then
+            'MessageBox.Show("correcto : " + txtresp3_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show(txtresp3_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta3.Text + " " + "numero de intentos " + conver)
+
+        End If
+        '------------------------------------------  Cuarto textbox    ---------------------------------------------
+
+        If txtresp4_nivel8_1 = "red" Then
+            'MessageBox.Show("correcto : " + txtresp4_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show(txtresp4_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta4.Text + " " + "numero de intentos " + conver)
+
+        End If
+
+
+        '------------------------------------------  quinto textbox    ---------------------------------------------
+
+        If txtresp5_nivel8_1 = "black" Then
+            'MessageBox.Show("correcto : " + txtresp4_nivel1)
+            punteo = punteo + 4
+        Else
+            conta_errores = conta_errores + 1
+            conver = Convert.ToString(conta_errores)
+            MessageBox.Show(txtresp5_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta5.Text + " " + "numero de intentos " + conver)
+
+        End If
+
+
+
+
+        If punteo >= 12 Then
+            puntos = Convert.ToString(punteo)
+            MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
+
+        Else
+            punteo = 0
+        End If
+
+
+        MsgBox("Mandamos : " + punteo.ToString)
+        Return punteo
+    End Function
+
+    
+
+
+
     Private Sub Btn_RegresaMenu_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_RegresaMenu.Click
         Me.Close()
         Menu_Nivel_Intermedio.Show()
@@ -34,92 +117,92 @@
     End Sub
 
     Private Sub Btn_Calificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Calificar.Click
-        '--------------------------------------   Primer CheckBox     -----------------------------------------------------
+        Dim objeto As usuario
+        objeto = New usuario()
+        Dim puntos As Integer
+        puntos = objeto.comprobarpunteo()
+        Dim calificar As Integer
+        If (puntos = 40) Then
+            calificar = calificandonivelochob()
 
-        If txtresp1_nivel8_1 = "yellow" Then
+            Select Case calificar
+                Case 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_8.Show()
+                Case 16
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_8.Show()
+                Case 20
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Menu_Nivel_Intermedio.Show()
 
-            ' MessageBox.Show("correcto : " + txtresp1_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp1_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta1.Text + " " + "numero de intentos " + conver)
-            If conta_errores >= 2 Then
-                Me.Close()
-                Nivel_8.Show()
-            End If
-        End If
-
-        '------------------------------------------  Seundo CheckBox  ---------------------------------------------
-
-        If txtresp2_nivel8_1 = "brown" Then
-            'MessageBox.Show("correcto : " + txtresp2_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp2_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta2.Text + " " + "numero de intentos " + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_8.Show()
-            End If
-        End If
-
-        '------------------------------------------  Tercer CheckBox    ---------------------------------------------
-
-        If txtresp3_nivel8_1 = "green" Then
-            'MessageBox.Show("correcto : " + txtresp3_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp3_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta3.Text + " " + "numero de intentos " + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_8.Show()
-            End If
-        End If
-        '------------------------------------------  Cuarto textbox    ---------------------------------------------
-
-        If txtresp4_nivel8_1 = "red" Then
-            'MessageBox.Show("correcto : " + txtresp4_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp4_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta4.Text + " " + "numero de intentos " + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_8.Show()
-            End If
-        End If
-
-
-        '------------------------------------------  quinto textbox    ---------------------------------------------
-
-        If txtresp5_nivel8_1 = "black" Then
-            'MessageBox.Show("correcto : " + txtresp4_nivel1)
-            punteo = punteo + 4
-        Else
-            conta_errores = conta_errores + 1
-            conver = Convert.ToString(conta_errores)
-            MessageBox.Show(txtresp5_nivel8_1 + "--- Es incorrecto" + " " + TxtPregunta5.Text + " " + "numero de intentos " + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_8.Show()
-            End If
-        End If
-
-
-
-
-        If punteo >= 12 Then
-            puntos = Convert.ToString(punteo)
-            MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
+                Case Else
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(0, puntos)
+                    Nivel_8.Show()
+            End Select
             Me.Close()
-            Nivel_9.Show()
-        Else
-            punteo = 0
+
+        ElseIf (puntos >= 52 And puntos < 60) Then
+            calificar = calificandonivelochob()
+            Select Case calificar
+
+                Case 4 And puntos = 52 ' si tiene 1 respuesta buena y tiene 12 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+                Case 4 And puntos = 56     ' si tiene 1 respuesta buena y tiene 16 de puntos 
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+
+
+                Case 8 And puntos = 52      ' si tiene 2 respuesta buena y tiene 12 de puntos (da clavo)
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+                Case 8 And puntos = 56   ' si tiene 2 respuesta buena y tiene 16 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+
+
+                Case 12 And puntos = 52
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+                Case 12 And puntos = 52
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+                Case 12 And puntos = 56
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+
+                Case 16 And puntos = 52
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+                Case 16 And puntos = 56
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Intermedio.Show()
+
+
+            End Select
+
         End If
     End Sub
 End Class

@@ -253,11 +253,6 @@ C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educa
 C:\Users\JuanCarlos\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9_1.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe.config
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10_1.resources
-C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11y.resources
-C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12y.resources
-C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13y.resources
-C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14y.resources
-C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15y.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1_1.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_2_1.resources
 C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3_1a.resources
@@ -283,15 +278,10 @@ C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\J
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10_1.resources
-C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11y.resources
-C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12y.resources
-C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13y.resources
-C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14y.resources
-C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15y.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1_1.resources
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_2.resources
@@ -319,7 +309,69 @@ C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\J
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.pdb
 C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.xml
-D:\Escritorio\proyecto al 5_09_13\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe.config
-D:\Escritorio\proyecto al 5_09_13\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.exe
-D:\Escritorio\proyecto al 5_09_13\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.xml
-D:\Escritorio\proyecto al 5_09_13\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.pdb
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel3_11.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nive3_11_1.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel3_12.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nive3_12_1.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel3_13.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nive3_13_1.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel3_14.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nive3_14_1.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel3_15.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nive3_15_1.resources
+C:\Users\Jorge\Desktop\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.cambiopass.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe.config
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.exe
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.xml
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.pdb
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.cambiopass.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Menu_de_Opciones.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Menu_Nivel_Avanzado.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Menu_Nivel_Facil.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Menu_Nivel_Intermedio.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_10_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_1_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_2.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_2_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_3_1a.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_4.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_4_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_5.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_5_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_6.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_6_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_7.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_7_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_8.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_8_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_9_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Principal.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Resources.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Registro.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Salir.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.vbproj.GenerateResource.Cache
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15_1.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.exe
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.pdb
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\bin\Debug\Juego_Educativo.xml
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14.resources
+D:\Escritorio\IMPORTANTE JUEGO\Juego con labels\Juego-educativo-master\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.fin.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.cambiopass.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.fin.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_11_1.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_12_1.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_13_1.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_14_1.resources
+C:\Users\Marvin\Documents\GitHub\Juego-educativo\Juego_Educativo\Juego_Educativo\obj\x86\Debug\Juego_Educativo.Nivel_15_1.resources

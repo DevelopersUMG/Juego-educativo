@@ -69,7 +69,7 @@
                         Btn_Nivel3.Hide()
                         Btn_Nivel4.Hide()
                         Btn_Nivel5.Hide()
-                    Else
+                    ElseIf (punteoactual < 20) Then
                         Btn_Nivel2.Hide()
                         Btn_Nivel3.Hide()
                         Btn_Nivel4.Hide()
@@ -97,7 +97,7 @@
                     Label1_nivel1.Show()
                     Label2_nivel1.Show()
                     Label3_nivel1.Show()
-                    Btn_Nivel5.Show()
+                    Btn_Nivel5.Hide()
                 Case 80 To 100
                     Btn_Nivel1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
                     Btn_Nivel2.FlatStyle = System.Windows.Forms.FlatStyle.Popup

@@ -36,6 +36,8 @@ Partial Class Nivel_1_1
         Me.Btn_Calificar = New System.Windows.Forms.Button()
         Me.Btn_RegresaMenu = New System.Windows.Forms.Button()
         Me.instruccinN1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.imagen5Nivel1_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen4Nivel1_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imagen3Nivel1_1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -45,7 +47,7 @@ Partial Class Nivel_1_1
         '
         'txtImagen5_1
         '
-        Me.txtImagen5_1.Location = New System.Drawing.Point(671, 265)
+        Me.txtImagen5_1.Location = New System.Drawing.Point(655, 265)
         Me.txtImagen5_1.Name = "txtImagen5_1"
         Me.txtImagen5_1.Size = New System.Drawing.Size(116, 20)
         Me.txtImagen5_1.TabIndex = 69
@@ -81,7 +83,7 @@ Partial Class Nivel_1_1
         'imagen5Nivel1_1
         '
         Me.imagen5Nivel1_1.Image = CType(resources.GetObject("imagen5Nivel1_1.Image"), System.Drawing.Image)
-        Me.imagen5Nivel1_1.Location = New System.Drawing.Point(671, 123)
+        Me.imagen5Nivel1_1.Location = New System.Drawing.Point(655, 123)
         Me.imagen5Nivel1_1.Name = "imagen5Nivel1_1"
         Me.imagen5Nivel1_1.Size = New System.Drawing.Size(116, 101)
         Me.imagen5Nivel1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -124,6 +126,7 @@ Partial Class Nivel_1_1
         Me.imagen1Nivel1_1.Location = New System.Drawing.Point(45, 123)
         Me.imagen1Nivel1_1.Name = "imagen1Nivel1_1"
         Me.imagen1Nivel1_1.Size = New System.Drawing.Size(116, 101)
+        Me.imagen1Nivel1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.imagen1Nivel1_1.TabIndex = 60
         Me.imagen1Nivel1_1.TabStop = False
         '
@@ -132,7 +135,7 @@ Partial Class Nivel_1_1
         Me.Btn_Calificar.BackgroundImage = CType(resources.GetObject("Btn_Calificar.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Calificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Btn_Calificar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Btn_Calificar.Location = New System.Drawing.Point(530, 500)
+        Me.Btn_Calificar.Location = New System.Drawing.Point(655, 500)
         Me.Btn_Calificar.Name = "Btn_Calificar"
         Me.Btn_Calificar.Size = New System.Drawing.Size(51, 51)
         Me.Btn_Calificar.TabIndex = 59
@@ -160,13 +163,37 @@ Partial Class Nivel_1_1
         Me.instruccinN1.Text = "Instrucciones:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Escriba sobre el espacio en blanco, el nombre de la figura en ing" & _
             "les"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(41, 554)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(113, 20)
+        Me.Label6.TabIndex = 71
+        Me.Label6.Text = "Volver al Menu"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(641, 553)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
+        Me.Label1.TabIndex = 70
+        Me.Label1.Text = "Calificar"
+        '
         'Nivel_1_1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(812, 582)
+        Me.ClientSize = New System.Drawing.Size(771, 582)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtImagen5_1)
         Me.Controls.Add(Me.txtImagen4_1)
         Me.Controls.Add(Me.txtImagen3_1)
@@ -207,4 +234,6 @@ Partial Class Nivel_1_1
     Friend WithEvents Btn_Calificar As System.Windows.Forms.Button
     Friend WithEvents Btn_RegresaMenu As System.Windows.Forms.Button
     Friend WithEvents instruccinN1 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

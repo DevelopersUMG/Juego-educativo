@@ -9,8 +9,7 @@
     Dim conver As String
     Dim puntos As String
 
-
-    Private Sub Btn_Calificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Calificar.Click
+    Public Function calificandonivelcincob()
 
         '--------------------------------------   Primer textbox     -----------------------------------------------------
 
@@ -21,10 +20,6 @@
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
             MessageBox.Show("La respuesta No. 1 ( " + txtresp1_nivel5 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_5.Show()
-            End If
         End If
 
         '------------------------------------------  Seundo textbox ---------------------------------------------
@@ -36,10 +31,6 @@
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
             MessageBox.Show("La respuesta No. 2 ( " + txtresp2_nivel5 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_5.Show()
-            End If
         End If
 
         '------------------------------------------  Tercer textbox    ---------------------------------------------
@@ -51,10 +42,6 @@
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
             MessageBox.Show("La respuesta No. 3 ( " + txtresp3_nivel5 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_5.Show()
-            End If
         End If
         '------------------------------------------  Cuarto textbox    ---------------------------------------------
 
@@ -65,13 +52,7 @@
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
             MessageBox.Show("La respuesta No. 4 ( " + txtresp4_nivel5 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_5.Show()
-            End If
         End If
-
-
 
 
         '------------------------------------------  Quinto textbox    ---------------------------------------------
@@ -83,20 +64,119 @@
             conta_errores = conta_errores + 1
             conver = Convert.ToString(conta_errores)
             MessageBox.Show("La respuesta No. 5 ( " + txtresp5_nivel5 + " )" + " *** Es incorrecta ***  Error No." + conver)
-            If conta_errores > 2 Then
-                Me.Close()
-                Nivel_5.Show()
-            End If
         End If
 
         If punteo >= 12 Then
             puntos = Convert.ToString(punteo)
             MessageBox.Show("Bien Hecho" + " ""Tu punteo fue " + puntos)
-            Me.Close()
-            Nivel_6.Show()
         Else
             punteo = 0
         End If
+        Return punteo
+    End Function
+    Private Sub Btn_Calificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Calificar.Click
+        Dim objeto As usuario
+        objeto = New usuario()
+        Dim puntos As Integer
+        Dim nivelactual As Integer
+        puntos = objeto.comprobarpunteo()
+        nivelactual = objeto.comprobarnivel()
+
+        Dim calificar As Integer
+        If (puntos = 80) Then
+            calificar = calificandonivelcincob()
+
+            Select Case calificar
+                Case 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_5.Show()
+                Case 16
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    Nivel_5.Show()
+                Case 20
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(calificar, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case Else
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(0, puntos)
+                    Nivel_5.Show()
+            End Select
+            Me.Close()
+
+        ElseIf (puntos >= 92 And puntos < 100) Then
+            calificar = calificandonivelcincob()
+            Select Case calificar
+
+                Case 4 And puntos = 92 ' si tiene 1 respuesta buena y tiene 12 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 4 And puntos = 96     ' si tiene 1 respuesta buena y tiene 16 de puntos 
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case 8 And puntos = 92      ' si tiene 2 respuesta buena y tiene 12 de puntos (da clavo)
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case 8 And puntos = 96   ' si tiene 2 respuesta buena y tiene 16 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+
+                Case 12 And puntos = 92
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 92
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 96
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+
+                Case 16 And puntos = 92
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+                Case 16 And puntos = 96
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    objeto.modificarnivel(nivelactual, 1)
+                    Menu_Nivel_Facil.Show()
+
+
+            End Select
+
+
+
+
+            'no califica------------------------------------------------------------------------------------------------------
+            'calificandonivelunob()
+        End If
+        Me.Close()
     End Sub
 
 
@@ -122,6 +202,10 @@
 
     Private Sub TxtPregunta5_5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtPregunta5_5_1.TextChanged
         txtresp5_nivel5 = TxtPregunta5_5_1.Text
+
+    End Sub
+
+    Private Sub Nivel_5_1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

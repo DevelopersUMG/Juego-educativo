@@ -13,8 +13,6 @@ Public Class Registro
         Dim query As String
         Dim contador As Integer
         Dim queryin As String
-
-
         Try
             sqlite_conn.Open()
             query = "select * from usuarios where usuario='" + TextBox3.Text + "' "
@@ -22,12 +20,8 @@ Public Class Registro
             crearcomando.ExecuteNonQuery()
             dr = crearcomando.ExecuteReader()
             contador = 0
-
             While (dr.Read())
-
                 contador = contador + 1
-
-
             End While
             Select Case contador
                 Case 1

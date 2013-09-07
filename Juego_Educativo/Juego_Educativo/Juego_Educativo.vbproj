@@ -50,6 +50,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86" />
@@ -74,35 +75,59 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cambiopass.designer.vb">
+      <DependentUpon>cambiopass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cambiopass.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="clases.vb" />
-    <Compile Include="Nivel 11y.designer.vb">
-      <DependentUpon>Nivel 11y.vb</DependentUpon>
+    <Compile Include="fin.Designer.vb">
+      <DependentUpon>fin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Nivel 11y.vb">
+    <Compile Include="fin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nivel 12y.designer.vb">
-      <DependentUpon>Nivel 12y.vb</DependentUpon>
+    <Compile Include="Nivel 11.designer.vb">
+      <DependentUpon>Nivel 11.vb</DependentUpon>
     </Compile>
-    <Compile Include="Nivel 12y.vb">
+    <Compile Include="Nivel 11.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nivel 13y.designer.vb">
-      <DependentUpon>Nivel 13y.vb</DependentUpon>
+    <Compile Include="Nivel 11_1.designer.vb">
+      <DependentUpon>Nivel 11_1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Nivel 13y.vb">
+    <Compile Include="Nivel 11_1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nivel 14y.designer.vb">
-      <DependentUpon>Nivel 14y.vb</DependentUpon>
+    <Compile Include="Nivel 12_1.designer.vb">
+      <DependentUpon>Nivel 12_1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Nivel 14y.vb">
+    <Compile Include="Nivel 12_1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nivel 15y.designer.vb">
-      <DependentUpon>Nivel 15y.vb</DependentUpon>
+    <Compile Include="Nivel 13_1.designer.vb">
+      <DependentUpon>Nivel 13_1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Nivel 15y.vb">
+    <Compile Include="Nivel 13_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 14.designer.vb">
+      <DependentUpon>Nivel 14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 14_1.designer.vb">
+      <DependentUpon>Nivel 14_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 14_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel 15_1.designer.vb">
+      <DependentUpon>Nivel 15_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel 15_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 1_1.designer.vb">
@@ -153,12 +178,6 @@
     <Compile Include="Nivel 10_1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nivel 11.Designer.vb">
-      <DependentUpon>Nivel 11.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Nivel 11.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Nivel 12.Designer.vb">
       <DependentUpon>Nivel 12.vb</DependentUpon>
     </Compile>
@@ -169,12 +188,6 @@
       <DependentUpon>Nivel 13.vb</DependentUpon>
     </Compile>
     <Compile Include="Nivel 13.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nivel 14.Designer.vb">
-      <DependentUpon>Nivel 14.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Nivel 14.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nivel 15.Designer.vb">
@@ -315,6 +328,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="cambiopass.resx">
+      <DependentUpon>cambiopass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin.resx">
+      <DependentUpon>fin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu de Opciones.resx">
       <DependentUpon>Menu de Opciones.vb</DependentUpon>
     </EmbeddedResource>
@@ -339,32 +358,32 @@
     <EmbeddedResource Include="Nivel 11.resx">
       <DependentUpon>Nivel 11.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nivel 11y.resx">
-      <DependentUpon>Nivel 11y.vb</DependentUpon>
+    <EmbeddedResource Include="Nivel 11_1.resx">
+      <DependentUpon>Nivel 11_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 12.resx">
       <DependentUpon>Nivel 12.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nivel 12y.resx">
-      <DependentUpon>Nivel 12y.vb</DependentUpon>
+    <EmbeddedResource Include="Nivel 12_1.resx">
+      <DependentUpon>Nivel 12_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 13.resx">
       <DependentUpon>Nivel 13.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nivel 13y.resx">
-      <DependentUpon>Nivel 13y.vb</DependentUpon>
+    <EmbeddedResource Include="Nivel 13_1.resx">
+      <DependentUpon>Nivel 13_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 14.resx">
       <DependentUpon>Nivel 14.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nivel 14y.resx">
-      <DependentUpon>Nivel 14y.vb</DependentUpon>
+    <EmbeddedResource Include="Nivel 14_1.resx">
+      <DependentUpon>Nivel 14_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 15.resx">
       <DependentUpon>Nivel 15.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nivel 15y.resx">
-      <DependentUpon>Nivel 15y.vb</DependentUpon>
+    <EmbeddedResource Include="Nivel 15_1.resx">
+      <DependentUpon>Nivel 15_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nivel 1_1.resx">
       <DependentUpon>Nivel 1_1.vb</DependentUpon>
@@ -484,6 +503,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\5 - copia.jpg" />
+    <None Include="Resources\feli.jpg" />
+    <None Include="Resources\atras.png" />
+    <None Include="Resources\5 - copia1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

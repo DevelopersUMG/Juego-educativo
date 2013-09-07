@@ -119,24 +119,78 @@
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(calificar, puntos)
                     Menu_Nivel_Facil.Show()
-                Case 4, 8
+
+                Case Else
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(0, puntos)
                     Nivel_1.Show()
             End Select
             Me.Close()
-        ElseIf (puntos >= 12) Then
+
+        ElseIf (puntos >= 12 And puntos < 20) Then
             calificar = calificandonivelunob()
             Select Case calificar
-                Case 4
+
+                Case 4 And puntos = 12 ' si tiene 1 respuesta buena y tiene 12 de puntos
                     puntos = objeto.comprobarpunteo()
-                    objeto.sumarpunteo(calificar, puntos)
-                Case Is >= 8
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 4 And puntos = 16     ' si tiene 1 respuesta buena y tiene 16 de puntos 
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+
+                Case 8 And puntos = 12      ' si tiene 2 respuesta buena y tiene 12 de puntos (da clavo)
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(8, puntos)
                     Menu_Nivel_Facil.Show()
-            End Select
-            Me.Close()
-        End If
 
+                Case 8 And puntos = 16   ' si tiene 2 respuesta buena y tiene 16 de puntos
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+
+                Case 12 And puntos = 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 12 And puntos = 16
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+                Case 16 And puntos = 12
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(8, puntos)
+                    Menu_Nivel_Facil.Show()
+
+                Case 16 And puntos = 16
+                    puntos = objeto.comprobarpunteo()
+                    objeto.sumarpunteo(4, puntos)
+                    Menu_Nivel_Facil.Show()
+
+
+            End Select
+
+
+
+
+            'no califica------------------------------------------------------------------------------------------------------
+            'calificandonivelunob()
+        End If
+        Me.Close()
 
     End Sub
 
@@ -149,11 +203,6 @@
 
         ' Llamada necesaria para el diseñador.
         InitializeComponent()
-        Dim objeto As usuario
-        objeto = New usuario()
-        Dim puntos As Integer
-        puntos = objeto.comprobarpunteo()
-        MsgBox(puntos.ToString)
 
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
