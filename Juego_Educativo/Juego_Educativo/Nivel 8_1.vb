@@ -204,5 +204,10 @@
             End Select
 
         End If
+        Me.Close()
+    End Sub
+
+    Private Sub Nivel_8_1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

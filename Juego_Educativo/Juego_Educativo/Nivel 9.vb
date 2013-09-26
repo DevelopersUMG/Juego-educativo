@@ -227,6 +227,8 @@
             'no califica------------------------------------------------------------------------------------------------------
             calificandonivelnueve()
         End If
+        Me.Close()
+
     End Sub
 
 End Class

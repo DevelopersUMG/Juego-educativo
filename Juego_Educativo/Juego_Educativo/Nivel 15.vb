@@ -13,7 +13,7 @@
 
         '--------------------------------------   Primer textbox     -----------------------------------------------------
 
-        If txtresp1_nivel5 = "i rear" Then
+        If txtresp1_nivel5 = "i read" Then
             ' MessageBox.Show("correcto : " + txtresp1_nivel1)
             punteo = punteo + 4
         Else
@@ -132,6 +132,7 @@
                     Case 20
                         objeto.sumarpunteo(20, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         fin.Show()
                     Case 4
                         MsgBox("vuelva a intentarlo")
@@ -156,26 +157,31 @@
                     Case (calificar = 4 And puntos = 96)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
+                        objeto.regresarpunteo()
                         objeto.modificarnivel(nivelactual, 1)
                         fin.Show()
                     Case (calificar = 8 And puntos = 92)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(8, puntos)
+                        objeto.regresarpunteo()
                         objeto.modificarnivel(nivelactual, 1)
                         fin.Show()
                     Case (calificar = 8 And puntos = 96)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
+                        objeto.regresarpunteo()
                         objeto.modificarnivel(nivelactual, 1)
                         fin.Show()
                     Case (calificar = 16 And puntos = 96)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
+                        objeto.regresarpunteo()
                         objeto.modificarnivel(nivelactual, 1)
                         fin.Show()
                     Case (calificar = 16 And puntos = 92)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(8, puntos)
+                        objeto.regresarpunteo()
                         objeto.modificarnivel(nivelactual, 1)
                         fin.Show()
                 End Select

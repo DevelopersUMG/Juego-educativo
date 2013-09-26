@@ -209,6 +209,7 @@ Partial Class Nivel_15
         Me.Controls.Add(Me.pregunta1Nivel5)
         Me.Controls.Add(Me.Btn_RegresaMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Nivel_15"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_15"

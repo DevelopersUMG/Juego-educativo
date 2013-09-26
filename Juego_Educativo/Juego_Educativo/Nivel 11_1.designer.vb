@@ -209,6 +209,7 @@ Partial Class Nivel_11_1
         Me.Controls.Add(Me.instruccinN1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Nivel_11_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_11_1"

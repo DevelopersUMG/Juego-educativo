@@ -27,9 +27,11 @@ Public Class Menu_de_Opciones
         InitializeComponent()
         Dim level As usuario
         level = New usuario()
+        Dim a As Integer
         Dim nivelactual As Integer
         nivelactual = level.comprobarnivel()
         MsgBox(nivelactual.ToString)
+        a = level.comprobarpunteo()
         Select Case nivelactual
             Case 0
                 Btn_Medio.Hide()
@@ -39,6 +41,11 @@ Public Class Menu_de_Opciones
                 Btn_Medio.Show()
                 Btn_Dificil.Hide()
             Case 2
+                Btn_Dificil.Show()
+                label1completado.Show()
+                label2completado.Show()
+            Case 3
+                Btn_Dificil.Show()
                 label1completado.Show()
                 label2completado.Show()
                 label3completado.Show()

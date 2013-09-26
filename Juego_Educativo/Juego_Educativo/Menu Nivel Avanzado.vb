@@ -48,8 +48,7 @@
         level = New usuario()
         Dim nivelactual As String
         nivelactual = level.comprobarnivel()
-
-        If nivelactual = 1 Or nivelactual = 2 Then '' aquí vamos a ensenar los labels completado del nivel 1 por si acaso ya está en nivel 2 o 3 y entra de nuevo al 1
+        If nivelactual = 3 Then '' aquí vamos a ensenar los labels completado del nivel 1 por si acaso ya está en nivel 2 o 3 y entra de nuevo al 1
             Btn_Nivel11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
             Btn_Nivel12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
             Btn_Nivel13.FlatStyle = System.Windows.Forms.FlatStyle.Popup
@@ -61,7 +60,6 @@
             Label4_nivel3.Show()
             Label5_nivel3.Show()
         Else
-
             Select Case punteoactual
                 Case Is <= 20
                     If (punteoactual = 20) Then

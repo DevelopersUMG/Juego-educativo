@@ -394,7 +394,9 @@ Partial Class Nivel_9_1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label3)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_9_1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_9"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()

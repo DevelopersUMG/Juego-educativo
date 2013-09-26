@@ -134,4 +134,21 @@ Public Class usuario
             MessageBox.Show(ex.Message)
         End Try
     End Sub
+    Public Sub regresarpunteo()
+        Dim conexion As String = "Data Source=database.db;Version=3;"
+        Dim crearcomando As SQLiteCommand
+        Dim sqlite_conn As SQLiteConnection
+        Dim dr As SQLiteDataReader
+        sqlite_conn = New SQLiteConnection(conexion)
+        Try
+            sqlite_conn.Open()
+            Dim query As String = "update usuarios set punteo=0 where usuario='" + Principal.Text_Usuario.Text + "'"
+            crearcomando = New SQLiteCommand(query, sqlite_conn)
+            crearcomando.ExecuteNonQuery()
+            dr = crearcomando.ExecuteReader()
+            sqlite_conn.Close()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 End Class

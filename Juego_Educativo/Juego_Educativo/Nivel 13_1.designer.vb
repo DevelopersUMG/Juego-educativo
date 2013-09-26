@@ -182,6 +182,7 @@ Partial Class Nivel_13_1
         Me.Controls.Add(Me.pregunta2Nivel3_1a)
         Me.Controls.Add(Me.pregunta1Nivel3_1a)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Nivel_13_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_13_1"

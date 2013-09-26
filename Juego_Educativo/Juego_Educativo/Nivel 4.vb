@@ -149,6 +149,7 @@
             ElseIf (puntos > 80) Then
                 calificandonivelcuatro()
                 Menu_Nivel_Facil.Show()
+                Me.Close()
             End If
         Else
             'no califica------------------------------------------------------------------------------------------------------

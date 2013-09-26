@@ -159,6 +159,7 @@
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Intermedio.Show()
                 End Select
+                Me.Close()
 
             ElseIf (puntos >= 52 And puntos < 60) Then
                 calificar = calificandonivelocho()

@@ -222,6 +222,7 @@ Partial Class Nivel_12_1
         Me.Controls.Add(Me.imagen2Nivel2_1)
         Me.Controls.Add(Me.imagen1Nivel2_1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Nivel_12_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_12_1"

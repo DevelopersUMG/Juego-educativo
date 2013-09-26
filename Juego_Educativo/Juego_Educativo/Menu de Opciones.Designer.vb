@@ -39,9 +39,9 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_Facil.BackgroundImage = CType(resources.GetObject("Btn_Facil.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Facil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Facil.Location = New System.Drawing.Point(128, 263)
+        Me.Btn_Facil.Location = New System.Drawing.Point(92, 252)
         Me.Btn_Facil.Name = "Btn_Facil"
-        Me.Btn_Facil.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Facil.Size = New System.Drawing.Size(159, 48)
         Me.Btn_Facil.TabIndex = 0
         Me.Btn_Facil.UseVisualStyleBackColor = True
         '
@@ -49,21 +49,22 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_Medio.BackgroundImage = CType(resources.GetObject("Btn_Medio.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Medio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Medio.Location = New System.Drawing.Point(382, 263)
+        Me.Btn_Medio.Location = New System.Drawing.Point(353, 252)
         Me.Btn_Medio.Name = "Btn_Medio"
-        Me.Btn_Medio.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Medio.Size = New System.Drawing.Size(159, 48)
         Me.Btn_Medio.TabIndex = 1
         Me.Btn_Medio.UseVisualStyleBackColor = True
         '
         'Btn_Dificil
         '
+        Me.Btn_Dificil.BackColor = System.Drawing.Color.Transparent
         Me.Btn_Dificil.BackgroundImage = CType(resources.GetObject("Btn_Dificil.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Dificil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Dificil.Location = New System.Drawing.Point(614, 263)
+        Me.Btn_Dificil.Location = New System.Drawing.Point(614, 252)
         Me.Btn_Dificil.Name = "Btn_Dificil"
-        Me.Btn_Dificil.Size = New System.Drawing.Size(159, 37)
+        Me.Btn_Dificil.Size = New System.Drawing.Size(159, 48)
         Me.Btn_Dificil.TabIndex = 2
-        Me.Btn_Dificil.UseVisualStyleBackColor = True
+        Me.Btn_Dificil.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -83,9 +84,9 @@ Partial Class Menu_de_Opciones
         '
         Me.Btn_RegreInicio.BackgroundImage = CType(resources.GetObject("Btn_RegreInicio.BackgroundImage"), System.Drawing.Image)
         Me.Btn_RegreInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_RegreInicio.Location = New System.Drawing.Point(406, 509)
+        Me.Btn_RegreInicio.Location = New System.Drawing.Point(400, 497)
         Me.Btn_RegreInicio.Name = "Btn_RegreInicio"
-        Me.Btn_RegreInicio.Size = New System.Drawing.Size(41, 41)
+        Me.Btn_RegreInicio.Size = New System.Drawing.Size(57, 53)
         Me.Btn_RegreInicio.TabIndex = 4
         Me.Btn_RegreInicio.UseVisualStyleBackColor = True
         '
@@ -105,7 +106,7 @@ Partial Class Menu_de_Opciones
         Me.label1completado.AutoSize = True
         Me.label1completado.BackColor = System.Drawing.Color.Transparent
         Me.label1completado.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1completado.Location = New System.Drawing.Point(155, 304)
+        Me.label1completado.Location = New System.Drawing.Point(111, 303)
         Me.label1completado.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.label1completado.Name = "label1completado"
         Me.label1completado.Size = New System.Drawing.Size(112, 24)
@@ -118,7 +119,7 @@ Partial Class Menu_de_Opciones
         Me.label2completado.AutoSize = True
         Me.label2completado.BackColor = System.Drawing.Color.Transparent
         Me.label2completado.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label2completado.Location = New System.Drawing.Point(410, 304)
+        Me.label2completado.Location = New System.Drawing.Point(373, 303)
         Me.label2completado.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.label2completado.Name = "label2completado"
         Me.label2completado.Size = New System.Drawing.Size(112, 24)
@@ -145,12 +146,12 @@ Partial Class Menu_de_Opciones
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(140, 509)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Location = New System.Drawing.Point(140, 497)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(127, 62)
+        Me.Button1.Size = New System.Drawing.Size(147, 74)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "         Cambiar         Contraseña"
+        Me.Button1.Text = "              Cambiar               Contraseña"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Menu_de_Opciones
@@ -160,7 +161,7 @@ Partial Class Menu_de_Opciones
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(771, 582)
+        Me.ClientSize = New System.Drawing.Size(812, 582)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.label3completado)
         Me.Controls.Add(Me.label2completado)

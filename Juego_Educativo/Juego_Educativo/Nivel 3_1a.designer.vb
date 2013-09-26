@@ -184,7 +184,7 @@ Partial Class Nivel_3_1a
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_3_1a"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Nivel_3_1a"
+        Me.Text = "Nivel_3_1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

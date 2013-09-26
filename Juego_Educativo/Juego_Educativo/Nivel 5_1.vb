@@ -99,6 +99,7 @@
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(calificar, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case Else
@@ -121,18 +122,21 @@
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(4, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case 8 And puntos = 92      ' si tiene 2 respuesta buena y tiene 12 de puntos (da clavo)
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(8, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case 8 And puntos = 96   ' si tiene 2 respuesta buena y tiene 16 de puntos
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(4, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
 
@@ -140,18 +144,21 @@
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(8, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case 12 And puntos = 92
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(8, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case 12 And puntos = 96
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(4, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
 
@@ -159,12 +166,14 @@
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(8, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
                 Case 16 And puntos = 96
                     puntos = objeto.comprobarpunteo()
                     objeto.sumarpunteo(4, puntos)
                     objeto.modificarnivel(nivelactual, 1)
+                    objeto.regresarpunteo()
                     Menu_Nivel_Facil.Show()
 
 

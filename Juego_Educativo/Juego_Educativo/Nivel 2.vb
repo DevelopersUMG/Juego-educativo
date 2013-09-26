@@ -122,11 +122,11 @@
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(calificar, puntos)
                         MsgBox("sumamos flag" + calificar.ToString)
-                        Nivel_1_1.Show()
+                        Nivel_2_1.Show()
                     Case 16
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(calificar, puntos)
-                        Nivel_1_1.Show()
+                        Nivel_2_1.Show()
                     Case 20
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(calificar, puntos)

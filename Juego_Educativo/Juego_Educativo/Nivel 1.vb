@@ -136,6 +136,7 @@
                     Case Else
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Facil.Show()
+
                 End Select
                 Me.Close()
             ElseIf (puntos >= 12 And puntos < 20) Then
@@ -170,6 +171,8 @@
             ElseIf (puntos = 20) Then
                 calificandoniveluno()
                 Menu_Nivel_Facil.Show()
+                Me.Close()
+
 
         Else
             'no califica------------------------------------------------------------------------------------------------------

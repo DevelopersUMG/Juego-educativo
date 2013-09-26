@@ -174,6 +174,8 @@
             ElseIf (puntos > 40) Then
                 calificandoniveltres()
                 Menu_Nivel_Facil.Show()
+                Me.Close()
+
             End If
         Else
             'no califica------------------------------------------------------------------------------------------------------

@@ -49,7 +49,7 @@
         Dim nivelactual As String
         nivelactual = level.comprobarnivel()
 
-        If nivelactual = 1 Or nivelactual = 2 Then '' aquí vamos a ensenar los labels completado del nivel 1 por si acaso ya está en nivel 2 o 3 y entra de nuevo al 1
+        If nivelactual = 2 Then '' aquí vamos a ensenar los labels completado del nivel 1 por si acaso ya está en nivel 2 o 3 y entra de nuevo al 1
             Btn_Nivel6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
             Btn_Nivel7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
             Btn_Nivel8.FlatStyle = System.Windows.Forms.FlatStyle.Popup

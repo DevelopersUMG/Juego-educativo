@@ -122,6 +122,7 @@
                     Case 20
                         objeto.sumarpunteo(20, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         puntos = 0
                         Menu_Nivel_Facil.Show()
                     Case 4
@@ -136,6 +137,8 @@
                         objeto.sumarpunteo(0, puntos)
                         Menu_Nivel_Facil.Show()
                 End Select
+                Me.Close()
+
             ElseIf (puntos >= 92 And puntos < 100) Then
                 calificar = calificandonivelcinco()
                 MsgBox("saco" + calificar.ToString)
@@ -148,36 +151,41 @@
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         Menu_Nivel_Facil.Show()
                     Case (calificar = 8 And puntos = 92)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(8, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         Menu_Nivel_Facil.Show()
                     Case (calificar = 8 And puntos = 96)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         Menu_Nivel_Facil.Show()
                     Case (calificar = 16 And puntos = 96)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(4, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         Menu_Nivel_Facil.Show()
                     Case (calificar = 16 And puntos = 92)
                         puntos = objeto.comprobarpunteo()
                         objeto.sumarpunteo(8, puntos)
                         objeto.modificarnivel(nivelactual, 1)
+                        objeto.regresarpunteo()
                         Menu_Nivel_Facil.Show()
                 End Select
             ElseIf (puntos = 0) Then
                 calificandonivelcinco()
                 Menu_Nivel_Facil.Show()
 
-        Else
-            'no califica------------------------------------------------------------------------------------------------------
-            calificandonivelcinco()
-        End If
+            Else
+                'no califica------------------------------------------------------------------------------------------------------
+                calificandonivelcinco()
+            End If
         End If
     End Sub
 End Class

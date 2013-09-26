@@ -35,9 +35,9 @@ Partial Class fin
         '
         Me.PictureBox1.ErrorImage = Global.Juego_Educativo.My.Resources.Resources.feli
         Me.PictureBox1.Image = Global.Juego_Educativo.My.Resources.Resources.feli
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 152)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, -2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(788, 405)
+        Me.PictureBox1.Size = New System.Drawing.Size(788, 581)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -47,7 +47,7 @@ Partial Class fin
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(38, 95)
+        Me.Label6.Location = New System.Drawing.Point(158, 524)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(113, 20)
         Me.Label6.TabIndex = 44
@@ -57,7 +57,7 @@ Partial Class fin
         '
         Me.Btn_RegresaMenu.BackgroundImage = CType(resources.GetObject("Btn_RegresaMenu.BackgroundImage"), System.Drawing.Image)
         Me.Btn_RegresaMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(63, 41)
+        Me.Btn_RegresaMenu.Location = New System.Drawing.Point(197, 448)
         Me.Btn_RegresaMenu.Name = "Btn_RegresaMenu"
         Me.Btn_RegresaMenu.Size = New System.Drawing.Size(51, 51)
         Me.Btn_RegresaMenu.TabIndex = 43
@@ -68,7 +68,7 @@ Partial Class fin
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(380, 78)
+        Me.Label5.Location = New System.Drawing.Point(602, 524)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(40, 20)
         Me.Label5.TabIndex = 46
@@ -78,7 +78,7 @@ Partial Class fin
         '
         Me.Btn_Salir.BackgroundImage = CType(resources.GetObject("Btn_Salir.BackgroundImage"), System.Drawing.Image)
         Me.Btn_Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Btn_Salir.Location = New System.Drawing.Point(369, 24)
+        Me.Btn_Salir.Location = New System.Drawing.Point(591, 439)
         Me.Btn_Salir.Name = "Btn_Salir"
         Me.Btn_Salir.Size = New System.Drawing.Size(51, 51)
         Me.Btn_Salir.TabIndex = 45

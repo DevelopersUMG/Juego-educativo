@@ -223,6 +223,7 @@ Partial Class Nivel_8_1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Nivel_8_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Nivel_8"
